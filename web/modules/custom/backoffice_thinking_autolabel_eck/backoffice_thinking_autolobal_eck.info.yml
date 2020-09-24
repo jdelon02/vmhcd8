@@ -1,0 +1,8 @@
+name: BackOffice Thinking Autolabel ECK Fix
+type: module
+description: 'Provides functionality for adding autolabel to ECK bundles.'
+package: 'BackOffice Thinking'
+core_version_requirement: ^8 || ^9
+dependencies:
+  - eck
+  - auto_entitylabel
