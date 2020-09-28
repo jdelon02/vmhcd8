@@ -1,0 +1,199 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/events\/abdo-olim?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/event"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_event_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_photo": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/7\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "9f2b2e99-93e7-49d5-b4c3-d28ceaa01b47"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "event"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-12T14:19:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_event_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_photo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/7\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "07ff0e27-d0b1-4e99-bae5-482263a6ef18"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Abdo Olim",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-06T13:39:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T14:19:19+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Abdo Olim | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/events\/abdo-olim",
+                "description": "Dignissim esse typicus. Consequat tum ullamcorper. Jumentum roto sudo. Aptent qui ulciscor. Appellatio defui duis ex magna paulatim ratis utrum wisi.\nBlandit elit luptatum pertineo vulpes. Gravis letalis loquor. Eligo humo incassum meus vero. Diam ea exputo populus sit tego veniam. Abbas aliquam iaceo ideo minim natu neque persto suscipit volutpat. Ex nisl nobis te validus virtus.\nErat eu incassum iriure. Aliquam eu letalis oppeto tincidunt valde vero. Amet duis imputo laoreet vero ymo. Exputo hos probo suscipit.\nBlandit obruo pagus. Adipiscing defui meus praemitto veniam vulpes. Ad comis cui facilisis plaga refero voco. Aptent caecus dolore pala quis similis sudo. Facilisi gravis lucidus patria pneum suscipere turpis vulpes. Abdo cui duis facilisis minim nunc qui. Caecus commodo commoveo dolore persto quis utrum uxor.\nDistineo iriure lenis nobis. Antehabeo capto damnum facilisi iaceo nisl refero si ymo. Cui elit iriure saluto. Caecus os pecus sudo. Abigo abluo distineo euismod genitus iusto neque odio oppeto. Commoveo elit illum oppeto os quadrum. Amet jus luptatum pala patria similis suscipere ullamcorper virtus. Abdo amet elit pneum quae quibus.\nAd aliquam blandit eum huic saepius sed. Aliquip elit jugis paratus premo quis vel vero. Abdo brevitas caecus defui olim pagus saepius tincidunt ulciscor volutpat. Lobortis luctus nimis quae torqueo. Diam facilisis haero humo. Interdico scisco turpis. Capto esca nulla ratis validus. Aliquip illum praemitto quia suscipit vicis. Cogo comis iusto laoreet luptatum nisl quis singularis tum.\nDefui dolor eum inhibeo neo nobis pneum. Ad capto gemino pertineo torqueo. Autem caecus consequat iusto quadrum utinam wisi. Consequat defui ille molior obruo populus quibus vulputate. Importunus modo neque oppeto. Distineo exerci humo interdico jumentum nisl oppeto verto volutpat vulputate. Camur ideo interdico lucidus mauris paratus ut.\nAbico adipiscing similis. Abico lobortis macto premo sino. Decet gravis inhibeo lucidus metuo natu neque refoveo roto veniam. Praesent similis singularis. Duis enim exputo feugiat gravis quae rusticus si suscipit ymo. Camur dolore refero ut. Amet esse eu gemino loquor luctus premo te ut. Ad aptent camur capto hos luctus patria velit.\nAd consequat dignissim ea hendrerit imputo si. Gemino neque persto proprius ut zelus. Erat magna veniam. Magna nobis proprius si similis tation turpis zelus.\nCui erat iaceo iriure saluto. Antehabeo elit ideo laoreet nimis pala premo secundum usitas. Abluo dignissim esse exerci natu nisl ulciscor ullamcorper. Abdo ad gravis letalis pertineo turpis ulciscor. Abico interdico lenis similis. Abigo causa immitto mauris ut. Commoveo esse hendrerit jugis occuro olim refoveo rusticus.\nAbico aliquip elit importunus interdico oppeto quadrum ratis suscipit torqueo. Ludus persto quae. Dolor nutus obruo si vindico vulputate. Aliquam iaceo neque pagus praemitto premo roto vero. Amet eligo esse exputo luptatum quidem sit ut. Abluo imputo natu nobis populus sed. Enim iustum plaga. Commoveo dolore duis erat ille imputo laoreet te velit. Blandit defui humo pertineo pneum quae saepius similis ymo.\nConsectetuer iusto nisl sed. Letalis ludus obruo premo. Camur dolore iaceo ille lenis quae quidne ut velit veniam. Aliquip cui duis esca fere ideo neque typicus vulputate."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/events\/abdo-olim",
+            "pid": 338,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Dignissim esse typicus. Consequat tum ullamcorper. Jumentum roto sudo. Aptent qui ulciscor. Appellatio defui duis ex magna paulatim ratis utrum wisi.\n\nBlandit elit luptatum pertineo vulpes. Gravis letalis loquor. Eligo humo incassum meus vero. Diam ea exputo populus sit tego veniam. Abbas aliquam iaceo ideo minim natu neque persto suscipit volutpat. Ex nisl nobis te validus virtus.\n\nErat eu incassum iriure. Aliquam eu letalis oppeto tincidunt valde vero. Amet duis imputo laoreet vero ymo. Exputo hos probo suscipit.\n\nBlandit obruo pagus. Adipiscing defui meus praemitto veniam vulpes. Ad comis cui facilisis plaga refero voco. Aptent caecus dolore pala quis similis sudo. Facilisi gravis lucidus patria pneum suscipere turpis vulpes. Abdo cui duis facilisis minim nunc qui. Caecus commodo commoveo dolore persto quis utrum uxor.\n\nDistineo iriure lenis nobis. Antehabeo capto damnum facilisi iaceo nisl refero si ymo. Cui elit iriure saluto. Caecus os pecus sudo. Abigo abluo distineo euismod genitus iusto neque odio oppeto. Commoveo elit illum oppeto os quadrum. Amet jus luptatum pala patria similis suscipere ullamcorper virtus. Abdo amet elit pneum quae quibus.\n\nAd aliquam blandit eum huic saepius sed. Aliquip elit jugis paratus premo quis vel vero. Abdo brevitas caecus defui olim pagus saepius tincidunt ulciscor volutpat. Lobortis luctus nimis quae torqueo. Diam facilisis haero humo. Interdico scisco turpis. Capto esca nulla ratis validus. Aliquip illum praemitto quia suscipit vicis. Cogo comis iusto laoreet luptatum nisl quis singularis tum.\n\nDefui dolor eum inhibeo neo nobis pneum. Ad capto gemino pertineo torqueo. Autem caecus consequat iusto quadrum utinam wisi. Consequat defui ille molior obruo populus quibus vulputate. Importunus modo neque oppeto. Distineo exerci humo interdico jumentum nisl oppeto verto volutpat vulputate. Camur ideo interdico lucidus mauris paratus ut.\n\nAbico adipiscing similis. Abico lobortis macto premo sino. Decet gravis inhibeo lucidus metuo natu neque refoveo roto veniam. Praesent similis singularis. Duis enim exputo feugiat gravis quae rusticus si suscipit ymo. Camur dolore refero ut. Amet esse eu gemino loquor luctus premo te ut. Ad aptent camur capto hos luctus patria velit.\n\nAd consequat dignissim ea hendrerit imputo si. Gemino neque persto proprius ut zelus. Erat magna veniam. Magna nobis proprius si similis tation turpis zelus.\n\nCui erat iaceo iriure saluto. Antehabeo elit ideo laoreet nimis pala premo secundum usitas. Abluo dignissim esse exerci natu nisl ulciscor ullamcorper. Abdo ad gravis letalis pertineo turpis ulciscor. Abico interdico lenis similis. Abigo causa immitto mauris ut. Commoveo esse hendrerit jugis occuro olim refoveo rusticus.\n\nAbico aliquip elit importunus interdico oppeto quadrum ratis suscipit torqueo. Ludus persto quae. Dolor nutus obruo si vindico vulputate. Aliquam iaceo neque pagus praemitto premo roto vero. Amet eligo esse exputo luptatum quidem sit ut. Abluo imputo natu nobis populus sed. Enim iustum plaga. Commoveo dolore duis erat ille imputo laoreet te velit. Blandit defui humo pertineo pneum quae saepius similis ymo.\n\nConsectetuer iusto nisl sed. Letalis ludus obruo premo. Camur dolore iaceo ille lenis quae quidne ut velit veniam. Aliquip cui duis esca fere ideo neque typicus vulputate.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Dignissim esse typicus. Consequat tum ullamcorper. Jumentum roto sudo. Aptent qui ulciscor. Appellatio defui duis ex magna paulatim ratis utrum wisi.<\/p>\n<p>Blandit elit luptatum pertineo vulpes. Gravis letalis loquor. Eligo humo incassum meus vero. Diam ea exputo populus sit tego veniam. Abbas aliquam iaceo ideo minim natu neque persto suscipit volutpat. Ex nisl nobis te validus virtus.<\/p>\n<p>Erat eu incassum iriure. Aliquam eu letalis oppeto tincidunt valde vero. Amet duis imputo laoreet vero ymo. Exputo hos probo suscipit.<\/p>\n<p>Blandit obruo pagus. Adipiscing defui meus praemitto veniam vulpes. Ad comis cui facilisis plaga refero voco. Aptent caecus dolore pala quis similis sudo. Facilisi gravis lucidus patria pneum suscipere turpis vulpes. Abdo cui duis facilisis minim nunc qui. Caecus commodo commoveo dolore persto quis utrum uxor.<\/p>\n<p>Distineo iriure lenis nobis. Antehabeo capto damnum facilisi iaceo nisl refero si ymo. Cui elit iriure saluto. Caecus os pecus sudo. Abigo abluo distineo euismod genitus iusto neque odio oppeto. Commoveo elit illum oppeto os quadrum. Amet jus luptatum pala patria similis suscipere ullamcorper virtus. Abdo amet elit pneum quae quibus.<\/p>\n<p>Ad aliquam blandit eum huic saepius sed. Aliquip elit jugis paratus premo quis vel vero. Abdo brevitas caecus defui olim pagus saepius tincidunt ulciscor volutpat. Lobortis luctus nimis quae torqueo. Diam facilisis haero humo. Interdico scisco turpis. Capto esca nulla ratis validus. Aliquip illum praemitto quia suscipit vicis. Cogo comis iusto laoreet luptatum nisl quis singularis tum.<\/p>\n<p>Defui dolor eum inhibeo neo nobis pneum. Ad capto gemino pertineo torqueo. Autem caecus consequat iusto quadrum utinam wisi. Consequat defui ille molior obruo populus quibus vulputate. Importunus modo neque oppeto. Distineo exerci humo interdico jumentum nisl oppeto verto volutpat vulputate. Camur ideo interdico lucidus mauris paratus ut.<\/p>\n<p>Abico adipiscing similis. Abico lobortis macto premo sino. Decet gravis inhibeo lucidus metuo natu neque refoveo roto veniam. Praesent similis singularis. Duis enim exputo feugiat gravis quae rusticus si suscipit ymo. Camur dolore refero ut. Amet esse eu gemino loquor luctus premo te ut. Ad aptent camur capto hos luctus patria velit.<\/p>\n<p>Ad consequat dignissim ea hendrerit imputo si. Gemino neque persto proprius ut zelus. Erat magna veniam. Magna nobis proprius si similis tation turpis zelus.<\/p>\n<p>Cui erat iaceo iriure saluto. Antehabeo elit ideo laoreet nimis pala premo secundum usitas. Abluo dignissim esse exerci natu nisl ulciscor ullamcorper. Abdo ad gravis letalis pertineo turpis ulciscor. Abico interdico lenis similis. Abigo causa immitto mauris ut. Commoveo esse hendrerit jugis occuro olim refoveo rusticus.<\/p>\n<p>Abico aliquip elit importunus interdico oppeto quadrum ratis suscipit torqueo. Ludus persto quae. Dolor nutus obruo si vindico vulputate. Aliquam iaceo neque pagus praemitto premo roto vero. Amet eligo esse exputo luptatum quidem sit ut. Abluo imputo natu nobis populus sed. Enim iustum plaga. Commoveo dolore duis erat ille imputo laoreet te velit. Blandit defui humo pertineo pneum quae saepius similis ymo.<\/p>\n<p>Consectetuer iusto nisl sed. Letalis ludus obruo premo. Camur dolore iaceo ille lenis quae quidne ut velit veniam. Aliquip cui duis esca fere ideo neque typicus vulputate.<\/p>\n",
+            "summary": "Dignissim esse typicus. Consequat tum ullamcorper. Jumentum roto sudo. Aptent qui ulciscor. Appellatio defui duis ex magna paulatim ratis utrum wisi.\n\nBlandit elit luptatum pertineo vulpes. Gravis letalis loquor. Eligo humo incassum meus vero. Diam ea exputo populus sit tego veniam. Abbas aliquam iaceo ideo minim natu neque persto suscipit volutpat. Ex nisl nobis te validus virtus.\n\nErat eu incassum iriure. Aliquam eu letalis oppeto tincidunt valde vero. Amet duis imputo laoreet vero ymo. Exputo hos probo suscipit.\n\nBlandit obruo pagus. Adipiscing defui meus praemitto veniam vulpes. Ad comis cui facilisis plaga refero voco. Aptent caecus dolore pala quis similis sudo. Facilisi gravis lucidus patria pneum suscipere turpis vulpes. Abdo cui duis facilisis minim nunc qui. Caecus commodo commoveo dolore persto quis utrum uxor.\n\nDistineo iriure lenis nobis. Antehabeo capto damnum facilisi iaceo nisl refero si ymo. Cui elit iriure saluto. Caecus os pecus sudo. Abigo abluo distineo euismod genitus iusto neque odio oppeto. Commoveo elit illum oppeto os quadrum. Amet jus luptatum pala patria similis suscipere ullamcorper virtus. Abdo amet elit pneum quae quibus.\n\nAd aliquam blandit eum huic saepius sed. Aliquip elit jugis paratus premo quis vel vero. Abdo brevitas caecus defui olim pagus saepius tincidunt ulciscor volutpat. Lobortis luctus nimis quae torqueo. Diam facilisis haero humo. Interdico scisco turpis. Capto esca nulla ratis validus. Aliquip illum praemitto quia suscipit vicis. Cogo comis iusto laoreet luptatum nisl quis singularis tum.\n\nDefui dolor eum inhibeo neo nobis pneum. Ad capto gemino pertineo torqueo. Autem caecus consequat iusto quadrum utinam wisi. Consequat defui ille molior obruo populus quibus vulputate. Importunus modo neque oppeto. Distineo exerci humo interdico jumentum nisl oppeto verto volutpat vulputate. Camur ideo interdico lucidus mauris paratus ut.\n\nAbico adipiscing similis. Abico lobortis macto premo sino. Decet gravis inhibeo lucidus metuo natu neque refoveo roto veniam. Praesent similis singularis. Duis enim exputo feugiat gravis quae rusticus si suscipit ymo. Camur dolore refero ut. Amet esse eu gemino loquor luctus premo te ut. Ad aptent camur capto hos luctus patria velit.\n\nAd consequat dignissim ea hendrerit imputo si. Gemino neque persto proprius ut zelus. Erat magna veniam. Magna nobis proprius si similis tation turpis zelus.\n\nCui erat iaceo iriure saluto. Antehabeo elit ideo laoreet nimis pala premo secundum usitas. Abluo dignissim esse exerci natu nisl ulciscor ullamcorper. Abdo ad gravis letalis pertineo turpis ulciscor. Abico interdico lenis similis. Abigo causa immitto mauris ut. Commoveo esse hendrerit jugis occuro olim refoveo rusticus.\n\nAbico aliquip elit importunus interdico oppeto quadrum ratis suscipit torqueo. Ludus persto quae. Dolor nutus obruo si vindico vulputate. Aliquam iaceo neque pagus praemitto premo roto vero. Amet eligo esse exputo luptatum quidem sit ut. Abluo imputo natu nobis populus sed. Enim iustum plaga. Commoveo dolore duis erat ille imputo laoreet te velit. Blandit defui humo pertineo pneum quae saepius similis ymo.\n\nConsectetuer iusto nisl sed. Letalis ludus obruo premo. Camur dolore iaceo ille lenis quae quidne ut velit veniam. Aliquip cui duis esca fere ideo neque typicus vulputate.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_event_date": [
+        {
+            "value": "2019-12-08T06:19:06-05:00",
+            "end_value": "2019-12-09T06:19:06-05:00"
+        }
+    ],
+    "field_registration_link": [
+        {
+            "uri": "http:\/\/www.frodabr.com",
+            "title": "",
+            "options": []
+        }
+    ]
+}

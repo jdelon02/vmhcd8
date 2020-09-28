@@ -1,0 +1,287 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/resources\/nibh?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/resource"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_paragraphs": [
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_photo": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/3\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_downloads": [
+            {
+                "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/g3LdRW0q4R.txt"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_type": [
+            null
+        ]
+    },
+    "uuid": [
+        {
+            "value": "779febbf-3ce5-4852-ac63-89db40cb0a09"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "resource"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-12T14:58:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/slide"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8cdbdde7-e369-4eaf-9358-60c67d11a980"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "642"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/standalone_image_paragraph"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9abc7688-6e93-4884-bdf0-492aeb677b11"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "643"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/slide"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "487f05d2-5b97-4b13-88bd-5fb2a2d2f1d2"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "644"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_photo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/3\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "61ba0fb2-b4e6-40ce-9602-8cc567c96b53"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_downloads": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/g3LdRW0q4R.txt"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "52e70e10-eec9-4a84-8b82-d37dbad1b7d5"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_type": [
+            null
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "At Nibh",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-06T08:41:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T14:58:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "At Nibh | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/resources\/nibh",
+                "description": "Consequat iaceo laoreet quadrum quidem utinam venio wisi. At brevitas dolus exerci genitus incassum molior mos paratus praesent. At luptatum mauris mos oppeto singularis vereor. Abico brevitas fere hos immitto praemitto saepius sed valde validus. Causa cogo commoveo erat gilvus luptatum quis torqueo veniam vulpes. Cogo ea modo rusticus torqueo venio.\nAliquip diam meus nulla populus saluto similis. Aliquam brevitas fere lenis nimis nostrud quadrum scisco sed suscipere. Mauris obruo suscipit. Camur melior velit. Eum pneum saepius vindico vulputate. Esse jumentum macto. Conventio et ideo interdico lobortis lucidus nunc qui ulciscor vero.\nDiam melior nobis. Abigo consequat dolore duis facilisi humo ille inhibeo qui sit. Bene causa cui enim hos metuo praesent quae torqueo vel. Aliquam capto exerci illum inhibeo luptatum macto nutus sit.\nCommodo oppeto refero. Consectetuer eligo immitto jugis mauris pecus turpis. Fere gemino ibidem. Brevitas consectetuer exputo haero olim quidne verto. Abbas abluo blandit dignissim elit facilisi refero sino valde.\nAt eros paratus. Modo occuro praesent quibus vel. Autem humo olim. Commodo dignissim eu lobortis minim pneum saluto tum utinam vicis. Abbas camur gemino. Aliquip aptent humo lobortis natu patria similis suscipit ut. Capto plaga quidne typicus vel. Comis decet gravis interdico quidem wisi. Caecus eum gilvus melior praesent quidne ratis sino validus volutpat.\nAbigo eros gemino jugis jus persto pneum voco. Appellatio haero melior natu pagus qui quidne. Abigo aptent autem hos immitto lobortis nutus paratus roto. Exerci genitus ideo letalis nisl plaga probo proprius torqueo.\nBlandit enim metuo premo sed. Accumsan natu saepius tego. At duis imputo odio pecus quadrum secundum ut zelus. Augue ex in melior meus. Commodo decet et euismod nisl paulatim secundum ymo. At eum facilisi haero ille nisl si. Comis hos nisl. Exerci occuro singularis ullamcorper valetudo. Cogo defui eligo pertineo turpis. Commoveo distineo jugis natu.\nAdipiscing caecus consectetuer conventio gilvus ideo minim secundum. Accumsan damnum ratis ulciscor. Defui exputo gemino iaceo interdico neque nimis vulputate. Dolus ex nobis quis sagaciter tation.\nAccumsan acsi consequat olim quis saepius suscipere. Facilisi genitus illum nisl pecus qui secundum sudo. Hendrerit imputo nibh patria si tation usitas. Magna quia sudo utrum. Ea esca luptatum nostrud premo torqueo vicis.\nAliquip aptent autem dolore eligo eum hendrerit luptatum praemitto typicus. Causa immitto iriure loquor probo quadrum uxor veniam vicis volutpat. Defui os pala saluto. Camur et facilisis nostrud nutus quadrum.\nCaecus cogo consequat damnum hos immitto molior. Abdo cogo esca veniam. Abigo duis haero modo neo nibh paulatim sit utinam. Obruo premo vulputate. Ex oppeto qui quibus refero saepius sino. Commoveo os praesent ut utinam valetudo veniam venio. Facilisis mos plaga sit. Bene feugiat imputo in minim neo paulatim sino tincidunt ullamcorper.\nConventio modo nunc similis suscipit te. Abigo caecus huic pala si usitas validus vel zelus. Augue commoveo quibus. Aptent comis huic nobis nulla obruo proprius quis valde. Bene blandit commodo duis humo lucidus persto singularis vel. Aliquam dignissim jumentum nisl paulatim."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/resources\/nibh",
+            "pid": 426,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Consequat iaceo laoreet quadrum quidem utinam venio wisi. At brevitas dolus exerci genitus incassum molior mos paratus praesent. At luptatum mauris mos oppeto singularis vereor. Abico brevitas fere hos immitto praemitto saepius sed valde validus. Causa cogo commoveo erat gilvus luptatum quis torqueo veniam vulpes. Cogo ea modo rusticus torqueo venio.\n\nAliquip diam meus nulla populus saluto similis. Aliquam brevitas fere lenis nimis nostrud quadrum scisco sed suscipere. Mauris obruo suscipit. Camur melior velit. Eum pneum saepius vindico vulputate. Esse jumentum macto. Conventio et ideo interdico lobortis lucidus nunc qui ulciscor vero.\n\nDiam melior nobis. Abigo consequat dolore duis facilisi humo ille inhibeo qui sit. Bene causa cui enim hos metuo praesent quae torqueo vel. Aliquam capto exerci illum inhibeo luptatum macto nutus sit.\n\nCommodo oppeto refero. Consectetuer eligo immitto jugis mauris pecus turpis. Fere gemino ibidem. Brevitas consectetuer exputo haero olim quidne verto. Abbas abluo blandit dignissim elit facilisi refero sino valde.\n\nAt eros paratus. Modo occuro praesent quibus vel. Autem humo olim. Commodo dignissim eu lobortis minim pneum saluto tum utinam vicis. Abbas camur gemino. Aliquip aptent humo lobortis natu patria similis suscipit ut. Capto plaga quidne typicus vel. Comis decet gravis interdico quidem wisi. Caecus eum gilvus melior praesent quidne ratis sino validus volutpat.\n\nAbigo eros gemino jugis jus persto pneum voco. Appellatio haero melior natu pagus qui quidne. Abigo aptent autem hos immitto lobortis nutus paratus roto. Exerci genitus ideo letalis nisl plaga probo proprius torqueo.\n\nBlandit enim metuo premo sed. Accumsan natu saepius tego. At duis imputo odio pecus quadrum secundum ut zelus. Augue ex in melior meus. Commodo decet et euismod nisl paulatim secundum ymo. At eum facilisi haero ille nisl si. Comis hos nisl. Exerci occuro singularis ullamcorper valetudo. Cogo defui eligo pertineo turpis. Commoveo distineo jugis natu.\n\nAdipiscing caecus consectetuer conventio gilvus ideo minim secundum. Accumsan damnum ratis ulciscor. Defui exputo gemino iaceo interdico neque nimis vulputate. Dolus ex nobis quis sagaciter tation.\n\nAccumsan acsi consequat olim quis saepius suscipere. Facilisi genitus illum nisl pecus qui secundum sudo. Hendrerit imputo nibh patria si tation usitas. Magna quia sudo utrum. Ea esca luptatum nostrud premo torqueo vicis.\n\nAliquip aptent autem dolore eligo eum hendrerit luptatum praemitto typicus. Causa immitto iriure loquor probo quadrum uxor veniam vicis volutpat. Defui os pala saluto. Camur et facilisis nostrud nutus quadrum.\n\nCaecus cogo consequat damnum hos immitto molior. Abdo cogo esca veniam. Abigo duis haero modo neo nibh paulatim sit utinam. Obruo premo vulputate. Ex oppeto qui quibus refero saepius sino. Commoveo os praesent ut utinam valetudo veniam venio. Facilisis mos plaga sit. Bene feugiat imputo in minim neo paulatim sino tincidunt ullamcorper.\n\nConventio modo nunc similis suscipit te. Abigo caecus huic pala si usitas validus vel zelus. Augue commoveo quibus. Aptent comis huic nobis nulla obruo proprius quis valde. Bene blandit commodo duis humo lucidus persto singularis vel. Aliquam dignissim jumentum nisl paulatim.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Consequat iaceo laoreet quadrum quidem utinam venio wisi. At brevitas dolus exerci genitus incassum molior mos paratus praesent. At luptatum mauris mos oppeto singularis vereor. Abico brevitas fere hos immitto praemitto saepius sed valde validus. Causa cogo commoveo erat gilvus luptatum quis torqueo veniam vulpes. Cogo ea modo rusticus torqueo venio.<\/p>\n<p>Aliquip diam meus nulla populus saluto similis. Aliquam brevitas fere lenis nimis nostrud quadrum scisco sed suscipere. Mauris obruo suscipit. Camur melior velit. Eum pneum saepius vindico vulputate. Esse jumentum macto. Conventio et ideo interdico lobortis lucidus nunc qui ulciscor vero.<\/p>\n<p>Diam melior nobis. Abigo consequat dolore duis facilisi humo ille inhibeo qui sit. Bene causa cui enim hos metuo praesent quae torqueo vel. Aliquam capto exerci illum inhibeo luptatum macto nutus sit.<\/p>\n<p>Commodo oppeto refero. Consectetuer eligo immitto jugis mauris pecus turpis. Fere gemino ibidem. Brevitas consectetuer exputo haero olim quidne verto. Abbas abluo blandit dignissim elit facilisi refero sino valde.<\/p>\n<p>At eros paratus. Modo occuro praesent quibus vel. Autem humo olim. Commodo dignissim eu lobortis minim pneum saluto tum utinam vicis. Abbas camur gemino. Aliquip aptent humo lobortis natu patria similis suscipit ut. Capto plaga quidne typicus vel. Comis decet gravis interdico quidem wisi. Caecus eum gilvus melior praesent quidne ratis sino validus volutpat.<\/p>\n<p>Abigo eros gemino jugis jus persto pneum voco. Appellatio haero melior natu pagus qui quidne. Abigo aptent autem hos immitto lobortis nutus paratus roto. Exerci genitus ideo letalis nisl plaga probo proprius torqueo.<\/p>\n<p>Blandit enim metuo premo sed. Accumsan natu saepius tego. At duis imputo odio pecus quadrum secundum ut zelus. Augue ex in melior meus. Commodo decet et euismod nisl paulatim secundum ymo. At eum facilisi haero ille nisl si. Comis hos nisl. Exerci occuro singularis ullamcorper valetudo. Cogo defui eligo pertineo turpis. Commoveo distineo jugis natu.<\/p>\n<p>Adipiscing caecus consectetuer conventio gilvus ideo minim secundum. Accumsan damnum ratis ulciscor. Defui exputo gemino iaceo interdico neque nimis vulputate. Dolus ex nobis quis sagaciter tation.<\/p>\n<p>Accumsan acsi consequat olim quis saepius suscipere. Facilisi genitus illum nisl pecus qui secundum sudo. Hendrerit imputo nibh patria si tation usitas. Magna quia sudo utrum. Ea esca luptatum nostrud premo torqueo vicis.<\/p>\n<p>Aliquip aptent autem dolore eligo eum hendrerit luptatum praemitto typicus. Causa immitto iriure loquor probo quadrum uxor veniam vicis volutpat. Defui os pala saluto. Camur et facilisis nostrud nutus quadrum.<\/p>\n<p>Caecus cogo consequat damnum hos immitto molior. Abdo cogo esca veniam. Abigo duis haero modo neo nibh paulatim sit utinam. Obruo premo vulputate. Ex oppeto qui quibus refero saepius sino. Commoveo os praesent ut utinam valetudo veniam venio. Facilisis mos plaga sit. Bene feugiat imputo in minim neo paulatim sino tincidunt ullamcorper.<\/p>\n<p>Conventio modo nunc similis suscipit te. Abigo caecus huic pala si usitas validus vel zelus. Augue commoveo quibus. Aptent comis huic nobis nulla obruo proprius quis valde. Bene blandit commodo duis humo lucidus persto singularis vel. Aliquam dignissim jumentum nisl paulatim.<\/p>\n",
+            "summary": "Consequat iaceo laoreet quadrum quidem utinam venio wisi. At brevitas dolus exerci genitus incassum molior mos paratus praesent. At luptatum mauris mos oppeto singularis vereor. Abico brevitas fere hos immitto praemitto saepius sed valde validus. Causa cogo commoveo erat gilvus luptatum quis torqueo veniam vulpes. Cogo ea modo rusticus torqueo venio.\n\nAliquip diam meus nulla populus saluto similis. Aliquam brevitas fere lenis nimis nostrud quadrum scisco sed suscipere. Mauris obruo suscipit. Camur melior velit. Eum pneum saepius vindico vulputate. Esse jumentum macto. Conventio et ideo interdico lobortis lucidus nunc qui ulciscor vero.\n\nDiam melior nobis. Abigo consequat dolore duis facilisi humo ille inhibeo qui sit. Bene causa cui enim hos metuo praesent quae torqueo vel. Aliquam capto exerci illum inhibeo luptatum macto nutus sit.\n\nCommodo oppeto refero. Consectetuer eligo immitto jugis mauris pecus turpis. Fere gemino ibidem. Brevitas consectetuer exputo haero olim quidne verto. Abbas abluo blandit dignissim elit facilisi refero sino valde.\n\nAt eros paratus. Modo occuro praesent quibus vel. Autem humo olim. Commodo dignissim eu lobortis minim pneum saluto tum utinam vicis. Abbas camur gemino. Aliquip aptent humo lobortis natu patria similis suscipit ut. Capto plaga quidne typicus vel. Comis decet gravis interdico quidem wisi. Caecus eum gilvus melior praesent quidne ratis sino validus volutpat.\n\nAbigo eros gemino jugis jus persto pneum voco. Appellatio haero melior natu pagus qui quidne. Abigo aptent autem hos immitto lobortis nutus paratus roto. Exerci genitus ideo letalis nisl plaga probo proprius torqueo.\n\nBlandit enim metuo premo sed. Accumsan natu saepius tego. At duis imputo odio pecus quadrum secundum ut zelus. Augue ex in melior meus. Commodo decet et euismod nisl paulatim secundum ymo. At eum facilisi haero ille nisl si. Comis hos nisl. Exerci occuro singularis ullamcorper valetudo. Cogo defui eligo pertineo turpis. Commoveo distineo jugis natu.\n\nAdipiscing caecus consectetuer conventio gilvus ideo minim secundum. Accumsan damnum ratis ulciscor. Defui exputo gemino iaceo interdico neque nimis vulputate. Dolus ex nobis quis sagaciter tation.\n\nAccumsan acsi consequat olim quis saepius suscipere. Facilisi genitus illum nisl pecus qui secundum sudo. Hendrerit imputo nibh patria si tation usitas. Magna quia sudo utrum. Ea esca luptatum nostrud premo torqueo vicis.\n\nAliquip aptent autem dolore eligo eum hendrerit luptatum praemitto typicus. Causa immitto iriure loquor probo quadrum uxor veniam vicis volutpat. Defui os pala saluto. Camur et facilisis nostrud nutus quadrum.\n\nCaecus cogo consequat damnum hos immitto molior. Abdo cogo esca veniam. Abigo duis haero modo neo nibh paulatim sit utinam. Obruo premo vulputate. Ex oppeto qui quibus refero saepius sino. Commoveo os praesent ut utinam valetudo veniam venio. Facilisis mos plaga sit. Bene feugiat imputo in minim neo paulatim sino tincidunt ullamcorper.\n\nConventio modo nunc similis suscipit te. Abigo caecus huic pala si usitas validus vel zelus. Augue commoveo quibus. Aptent comis huic nobis nulla obruo proprius quis valde. Bene blandit commodo duis humo lucidus persto singularis vel. Aliquam dignissim jumentum nisl paulatim.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_resource_links": [
+        {
+            "uri": "http:\/\/www.vephuspa.net",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "http:\/\/www.dewofro.edu",
+            "title": "Aptent enim gilvus olim quia ratis sino tego validus.",
+            "options": []
+        }
+    ]
+}

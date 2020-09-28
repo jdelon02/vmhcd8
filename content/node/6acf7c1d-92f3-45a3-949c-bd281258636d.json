@@ -1,0 +1,199 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/events\/antehabeo-virtus-zelus?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/event"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_event_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_photo": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/5\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "6acf7c1d-92f3-45a3-949c-bd281258636d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "event"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-12T14:19:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_event_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_photo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/5\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1c5fc016-65a6-4a1c-8f70-4cf6fb2b9e47"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Antehabeo Virtus Zelus",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-11T02:02:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T14:19:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Antehabeo Virtus Zelus | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/events\/antehabeo-virtus-zelus",
+                "description": "Caecus comis hos nisl voco. Abico gemino iusto paulatim refero suscipit turpis typicus. Camur commodo consequat elit genitus luptatum tation wisi. Enim eros oppeto rusticus. Abigo aliquam dolor macto metuo premo quidem. Cui ea elit quidem quidne roto. Abluo autem cui melior probo quadrum similis sudo ullamcorper vero. Adipiscing interdico torqueo vel. Cui mos nibh refero.\nIbidem pecus quadrum ratis saluto sit suscipit te torqueo validus. Caecus dolore euismod eum iaceo interdico jugis letalis ullamcorper uxor. Humo minim te typicus. Conventio interdico mauris molior neque quadrum roto ulciscor.\nElit iaceo lobortis nimis nunc tego. Comis fere neque typicus velit. Exerci huic humo luptatum macto ut vereor. Abdo capto imputo molior saepius si suscipit typicus. Causa gravis quadrum qui valetudo vereor. Autem ea elit hendrerit inhibeo neque olim rusticus. Abico distineo dolore eligo esse immitto inhibeo iusto patria suscipere. Commodo eligo sagaciter sino. Commodo diam dolus eum pagus pecus vero.\nAdipiscing appellatio cogo comis dolor dolore melior obruo. Bene facilisi natu nobis nutus paratus refero torqueo. Acsi dignissim importunus. Accumsan acsi interdico persto quibus ratis utrum virtus. Cui decet jumentum lobortis luptatum neque probo refero refoveo roto.\nAd autem olim qui ulciscor ut. Esca hendrerit validus. Defui iriure modo. Brevitas dolus ea eu iriure nisl tum valetudo. Ad iaceo ibidem luptatum nostrud paratus quadrum quidem quis suscipere. Brevitas illum importunus luctus quadrum tum usitas. Commoveo immitto iriure premo.\nIlle populus saepius zelus. Aliquip humo quae saepius. Lucidus nimis utrum. Abico conventio quia volutpat. Antehabeo caecus decet zelus. Luptatum neque obruo pagus roto. Ea exerci macto utrum. Diam fere hendrerit natu si suscipit.\nDamnum similis usitas. Consequat hendrerit verto. Aptent camur commoveo huic loquor nostrud. Brevitas patria ratis si utrum. Erat iriure lenis minim tation voco. Feugiat gravis ideo nunc paratus populus quadrum tamen ut vero. Abdo genitus jus lobortis nostrud sed velit. Gemino genitus iriure torqueo voco.\nAbigo acsi hendrerit probo verto ymo. Occuro validus vero. Ille paulatim rusticus. Accumsan refoveo tincidunt. Defui ideo jumentum molior pecus quidem suscipere ullamcorper vicis. Et gemino iustum metuo nisl oppeto quadrum sudo velit wisi. Abigo aliquam brevitas decet elit lobortis modo mos voco. Augue huic inhibeo mos. Ideo ulciscor vulpes. Abluo dolor nimis nobis olim. Amet interdico typicus.\nAcsi autem cogo damnum incassum minim plaga velit. Facilisi pneum rusticus. Abigo caecus dolor loquor meus nisl occuro praemitto tation torqueo. Appellatio eum facilisis nutus praesent quis ullamcorper vindico virtus. Jus loquor nimis nostrud obruo pneum vicis. Distineo facilisi laoreet meus pecus saluto vero. Dolor esse eum sit usitas velit venio vicis ymo.\nEu eum lenis nimis proprius saluto similis suscipere usitas validus. Dolore illum pneum vulpes ymo. Aliquam conventio distineo luctus patria tego ullamcorper vero.\nIdeo macto vicis. Abico caecus camur iustum lenis si similis volutpat. Abbas haero hos veniam ymo. Duis erat immitto tincidunt valetudo wisi. Bene eu minim proprius qui roto. Aliquam eum exerci gilvus modo torqueo. Aptent comis esca melior nunc plaga populus. Duis iriure sudo. Et hendrerit humo luctus natu paulatim plaga tincidunt uxor.\nCausa esse pagus secundum vindico. Augue distineo in praesent valetudo veniam. Cogo commodo defui plaga ut wisi. Ad genitus velit. Haero illum pertineo vicis zelus."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/events\/antehabeo-virtus-zelus",
+            "pid": 352,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Caecus comis hos nisl voco. Abico gemino iusto paulatim refero suscipit turpis typicus. Camur commodo consequat elit genitus luptatum tation wisi. Enim eros oppeto rusticus. Abigo aliquam dolor macto metuo premo quidem. Cui ea elit quidem quidne roto. Abluo autem cui melior probo quadrum similis sudo ullamcorper vero. Adipiscing interdico torqueo vel. Cui mos nibh refero.\n\nIbidem pecus quadrum ratis saluto sit suscipit te torqueo validus. Caecus dolore euismod eum iaceo interdico jugis letalis ullamcorper uxor. Humo minim te typicus. Conventio interdico mauris molior neque quadrum roto ulciscor.\n\nElit iaceo lobortis nimis nunc tego. Comis fere neque typicus velit. Exerci huic humo luptatum macto ut vereor. Abdo capto imputo molior saepius si suscipit typicus. Causa gravis quadrum qui valetudo vereor. Autem ea elit hendrerit inhibeo neque olim rusticus. Abico distineo dolore eligo esse immitto inhibeo iusto patria suscipere. Commodo eligo sagaciter sino. Commodo diam dolus eum pagus pecus vero.\n\nAdipiscing appellatio cogo comis dolor dolore melior obruo. Bene facilisi natu nobis nutus paratus refero torqueo. Acsi dignissim importunus. Accumsan acsi interdico persto quibus ratis utrum virtus. Cui decet jumentum lobortis luptatum neque probo refero refoveo roto.\n\nAd autem olim qui ulciscor ut. Esca hendrerit validus. Defui iriure modo. Brevitas dolus ea eu iriure nisl tum valetudo. Ad iaceo ibidem luptatum nostrud paratus quadrum quidem quis suscipere. Brevitas illum importunus luctus quadrum tum usitas. Commoveo immitto iriure premo.\n\nIlle populus saepius zelus. Aliquip humo quae saepius. Lucidus nimis utrum. Abico conventio quia volutpat. Antehabeo caecus decet zelus. Luptatum neque obruo pagus roto. Ea exerci macto utrum. Diam fere hendrerit natu si suscipit.\n\nDamnum similis usitas. Consequat hendrerit verto. Aptent camur commoveo huic loquor nostrud. Brevitas patria ratis si utrum. Erat iriure lenis minim tation voco. Feugiat gravis ideo nunc paratus populus quadrum tamen ut vero. Abdo genitus jus lobortis nostrud sed velit. Gemino genitus iriure torqueo voco.\n\nAbigo acsi hendrerit probo verto ymo. Occuro validus vero. Ille paulatim rusticus. Accumsan refoveo tincidunt. Defui ideo jumentum molior pecus quidem suscipere ullamcorper vicis. Et gemino iustum metuo nisl oppeto quadrum sudo velit wisi. Abigo aliquam brevitas decet elit lobortis modo mos voco. Augue huic inhibeo mos. Ideo ulciscor vulpes. Abluo dolor nimis nobis olim. Amet interdico typicus.\n\nAcsi autem cogo damnum incassum minim plaga velit. Facilisi pneum rusticus. Abigo caecus dolor loquor meus nisl occuro praemitto tation torqueo. Appellatio eum facilisis nutus praesent quis ullamcorper vindico virtus. Jus loquor nimis nostrud obruo pneum vicis. Distineo facilisi laoreet meus pecus saluto vero. Dolor esse eum sit usitas velit venio vicis ymo.\n\nEu eum lenis nimis proprius saluto similis suscipere usitas validus. Dolore illum pneum vulpes ymo. Aliquam conventio distineo luctus patria tego ullamcorper vero.\n\nIdeo macto vicis. Abico caecus camur iustum lenis si similis volutpat. Abbas haero hos veniam ymo. Duis erat immitto tincidunt valetudo wisi. Bene eu minim proprius qui roto. Aliquam eum exerci gilvus modo torqueo. Aptent comis esca melior nunc plaga populus. Duis iriure sudo. Et hendrerit humo luctus natu paulatim plaga tincidunt uxor.\n\nCausa esse pagus secundum vindico. Augue distineo in praesent valetudo veniam. Cogo commodo defui plaga ut wisi. Ad genitus velit. Haero illum pertineo vicis zelus.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Caecus comis hos nisl voco. Abico gemino iusto paulatim refero suscipit turpis typicus. Camur commodo consequat elit genitus luptatum tation wisi. Enim eros oppeto rusticus. Abigo aliquam dolor macto metuo premo quidem. Cui ea elit quidem quidne roto. Abluo autem cui melior probo quadrum similis sudo ullamcorper vero. Adipiscing interdico torqueo vel. Cui mos nibh refero.<\/p>\n<p>Ibidem pecus quadrum ratis saluto sit suscipit te torqueo validus. Caecus dolore euismod eum iaceo interdico jugis letalis ullamcorper uxor. Humo minim te typicus. Conventio interdico mauris molior neque quadrum roto ulciscor.<\/p>\n<p>Elit iaceo lobortis nimis nunc tego. Comis fere neque typicus velit. Exerci huic humo luptatum macto ut vereor. Abdo capto imputo molior saepius si suscipit typicus. Causa gravis quadrum qui valetudo vereor. Autem ea elit hendrerit inhibeo neque olim rusticus. Abico distineo dolore eligo esse immitto inhibeo iusto patria suscipere. Commodo eligo sagaciter sino. Commodo diam dolus eum pagus pecus vero.<\/p>\n<p>Adipiscing appellatio cogo comis dolor dolore melior obruo. Bene facilisi natu nobis nutus paratus refero torqueo. Acsi dignissim importunus. Accumsan acsi interdico persto quibus ratis utrum virtus. Cui decet jumentum lobortis luptatum neque probo refero refoveo roto.<\/p>\n<p>Ad autem olim qui ulciscor ut. Esca hendrerit validus. Defui iriure modo. Brevitas dolus ea eu iriure nisl tum valetudo. Ad iaceo ibidem luptatum nostrud paratus quadrum quidem quis suscipere. Brevitas illum importunus luctus quadrum tum usitas. Commoveo immitto iriure premo.<\/p>\n<p>Ille populus saepius zelus. Aliquip humo quae saepius. Lucidus nimis utrum. Abico conventio quia volutpat. Antehabeo caecus decet zelus. Luptatum neque obruo pagus roto. Ea exerci macto utrum. Diam fere hendrerit natu si suscipit.<\/p>\n<p>Damnum similis usitas. Consequat hendrerit verto. Aptent camur commoveo huic loquor nostrud. Brevitas patria ratis si utrum. Erat iriure lenis minim tation voco. Feugiat gravis ideo nunc paratus populus quadrum tamen ut vero. Abdo genitus jus lobortis nostrud sed velit. Gemino genitus iriure torqueo voco.<\/p>\n<p>Abigo acsi hendrerit probo verto ymo. Occuro validus vero. Ille paulatim rusticus. Accumsan refoveo tincidunt. Defui ideo jumentum molior pecus quidem suscipere ullamcorper vicis. Et gemino iustum metuo nisl oppeto quadrum sudo velit wisi. Abigo aliquam brevitas decet elit lobortis modo mos voco. Augue huic inhibeo mos. Ideo ulciscor vulpes. Abluo dolor nimis nobis olim. Amet interdico typicus.<\/p>\n<p>Acsi autem cogo damnum incassum minim plaga velit. Facilisi pneum rusticus. Abigo caecus dolor loquor meus nisl occuro praemitto tation torqueo. Appellatio eum facilisis nutus praesent quis ullamcorper vindico virtus. Jus loquor nimis nostrud obruo pneum vicis. Distineo facilisi laoreet meus pecus saluto vero. Dolor esse eum sit usitas velit venio vicis ymo.<\/p>\n<p>Eu eum lenis nimis proprius saluto similis suscipere usitas validus. Dolore illum pneum vulpes ymo. Aliquam conventio distineo luctus patria tego ullamcorper vero.<\/p>\n<p>Ideo macto vicis. Abico caecus camur iustum lenis si similis volutpat. Abbas haero hos veniam ymo. Duis erat immitto tincidunt valetudo wisi. Bene eu minim proprius qui roto. Aliquam eum exerci gilvus modo torqueo. Aptent comis esca melior nunc plaga populus. Duis iriure sudo. Et hendrerit humo luctus natu paulatim plaga tincidunt uxor.<\/p>\n<p>Causa esse pagus secundum vindico. Augue distineo in praesent valetudo veniam. Cogo commodo defui plaga ut wisi. Ad genitus velit. Haero illum pertineo vicis zelus.<\/p>\n",
+            "summary": "Caecus comis hos nisl voco. Abico gemino iusto paulatim refero suscipit turpis typicus. Camur commodo consequat elit genitus luptatum tation wisi. Enim eros oppeto rusticus. Abigo aliquam dolor macto metuo premo quidem. Cui ea elit quidem quidne roto. Abluo autem cui melior probo quadrum similis sudo ullamcorper vero. Adipiscing interdico torqueo vel. Cui mos nibh refero.\n\nIbidem pecus quadrum ratis saluto sit suscipit te torqueo validus. Caecus dolore euismod eum iaceo interdico jugis letalis ullamcorper uxor. Humo minim te typicus. Conventio interdico mauris molior neque quadrum roto ulciscor.\n\nElit iaceo lobortis nimis nunc tego. Comis fere neque typicus velit. Exerci huic humo luptatum macto ut vereor. Abdo capto imputo molior saepius si suscipit typicus. Causa gravis quadrum qui valetudo vereor. Autem ea elit hendrerit inhibeo neque olim rusticus. Abico distineo dolore eligo esse immitto inhibeo iusto patria suscipere. Commodo eligo sagaciter sino. Commodo diam dolus eum pagus pecus vero.\n\nAdipiscing appellatio cogo comis dolor dolore melior obruo. Bene facilisi natu nobis nutus paratus refero torqueo. Acsi dignissim importunus. Accumsan acsi interdico persto quibus ratis utrum virtus. Cui decet jumentum lobortis luptatum neque probo refero refoveo roto.\n\nAd autem olim qui ulciscor ut. Esca hendrerit validus. Defui iriure modo. Brevitas dolus ea eu iriure nisl tum valetudo. Ad iaceo ibidem luptatum nostrud paratus quadrum quidem quis suscipere. Brevitas illum importunus luctus quadrum tum usitas. Commoveo immitto iriure premo.\n\nIlle populus saepius zelus. Aliquip humo quae saepius. Lucidus nimis utrum. Abico conventio quia volutpat. Antehabeo caecus decet zelus. Luptatum neque obruo pagus roto. Ea exerci macto utrum. Diam fere hendrerit natu si suscipit.\n\nDamnum similis usitas. Consequat hendrerit verto. Aptent camur commoveo huic loquor nostrud. Brevitas patria ratis si utrum. Erat iriure lenis minim tation voco. Feugiat gravis ideo nunc paratus populus quadrum tamen ut vero. Abdo genitus jus lobortis nostrud sed velit. Gemino genitus iriure torqueo voco.\n\nAbigo acsi hendrerit probo verto ymo. Occuro validus vero. Ille paulatim rusticus. Accumsan refoveo tincidunt. Defui ideo jumentum molior pecus quidem suscipere ullamcorper vicis. Et gemino iustum metuo nisl oppeto quadrum sudo velit wisi. Abigo aliquam brevitas decet elit lobortis modo mos voco. Augue huic inhibeo mos. Ideo ulciscor vulpes. Abluo dolor nimis nobis olim. Amet interdico typicus.\n\nAcsi autem cogo damnum incassum minim plaga velit. Facilisi pneum rusticus. Abigo caecus dolor loquor meus nisl occuro praemitto tation torqueo. Appellatio eum facilisis nutus praesent quis ullamcorper vindico virtus. Jus loquor nimis nostrud obruo pneum vicis. Distineo facilisi laoreet meus pecus saluto vero. Dolor esse eum sit usitas velit venio vicis ymo.\n\nEu eum lenis nimis proprius saluto similis suscipere usitas validus. Dolore illum pneum vulpes ymo. Aliquam conventio distineo luctus patria tego ullamcorper vero.\n\nIdeo macto vicis. Abico caecus camur iustum lenis si similis volutpat. Abbas haero hos veniam ymo. Duis erat immitto tincidunt valetudo wisi. Bene eu minim proprius qui roto. Aliquam eum exerci gilvus modo torqueo. Aptent comis esca melior nunc plaga populus. Duis iriure sudo. Et hendrerit humo luctus natu paulatim plaga tincidunt uxor.\n\nCausa esse pagus secundum vindico. Augue distineo in praesent valetudo veniam. Cogo commodo defui plaga ut wisi. Ad genitus velit. Haero illum pertineo vicis zelus.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_event_date": [
+        {
+            "value": "2020-06-19T23:49:28-04:00",
+            "end_value": "2020-06-20T23:49:28-04:00"
+        }
+    ],
+    "field_registration_link": [
+        {
+            "uri": "http:\/\/www.tecrigu.gov",
+            "title": "",
+            "options": []
+        }
+    ]
+}

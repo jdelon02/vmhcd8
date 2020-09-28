@@ -1,0 +1,245 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/resources\/gemino-olim?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/resource"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_paragraphs": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_photo": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/5\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_downloads": [
+            {
+                "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/dnGlIMinZX.txt"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_type": [
+            null
+        ]
+    },
+    "uuid": [
+        {
+            "value": "1aff63fa-1a3c-4db6-908f-d6c3ca944e95"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "resource"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-12T14:58:48+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/from_library"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4136a957-293c-4ff8-8963-7eb11d154a8b"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "686"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_photo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/5\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1c5fc016-65a6-4a1c-8f70-4cf6fb2b9e47"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_downloads": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/dnGlIMinZX.txt"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3c246d08-196a-4435-93d0-305218d9ebcc"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_type": [
+            null
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Gemino Olim",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-10T01:32:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T14:58:48+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Gemino Olim | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/resources\/gemino-olim",
+                "description": "Facilisis feugiat jus molior natu praesent tum typicus. Ea tamen te vicis vulputate. Euismod illum nisl persto turpis ut vereor. Commoveo sed velit vero. Consequat melior natu nimis premo quidem sed tego.\nAmet autem cui exerci nobis. Enim importunus refero. Loquor modo premo sudo tamen vicis vindico wisi. Comis facilisis illum jumentum neque nutus. Appellatio iaceo laoreet nobis quidne torqueo.\nAbico augue dolore dolus pertineo praemitto. Blandit virtus ymo. Imputo laoreet natu nobis refoveo sino suscipit. Incassum interdico pneum populus sudo tum. Acsi ex luptatum mauris occuro turpis ulciscor utinam. Antehabeo decet hos ideo nisl pertineo scisco valde velit volutpat. Amet decet ea huic natu patria pneum rusticus veniam. Appellatio decet importunus nutus qui quis vereor.\nAbluo aliquip comis illum mos quia similis torqueo. Melior typicus vindico. Amet brevitas imputo. Blandit cogo paratus quadrum vel. Bene causa ludus melior olim ullamcorper utinam. Aliquip blandit conventio jus laoreet mauris neo tum vicis. Sagaciter tincidunt wisi.\nAptent eligo erat laoreet natu quibus usitas validus. At te ulciscor ullamcorper vel. Amet blandit causa fere melior typicus usitas ut uxor voco. Defui nostrud olim vulpes. Hendrerit inhibeo meus nutus tincidunt vulpes. Importunus jugis proprius utinam valetudo vindico zelus. Brevitas huic jugis.\nAppellatio fere haero inhibeo iriure meus ratis verto volutpat ymo. Capto erat exputo hendrerit in pala sino zelus. Gilvus haero occuro pecus. Acsi facilisis neque. Abigo aptent quadrum refoveo si. Capto iusto nisl torqueo.\nCui damnum eros et ex facilisi gilvus nobis sino. Dolore euismod ideo illum melior praemitto torqueo. Abbas abigo eu hos letalis usitas valetudo venio. Gilvus gravis haero iustum refero tamen vicis zelus.\nAd antehabeo aptent valde. Abbas capto eros immitto modo nibh saluto validus velit. Antehabeo at eu hos importunus natu nostrud proprius turpis typicus. Abbas abigo antehabeo autem commodo humo in oppeto paulatim. Cogo huic obruo refoveo secundum te uxor. Ille in nulla praemitto tamen tincidunt ut utrum venio.\nCaecus cogo uxor. Abdo adipiscing incassum saluto vindico. Commoveo damnum eum ex letalis lucidus nulla valetudo vereor. Facilisi inhibeo mos suscipere ymo. Aliquip aptent cui paulatim tego turpis utrum. Aliquip blandit nunc olim oppeto refoveo. Aptent cogo hendrerit humo pagus quidne ulciscor vulpes wisi. Camur esse paulatim quadrum.\nAbbas ad aptent consectetuer damnum exerci feugiat lenis rusticus vero. Autem ea gravis ideo melior meus tum. Acsi consectetuer distineo iaceo natu pneum refero scisco vereor. Abbas antehabeo imputo turpis. Comis iaceo nulla patria refoveo virtus.\nAbluo ea enim iriure patria valetudo. Mauris obruo quis sino. Loquor olim praemitto suscipere. Commodo feugiat incassum nulla quia saepius. Cui quis suscipere te tincidunt vicis. Autem bene iriure pecus tamen. Autem diam dolus elit gemino ibidem. Blandit capto defui distineo enim gravis humo probo refoveo vulputate.\nConsectetuer dignissim vicis. Appellatio nimis premo sed. Diam hendrerit ille interdico jumentum jus neque proprius refero. Antehabeo dolus jumentum lobortis luctus modo quadrum si vel zelus."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/resources\/gemino-olim",
+            "pid": 440,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Facilisis feugiat jus molior natu praesent tum typicus. Ea tamen te vicis vulputate. Euismod illum nisl persto turpis ut vereor. Commoveo sed velit vero. Consequat melior natu nimis premo quidem sed tego.\n\nAmet autem cui exerci nobis. Enim importunus refero. Loquor modo premo sudo tamen vicis vindico wisi. Comis facilisis illum jumentum neque nutus. Appellatio iaceo laoreet nobis quidne torqueo.\n\nAbico augue dolore dolus pertineo praemitto. Blandit virtus ymo. Imputo laoreet natu nobis refoveo sino suscipit. Incassum interdico pneum populus sudo tum. Acsi ex luptatum mauris occuro turpis ulciscor utinam. Antehabeo decet hos ideo nisl pertineo scisco valde velit volutpat. Amet decet ea huic natu patria pneum rusticus veniam. Appellatio decet importunus nutus qui quis vereor.\n\nAbluo aliquip comis illum mos quia similis torqueo. Melior typicus vindico. Amet brevitas imputo. Blandit cogo paratus quadrum vel. Bene causa ludus melior olim ullamcorper utinam. Aliquip blandit conventio jus laoreet mauris neo tum vicis. Sagaciter tincidunt wisi.\n\nAptent eligo erat laoreet natu quibus usitas validus. At te ulciscor ullamcorper vel. Amet blandit causa fere melior typicus usitas ut uxor voco. Defui nostrud olim vulpes. Hendrerit inhibeo meus nutus tincidunt vulpes. Importunus jugis proprius utinam valetudo vindico zelus. Brevitas huic jugis.\n\nAppellatio fere haero inhibeo iriure meus ratis verto volutpat ymo. Capto erat exputo hendrerit in pala sino zelus. Gilvus haero occuro pecus. Acsi facilisis neque. Abigo aptent quadrum refoveo si. Capto iusto nisl torqueo.\n\nCui damnum eros et ex facilisi gilvus nobis sino. Dolore euismod ideo illum melior praemitto torqueo. Abbas abigo eu hos letalis usitas valetudo venio. Gilvus gravis haero iustum refero tamen vicis zelus.\n\nAd antehabeo aptent valde. Abbas capto eros immitto modo nibh saluto validus velit. Antehabeo at eu hos importunus natu nostrud proprius turpis typicus. Abbas abigo antehabeo autem commodo humo in oppeto paulatim. Cogo huic obruo refoveo secundum te uxor. Ille in nulla praemitto tamen tincidunt ut utrum venio.\n\nCaecus cogo uxor. Abdo adipiscing incassum saluto vindico. Commoveo damnum eum ex letalis lucidus nulla valetudo vereor. Facilisi inhibeo mos suscipere ymo. Aliquip aptent cui paulatim tego turpis utrum. Aliquip blandit nunc olim oppeto refoveo. Aptent cogo hendrerit humo pagus quidne ulciscor vulpes wisi. Camur esse paulatim quadrum.\n\nAbbas ad aptent consectetuer damnum exerci feugiat lenis rusticus vero. Autem ea gravis ideo melior meus tum. Acsi consectetuer distineo iaceo natu pneum refero scisco vereor. Abbas antehabeo imputo turpis. Comis iaceo nulla patria refoveo virtus.\n\nAbluo ea enim iriure patria valetudo. Mauris obruo quis sino. Loquor olim praemitto suscipere. Commodo feugiat incassum nulla quia saepius. Cui quis suscipere te tincidunt vicis. Autem bene iriure pecus tamen. Autem diam dolus elit gemino ibidem. Blandit capto defui distineo enim gravis humo probo refoveo vulputate.\n\nConsectetuer dignissim vicis. Appellatio nimis premo sed. Diam hendrerit ille interdico jumentum jus neque proprius refero. Antehabeo dolus jumentum lobortis luctus modo quadrum si vel zelus.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Facilisis feugiat jus molior natu praesent tum typicus. Ea tamen te vicis vulputate. Euismod illum nisl persto turpis ut vereor. Commoveo sed velit vero. Consequat melior natu nimis premo quidem sed tego.<\/p>\n<p>Amet autem cui exerci nobis. Enim importunus refero. Loquor modo premo sudo tamen vicis vindico wisi. Comis facilisis illum jumentum neque nutus. Appellatio iaceo laoreet nobis quidne torqueo.<\/p>\n<p>Abico augue dolore dolus pertineo praemitto. Blandit virtus ymo. Imputo laoreet natu nobis refoveo sino suscipit. Incassum interdico pneum populus sudo tum. Acsi ex luptatum mauris occuro turpis ulciscor utinam. Antehabeo decet hos ideo nisl pertineo scisco valde velit volutpat. Amet decet ea huic natu patria pneum rusticus veniam. Appellatio decet importunus nutus qui quis vereor.<\/p>\n<p>Abluo aliquip comis illum mos quia similis torqueo. Melior typicus vindico. Amet brevitas imputo. Blandit cogo paratus quadrum vel. Bene causa ludus melior olim ullamcorper utinam. Aliquip blandit conventio jus laoreet mauris neo tum vicis. Sagaciter tincidunt wisi.<\/p>\n<p>Aptent eligo erat laoreet natu quibus usitas validus. At te ulciscor ullamcorper vel. Amet blandit causa fere melior typicus usitas ut uxor voco. Defui nostrud olim vulpes. Hendrerit inhibeo meus nutus tincidunt vulpes. Importunus jugis proprius utinam valetudo vindico zelus. Brevitas huic jugis.<\/p>\n<p>Appellatio fere haero inhibeo iriure meus ratis verto volutpat ymo. Capto erat exputo hendrerit in pala sino zelus. Gilvus haero occuro pecus. Acsi facilisis neque. Abigo aptent quadrum refoveo si. Capto iusto nisl torqueo.<\/p>\n<p>Cui damnum eros et ex facilisi gilvus nobis sino. Dolore euismod ideo illum melior praemitto torqueo. Abbas abigo eu hos letalis usitas valetudo venio. Gilvus gravis haero iustum refero tamen vicis zelus.<\/p>\n<p>Ad antehabeo aptent valde. Abbas capto eros immitto modo nibh saluto validus velit. Antehabeo at eu hos importunus natu nostrud proprius turpis typicus. Abbas abigo antehabeo autem commodo humo in oppeto paulatim. Cogo huic obruo refoveo secundum te uxor. Ille in nulla praemitto tamen tincidunt ut utrum venio.<\/p>\n<p>Caecus cogo uxor. Abdo adipiscing incassum saluto vindico. Commoveo damnum eum ex letalis lucidus nulla valetudo vereor. Facilisi inhibeo mos suscipere ymo. Aliquip aptent cui paulatim tego turpis utrum. Aliquip blandit nunc olim oppeto refoveo. Aptent cogo hendrerit humo pagus quidne ulciscor vulpes wisi. Camur esse paulatim quadrum.<\/p>\n<p>Abbas ad aptent consectetuer damnum exerci feugiat lenis rusticus vero. Autem ea gravis ideo melior meus tum. Acsi consectetuer distineo iaceo natu pneum refero scisco vereor. Abbas antehabeo imputo turpis. Comis iaceo nulla patria refoveo virtus.<\/p>\n<p>Abluo ea enim iriure patria valetudo. Mauris obruo quis sino. Loquor olim praemitto suscipere. Commodo feugiat incassum nulla quia saepius. Cui quis suscipere te tincidunt vicis. Autem bene iriure pecus tamen. Autem diam dolus elit gemino ibidem. Blandit capto defui distineo enim gravis humo probo refoveo vulputate.<\/p>\n<p>Consectetuer dignissim vicis. Appellatio nimis premo sed. Diam hendrerit ille interdico jumentum jus neque proprius refero. Antehabeo dolus jumentum lobortis luctus modo quadrum si vel zelus.<\/p>\n",
+            "summary": "Facilisis feugiat jus molior natu praesent tum typicus. Ea tamen te vicis vulputate. Euismod illum nisl persto turpis ut vereor. Commoveo sed velit vero. Consequat melior natu nimis premo quidem sed tego.\n\nAmet autem cui exerci nobis. Enim importunus refero. Loquor modo premo sudo tamen vicis vindico wisi. Comis facilisis illum jumentum neque nutus. Appellatio iaceo laoreet nobis quidne torqueo.\n\nAbico augue dolore dolus pertineo praemitto. Blandit virtus ymo. Imputo laoreet natu nobis refoveo sino suscipit. Incassum interdico pneum populus sudo tum. Acsi ex luptatum mauris occuro turpis ulciscor utinam. Antehabeo decet hos ideo nisl pertineo scisco valde velit volutpat. Amet decet ea huic natu patria pneum rusticus veniam. Appellatio decet importunus nutus qui quis vereor.\n\nAbluo aliquip comis illum mos quia similis torqueo. Melior typicus vindico. Amet brevitas imputo. Blandit cogo paratus quadrum vel. Bene causa ludus melior olim ullamcorper utinam. Aliquip blandit conventio jus laoreet mauris neo tum vicis. Sagaciter tincidunt wisi.\n\nAptent eligo erat laoreet natu quibus usitas validus. At te ulciscor ullamcorper vel. Amet blandit causa fere melior typicus usitas ut uxor voco. Defui nostrud olim vulpes. Hendrerit inhibeo meus nutus tincidunt vulpes. Importunus jugis proprius utinam valetudo vindico zelus. Brevitas huic jugis.\n\nAppellatio fere haero inhibeo iriure meus ratis verto volutpat ymo. Capto erat exputo hendrerit in pala sino zelus. Gilvus haero occuro pecus. Acsi facilisis neque. Abigo aptent quadrum refoveo si. Capto iusto nisl torqueo.\n\nCui damnum eros et ex facilisi gilvus nobis sino. Dolore euismod ideo illum melior praemitto torqueo. Abbas abigo eu hos letalis usitas valetudo venio. Gilvus gravis haero iustum refero tamen vicis zelus.\n\nAd antehabeo aptent valde. Abbas capto eros immitto modo nibh saluto validus velit. Antehabeo at eu hos importunus natu nostrud proprius turpis typicus. Abbas abigo antehabeo autem commodo humo in oppeto paulatim. Cogo huic obruo refoveo secundum te uxor. Ille in nulla praemitto tamen tincidunt ut utrum venio.\n\nCaecus cogo uxor. Abdo adipiscing incassum saluto vindico. Commoveo damnum eum ex letalis lucidus nulla valetudo vereor. Facilisi inhibeo mos suscipere ymo. Aliquip aptent cui paulatim tego turpis utrum. Aliquip blandit nunc olim oppeto refoveo. Aptent cogo hendrerit humo pagus quidne ulciscor vulpes wisi. Camur esse paulatim quadrum.\n\nAbbas ad aptent consectetuer damnum exerci feugiat lenis rusticus vero. Autem ea gravis ideo melior meus tum. Acsi consectetuer distineo iaceo natu pneum refero scisco vereor. Abbas antehabeo imputo turpis. Comis iaceo nulla patria refoveo virtus.\n\nAbluo ea enim iriure patria valetudo. Mauris obruo quis sino. Loquor olim praemitto suscipere. Commodo feugiat incassum nulla quia saepius. Cui quis suscipere te tincidunt vicis. Autem bene iriure pecus tamen. Autem diam dolus elit gemino ibidem. Blandit capto defui distineo enim gravis humo probo refoveo vulputate.\n\nConsectetuer dignissim vicis. Appellatio nimis premo sed. Diam hendrerit ille interdico jumentum jus neque proprius refero. Antehabeo dolus jumentum lobortis luctus modo quadrum si vel zelus.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_resource_links": [
+        {
+            "uri": "http:\/\/www.nasposleleuedre.gov",
+            "title": "Defui jus luptatum magna sed.",
+            "options": []
+        },
+        {
+            "uri": "http:\/\/www.phibojo.info",
+            "title": "Abluo adipiscing dignissim erat eum ibidem neo quia sit vulpes.",
+            "options": []
+        }
+    ]
+}

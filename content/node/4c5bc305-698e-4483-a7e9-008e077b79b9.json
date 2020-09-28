@@ -1,0 +1,240 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/resources\/ad-diam-eligo-ut?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/resource"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_paragraphs": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_photo": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/6\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_downloads": [
+            {
+                "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/yFa6mBsR8p.txt"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_type": [
+            null
+        ]
+    },
+    "uuid": [
+        {
+            "value": "4c5bc305-698e-4483-a7e9-008e077b79b9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "resource"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-12T14:59:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/image_grid"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "98497a11-a9d7-4aec-b245-f212c8542bf4"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "731"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_photo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/6\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d5f7a113-11d0-46a9-912c-15aabbf1b3a6"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_downloads": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/yFa6mBsR8p.txt"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ffda4814-45fb-4b50-a9e1-ce81d6417498"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_type": [
+            null
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Ad Diam Eligo Ut",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-08T08:09:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T14:59:28+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Ad Diam Eligo Ut | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/resources\/ad-diam-eligo-ut",
+                "description": "Abbas brevitas iriure quadrum refoveo sed. Augue caecus iaceo ibidem nimis oppeto populus quadrum. Exerci genitus illum luptatum paulatim quidne tation ullamcorper validus vulputate. Distineo duis facilisi laoreet lucidus magna paulatim sit. Ibidem minim verto. Ad aptent melior olim os premo quidem veniam. Consectetuer et odio plaga quae.\nCausa ex iriure. Antehabeo dolus duis eros occuro roto secundum singularis. Abdo abluo iusto nobis nostrud plaga similis. Elit neo suscipere vereor zelus. Abdo abigo accumsan humo inhibeo os pagus singularis vulpes.\nAbico facilisis obruo occuro paulatim. Aliquip iriure luptatum proprius quae. Aliquam antehabeo fere illum iustum pala probo ymo. Causa exerci ibidem inhibeo molior mos nobis premo quibus tation. Enim eum ex mauris natu nutus quidne sit virtus. Abbas at refoveo. Abico duis euismod gravis haero neo quidem usitas velit.\nAd aptent brevitas enim immitto oppeto vero virtus wisi. Consectetuer jugis loquor meus virtus. Camur gilvus sudo veniam. Diam eligo iusto iustum qui ulciscor vereor. Accumsan amet brevitas zelus. Amet blandit caecus erat eros immitto nunc quae veniam vulputate.\nAbigo esca humo ibidem quae tincidunt. Eligo et feugiat nulla. Ex facilisi genitus hos jugis lenis lucidus quidne. Augue caecus decet eros quia velit. Facilisi incassum jus luptatum meus olim ullamcorper vereor. Abico abluo blandit conventio facilisis meus pala quidne tum volutpat.\nHumo incassum mauris neo vereor. Abluo aptent jumentum. Haero occuro typicus. Ad aliquam premo. Abbas at importunus velit. Gilvus iustum jus letalis neo paratus ratis sudo tincidunt. Esca quae qui. Abdo pagus saluto singularis volutpat.\nAcsi iusto iustum jumentum quis torqueo ullamcorper. Erat et ille jus mauris quae. Abluo comis damnum luctus mauris plaga rusticus singularis tincidunt volutpat. Aptent caecus premo. Capto fere humo imputo in persto quia typicus ulciscor valde.\nAdipiscing appellatio at caecus dolus loquor magna os typicus. Molior premo verto. Camur jus ludus nulla quia virtus. Duis jugis jumentum luptatum odio pala plaga valetudo vicis ymo. Appellatio duis huic iriure nulla pecus ratis tamen tation. Aliquip commodo iusto letalis oppeto pagus tamen venio ymo. Autem iriure ludus quadrum. Brevitas consectetuer et huic persto refero tation ullamcorper utinam vereor.\nAt blandit duis elit premo quidne ratis sagaciter si vereor. Abdo imputo lenis ludus quadrum quidne si tamen vel. Abbas abdo camur loquor neque patria praesent quia.\nPala populus voco. Damnum huic iaceo importunus minim nutus pertineo sagaciter. Causa cui distineo dolus humo immitto mos quidne. Elit euismod paratus quibus vindico.\nCogo oppeto os persto qui saepius ullamcorper validus. Probo tego uxor wisi. Ad laoreet mos nobis praesent rusticus. Ad appellatio bene euismod nostrud paratus tation. Decet ibidem jus meus natu oppeto saluto vero. Abico autem cogo comis ex ludus neo nutus sudo.\nBene enim exerci fere gravis letalis. Illum molior turpis ullamcorper valetudo virtus wisi. Augue eum natu pneum uxor. Abigo gravis populus. Capto consequat facilisis iaceo ibidem patria paulatim te."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/resources\/ad-diam-eligo-ut",
+            "pid": 456,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Abbas brevitas iriure quadrum refoveo sed. Augue caecus iaceo ibidem nimis oppeto populus quadrum. Exerci genitus illum luptatum paulatim quidne tation ullamcorper validus vulputate. Distineo duis facilisi laoreet lucidus magna paulatim sit. Ibidem minim verto. Ad aptent melior olim os premo quidem veniam. Consectetuer et odio plaga quae.\n\nCausa ex iriure. Antehabeo dolus duis eros occuro roto secundum singularis. Abdo abluo iusto nobis nostrud plaga similis. Elit neo suscipere vereor zelus. Abdo abigo accumsan humo inhibeo os pagus singularis vulpes.\n\nAbico facilisis obruo occuro paulatim. Aliquip iriure luptatum proprius quae. Aliquam antehabeo fere illum iustum pala probo ymo. Causa exerci ibidem inhibeo molior mos nobis premo quibus tation. Enim eum ex mauris natu nutus quidne sit virtus. Abbas at refoveo. Abico duis euismod gravis haero neo quidem usitas velit.\n\nAd aptent brevitas enim immitto oppeto vero virtus wisi. Consectetuer jugis loquor meus virtus. Camur gilvus sudo veniam. Diam eligo iusto iustum qui ulciscor vereor. Accumsan amet brevitas zelus. Amet blandit caecus erat eros immitto nunc quae veniam vulputate.\n\nAbigo esca humo ibidem quae tincidunt. Eligo et feugiat nulla. Ex facilisi genitus hos jugis lenis lucidus quidne. Augue caecus decet eros quia velit. Facilisi incassum jus luptatum meus olim ullamcorper vereor. Abico abluo blandit conventio facilisis meus pala quidne tum volutpat.\n\nHumo incassum mauris neo vereor. Abluo aptent jumentum. Haero occuro typicus. Ad aliquam premo. Abbas at importunus velit. Gilvus iustum jus letalis neo paratus ratis sudo tincidunt. Esca quae qui. Abdo pagus saluto singularis volutpat.\n\nAcsi iusto iustum jumentum quis torqueo ullamcorper. Erat et ille jus mauris quae. Abluo comis damnum luctus mauris plaga rusticus singularis tincidunt volutpat. Aptent caecus premo. Capto fere humo imputo in persto quia typicus ulciscor valde.\n\nAdipiscing appellatio at caecus dolus loquor magna os typicus. Molior premo verto. Camur jus ludus nulla quia virtus. Duis jugis jumentum luptatum odio pala plaga valetudo vicis ymo. Appellatio duis huic iriure nulla pecus ratis tamen tation. Aliquip commodo iusto letalis oppeto pagus tamen venio ymo. Autem iriure ludus quadrum. Brevitas consectetuer et huic persto refero tation ullamcorper utinam vereor.\n\nAt blandit duis elit premo quidne ratis sagaciter si vereor. Abdo imputo lenis ludus quadrum quidne si tamen vel. Abbas abdo camur loquor neque patria praesent quia.\n\nPala populus voco. Damnum huic iaceo importunus minim nutus pertineo sagaciter. Causa cui distineo dolus humo immitto mos quidne. Elit euismod paratus quibus vindico.\n\nCogo oppeto os persto qui saepius ullamcorper validus. Probo tego uxor wisi. Ad laoreet mos nobis praesent rusticus. Ad appellatio bene euismod nostrud paratus tation. Decet ibidem jus meus natu oppeto saluto vero. Abico autem cogo comis ex ludus neo nutus sudo.\n\nBene enim exerci fere gravis letalis. Illum molior turpis ullamcorper valetudo virtus wisi. Augue eum natu pneum uxor. Abigo gravis populus. Capto consequat facilisis iaceo ibidem patria paulatim te.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Abbas brevitas iriure quadrum refoveo sed. Augue caecus iaceo ibidem nimis oppeto populus quadrum. Exerci genitus illum luptatum paulatim quidne tation ullamcorper validus vulputate. Distineo duis facilisi laoreet lucidus magna paulatim sit. Ibidem minim verto. Ad aptent melior olim os premo quidem veniam. Consectetuer et odio plaga quae.<\/p>\n<p>Causa ex iriure. Antehabeo dolus duis eros occuro roto secundum singularis. Abdo abluo iusto nobis nostrud plaga similis. Elit neo suscipere vereor zelus. Abdo abigo accumsan humo inhibeo os pagus singularis vulpes.<\/p>\n<p>Abico facilisis obruo occuro paulatim. Aliquip iriure luptatum proprius quae. Aliquam antehabeo fere illum iustum pala probo ymo. Causa exerci ibidem inhibeo molior mos nobis premo quibus tation. Enim eum ex mauris natu nutus quidne sit virtus. Abbas at refoveo. Abico duis euismod gravis haero neo quidem usitas velit.<\/p>\n<p>Ad aptent brevitas enim immitto oppeto vero virtus wisi. Consectetuer jugis loquor meus virtus. Camur gilvus sudo veniam. Diam eligo iusto iustum qui ulciscor vereor. Accumsan amet brevitas zelus. Amet blandit caecus erat eros immitto nunc quae veniam vulputate.<\/p>\n<p>Abigo esca humo ibidem quae tincidunt. Eligo et feugiat nulla. Ex facilisi genitus hos jugis lenis lucidus quidne. Augue caecus decet eros quia velit. Facilisi incassum jus luptatum meus olim ullamcorper vereor. Abico abluo blandit conventio facilisis meus pala quidne tum volutpat.<\/p>\n<p>Humo incassum mauris neo vereor. Abluo aptent jumentum. Haero occuro typicus. Ad aliquam premo. Abbas at importunus velit. Gilvus iustum jus letalis neo paratus ratis sudo tincidunt. Esca quae qui. Abdo pagus saluto singularis volutpat.<\/p>\n<p>Acsi iusto iustum jumentum quis torqueo ullamcorper. Erat et ille jus mauris quae. Abluo comis damnum luctus mauris plaga rusticus singularis tincidunt volutpat. Aptent caecus premo. Capto fere humo imputo in persto quia typicus ulciscor valde.<\/p>\n<p>Adipiscing appellatio at caecus dolus loquor magna os typicus. Molior premo verto. Camur jus ludus nulla quia virtus. Duis jugis jumentum luptatum odio pala plaga valetudo vicis ymo. Appellatio duis huic iriure nulla pecus ratis tamen tation. Aliquip commodo iusto letalis oppeto pagus tamen venio ymo. Autem iriure ludus quadrum. Brevitas consectetuer et huic persto refero tation ullamcorper utinam vereor.<\/p>\n<p>At blandit duis elit premo quidne ratis sagaciter si vereor. Abdo imputo lenis ludus quadrum quidne si tamen vel. Abbas abdo camur loquor neque patria praesent quia.<\/p>\n<p>Pala populus voco. Damnum huic iaceo importunus minim nutus pertineo sagaciter. Causa cui distineo dolus humo immitto mos quidne. Elit euismod paratus quibus vindico.<\/p>\n<p>Cogo oppeto os persto qui saepius ullamcorper validus. Probo tego uxor wisi. Ad laoreet mos nobis praesent rusticus. Ad appellatio bene euismod nostrud paratus tation. Decet ibidem jus meus natu oppeto saluto vero. Abico autem cogo comis ex ludus neo nutus sudo.<\/p>\n<p>Bene enim exerci fere gravis letalis. Illum molior turpis ullamcorper valetudo virtus wisi. Augue eum natu pneum uxor. Abigo gravis populus. Capto consequat facilisis iaceo ibidem patria paulatim te.<\/p>\n",
+            "summary": "Abbas brevitas iriure quadrum refoveo sed. Augue caecus iaceo ibidem nimis oppeto populus quadrum. Exerci genitus illum luptatum paulatim quidne tation ullamcorper validus vulputate. Distineo duis facilisi laoreet lucidus magna paulatim sit. Ibidem minim verto. Ad aptent melior olim os premo quidem veniam. Consectetuer et odio plaga quae.\n\nCausa ex iriure. Antehabeo dolus duis eros occuro roto secundum singularis. Abdo abluo iusto nobis nostrud plaga similis. Elit neo suscipere vereor zelus. Abdo abigo accumsan humo inhibeo os pagus singularis vulpes.\n\nAbico facilisis obruo occuro paulatim. Aliquip iriure luptatum proprius quae. Aliquam antehabeo fere illum iustum pala probo ymo. Causa exerci ibidem inhibeo molior mos nobis premo quibus tation. Enim eum ex mauris natu nutus quidne sit virtus. Abbas at refoveo. Abico duis euismod gravis haero neo quidem usitas velit.\n\nAd aptent brevitas enim immitto oppeto vero virtus wisi. Consectetuer jugis loquor meus virtus. Camur gilvus sudo veniam. Diam eligo iusto iustum qui ulciscor vereor. Accumsan amet brevitas zelus. Amet blandit caecus erat eros immitto nunc quae veniam vulputate.\n\nAbigo esca humo ibidem quae tincidunt. Eligo et feugiat nulla. Ex facilisi genitus hos jugis lenis lucidus quidne. Augue caecus decet eros quia velit. Facilisi incassum jus luptatum meus olim ullamcorper vereor. Abico abluo blandit conventio facilisis meus pala quidne tum volutpat.\n\nHumo incassum mauris neo vereor. Abluo aptent jumentum. Haero occuro typicus. Ad aliquam premo. Abbas at importunus velit. Gilvus iustum jus letalis neo paratus ratis sudo tincidunt. Esca quae qui. Abdo pagus saluto singularis volutpat.\n\nAcsi iusto iustum jumentum quis torqueo ullamcorper. Erat et ille jus mauris quae. Abluo comis damnum luctus mauris plaga rusticus singularis tincidunt volutpat. Aptent caecus premo. Capto fere humo imputo in persto quia typicus ulciscor valde.\n\nAdipiscing appellatio at caecus dolus loquor magna os typicus. Molior premo verto. Camur jus ludus nulla quia virtus. Duis jugis jumentum luptatum odio pala plaga valetudo vicis ymo. Appellatio duis huic iriure nulla pecus ratis tamen tation. Aliquip commodo iusto letalis oppeto pagus tamen venio ymo. Autem iriure ludus quadrum. Brevitas consectetuer et huic persto refero tation ullamcorper utinam vereor.\n\nAt blandit duis elit premo quidne ratis sagaciter si vereor. Abdo imputo lenis ludus quadrum quidne si tamen vel. Abbas abdo camur loquor neque patria praesent quia.\n\nPala populus voco. Damnum huic iaceo importunus minim nutus pertineo sagaciter. Causa cui distineo dolus humo immitto mos quidne. Elit euismod paratus quibus vindico.\n\nCogo oppeto os persto qui saepius ullamcorper validus. Probo tego uxor wisi. Ad laoreet mos nobis praesent rusticus. Ad appellatio bene euismod nostrud paratus tation. Decet ibidem jus meus natu oppeto saluto vero. Abico autem cogo comis ex ludus neo nutus sudo.\n\nBene enim exerci fere gravis letalis. Illum molior turpis ullamcorper valetudo virtus wisi. Augue eum natu pneum uxor. Abigo gravis populus. Capto consequat facilisis iaceo ibidem patria paulatim te.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_resource_links": [
+        {
+            "uri": "http:\/\/www.slotrubo.net",
+            "title": "Elit eu importunus imputo in iriure luctus macto saepius vulputate.",
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,213 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/news\/ideo-ratis-scisco?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/article"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_news_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_photo": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/5\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "lang": "en"
+            },
+            {
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "a3daaf22-85a2-418a-a821-f48f0e814ba8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-12T13:29:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_news_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_photo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/5\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1c5fc016-65a6-4a1c-8f70-4cf6fb2b9e47"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "lang": "en"
+            },
+            {
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Ideo Ratis Scisco",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-11T06:21:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T13:29:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Ideo Ratis Scisco | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/news\/ideo-ratis-scisco",
+                "description": "Amet dolor ea ideo immitto melior os paulatim quae voco. Augue blandit cogo defui letalis. Abbas ideo jugis luctus mos nisl saluto vereor vicis. Exerci luptatum nimis populus ratis tego uxor validus. Autem esse euismod ex lucidus venio. Commodo dolor iriure nimis nostrud patria zelus. Brevitas caecus gemino hendrerit ibidem natu sagaciter utrum vero.\nAbico consequat immitto quadrum sagaciter ut vicis vindico. Iustum oppeto tamen tum. Ad diam elit huic iustum vindico. Dignissim lucidus nutus venio. Caecus conventio jumentum lucidus pagus qui quia tincidunt volutpat. At brevitas cui euismod ex huic ideo nimis nulla. Ea erat feugiat hendrerit molior tego torqueo turpis.\nCapto defui dolor imputo neque rusticus sed te tum. Aliquam eum gemino ille mos natu neque nutus scisco. Abdo iustum ludus minim virtus. Appellatio dolor exerci fere natu zelus. Defui duis humo nobis olim saluto. Defui jus meus utinam. Blandit eros macto. Commodo elit eu nobis populus probo vel. Autem ea elit letalis loquor melior nutus paulatim.\nAppellatio at diam haero neo sudo usitas. Aptent at hendrerit jugis macto molior ratis saluto turpis. Adipiscing causa diam gilvus imputo patria singularis suscipit vel velit. Capto nunc turpis. Commodo pecus premo virtus ymo. Aptent natu patria tum veniam vereor.\nEa melior mos pneum refero secundum suscipit tincidunt valde. Aliquam aliquip amet esca gemino iriure mos natu paratus saluto. Diam dignissim duis feugiat macto mauris neque os scisco uxor. Ea melior vel vicis. Haero ludus nunc saluto. Appellatio enim laoreet proprius sino ulciscor usitas.\nNeque refero ut uxor. Exerci ille sudo utrum. At autem nulla refero saluto suscipit valde verto. Nibh sudo utinam. Accumsan brevitas incassum magna paratus rusticus sed vulputate. Blandit commoveo diam melior quidne suscipere torqueo utinam.\nNibh nimis valde. Aptent comis ex hos incassum minim molior pecus sit valde. Genitus hos valetudo vicis. Antehabeo distineo facilisi lobortis metuo veniam. Consequat gilvus ludus quae. Acsi decet jugis ludus mauris nutus secundum suscipere ulciscor vulpes. Enim esca nobis occuro similis suscipere volutpat. Brevitas facilisis haero huic jus nisl pecus te uxor. Bene humo immitto inhibeo iusto jugis typicus ymo.\nNulla persto quae utrum vulputate. Adipiscing augue dolore dolus exerci facilisi inhibeo quis vereor. Dignissim enim et tego. Nulla praemitto proprius suscipit tamen. Distineo fere gravis quae typicus vulputate. Exerci hos importunus laoreet nisl nutus odio probo secundum tamen. Cui enim gemino incassum meus natu quia quidem turpis. Ex humo letalis macto os quis typicus. Adipiscing cogo duis eum nimis oppeto quibus te.\nAliquam esca nimis saluto valde. Duis ea jus nunc refero saluto singularis. Commoveo enim ex lenis magna usitas vel voco. Dolore eligo euismod jus mauris roto valetudo vindico. Erat pecus quia. Genitus plaga quae veniam vulputate. Abluo eligo proprius. Amet haero mauris. Aliquip amet facilisis melior quis roto.\nAbigo comis defui elit facilisi feugiat natu obruo paratus. Capto hendrerit nisl praemitto. Adipiscing camur et euismod mauris quibus. Consectetuer et lenis nimis paulatim velit. Iaceo lenis minim modo secundum vero. Nulla quidem vicis virtus. Ad cogo eros jugis ratis refero tincidunt uxor. Abbas aliquip bene brevitas mos pala populus. Abico duis facilisis inhibeo obruo. Ad ex feugiat occuro quidne ratis venio.\nAbdo aliquam jugis meus probo. Bene causa commodo gemino genitus utrum vindico. Humo interdico letalis melior praesent singularis tum ullamcorper utrum. Ex hendrerit importunus mauris meus wisi. Autem defui dolus huic jumentum modo quibus rusticus tamen vulpes.\nCausa ex gilvus importunus minim pneum. Gilvus interdico magna mos neque os probo proprius valde. Ad camur facilisi gilvus laoreet populus secundum vel. Appellatio iusto jus ullamcorper uxor. Abico macto refoveo te valetudo. Cogo dolus fere feugiat refoveo. Abdo uxor zelus. Ad consequat ibidem illum interdico magna neque nibh occuro rusticus. Antehabeo appellatio commodo cui exputo minim uxor ymo."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/news\/ideo-ratis-scisco",
+            "pid": 258,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Amet dolor ea ideo immitto melior os paulatim quae voco. Augue blandit cogo defui letalis. Abbas ideo jugis luctus mos nisl saluto vereor vicis. Exerci luptatum nimis populus ratis tego uxor validus. Autem esse euismod ex lucidus venio. Commodo dolor iriure nimis nostrud patria zelus. Brevitas caecus gemino hendrerit ibidem natu sagaciter utrum vero.\n\nAbico consequat immitto quadrum sagaciter ut vicis vindico. Iustum oppeto tamen tum. Ad diam elit huic iustum vindico. Dignissim lucidus nutus venio. Caecus conventio jumentum lucidus pagus qui quia tincidunt volutpat. At brevitas cui euismod ex huic ideo nimis nulla. Ea erat feugiat hendrerit molior tego torqueo turpis.\n\nCapto defui dolor imputo neque rusticus sed te tum. Aliquam eum gemino ille mos natu neque nutus scisco. Abdo iustum ludus minim virtus. Appellatio dolor exerci fere natu zelus. Defui duis humo nobis olim saluto. Defui jus meus utinam. Blandit eros macto. Commodo elit eu nobis populus probo vel. Autem ea elit letalis loquor melior nutus paulatim.\n\nAppellatio at diam haero neo sudo usitas. Aptent at hendrerit jugis macto molior ratis saluto turpis. Adipiscing causa diam gilvus imputo patria singularis suscipit vel velit. Capto nunc turpis. Commodo pecus premo virtus ymo. Aptent natu patria tum veniam vereor.\n\nEa melior mos pneum refero secundum suscipit tincidunt valde. Aliquam aliquip amet esca gemino iriure mos natu paratus saluto. Diam dignissim duis feugiat macto mauris neque os scisco uxor. Ea melior vel vicis. Haero ludus nunc saluto. Appellatio enim laoreet proprius sino ulciscor usitas.\n\nNeque refero ut uxor. Exerci ille sudo utrum. At autem nulla refero saluto suscipit valde verto. Nibh sudo utinam. Accumsan brevitas incassum magna paratus rusticus sed vulputate. Blandit commoveo diam melior quidne suscipere torqueo utinam.\n\nNibh nimis valde. Aptent comis ex hos incassum minim molior pecus sit valde. Genitus hos valetudo vicis. Antehabeo distineo facilisi lobortis metuo veniam. Consequat gilvus ludus quae. Acsi decet jugis ludus mauris nutus secundum suscipere ulciscor vulpes. Enim esca nobis occuro similis suscipere volutpat. Brevitas facilisis haero huic jus nisl pecus te uxor. Bene humo immitto inhibeo iusto jugis typicus ymo.\n\nNulla persto quae utrum vulputate. Adipiscing augue dolore dolus exerci facilisi inhibeo quis vereor. Dignissim enim et tego. Nulla praemitto proprius suscipit tamen. Distineo fere gravis quae typicus vulputate. Exerci hos importunus laoreet nisl nutus odio probo secundum tamen. Cui enim gemino incassum meus natu quia quidem turpis. Ex humo letalis macto os quis typicus. Adipiscing cogo duis eum nimis oppeto quibus te.\n\nAliquam esca nimis saluto valde. Duis ea jus nunc refero saluto singularis. Commoveo enim ex lenis magna usitas vel voco. Dolore eligo euismod jus mauris roto valetudo vindico. Erat pecus quia. Genitus plaga quae veniam vulputate. Abluo eligo proprius. Amet haero mauris. Aliquip amet facilisis melior quis roto.\n\nAbigo comis defui elit facilisi feugiat natu obruo paratus. Capto hendrerit nisl praemitto. Adipiscing camur et euismod mauris quibus. Consectetuer et lenis nimis paulatim velit. Iaceo lenis minim modo secundum vero. Nulla quidem vicis virtus. Ad cogo eros jugis ratis refero tincidunt uxor. Abbas aliquip bene brevitas mos pala populus. Abico duis facilisis inhibeo obruo. Ad ex feugiat occuro quidne ratis venio.\n\nAbdo aliquam jugis meus probo. Bene causa commodo gemino genitus utrum vindico. Humo interdico letalis melior praesent singularis tum ullamcorper utrum. Ex hendrerit importunus mauris meus wisi. Autem defui dolus huic jumentum modo quibus rusticus tamen vulpes.\n\nCausa ex gilvus importunus minim pneum. Gilvus interdico magna mos neque os probo proprius valde. Ad camur facilisi gilvus laoreet populus secundum vel. Appellatio iusto jus ullamcorper uxor. Abico macto refoveo te valetudo. Cogo dolus fere feugiat refoveo. Abdo uxor zelus. Ad consequat ibidem illum interdico magna neque nibh occuro rusticus. Antehabeo appellatio commodo cui exputo minim uxor ymo.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Amet dolor ea ideo immitto melior os paulatim quae voco. Augue blandit cogo defui letalis. Abbas ideo jugis luctus mos nisl saluto vereor vicis. Exerci luptatum nimis populus ratis tego uxor validus. Autem esse euismod ex lucidus venio. Commodo dolor iriure nimis nostrud patria zelus. Brevitas caecus gemino hendrerit ibidem natu sagaciter utrum vero.<\/p>\n<p>Abico consequat immitto quadrum sagaciter ut vicis vindico. Iustum oppeto tamen tum. Ad diam elit huic iustum vindico. Dignissim lucidus nutus venio. Caecus conventio jumentum lucidus pagus qui quia tincidunt volutpat. At brevitas cui euismod ex huic ideo nimis nulla. Ea erat feugiat hendrerit molior tego torqueo turpis.<\/p>\n<p>Capto defui dolor imputo neque rusticus sed te tum. Aliquam eum gemino ille mos natu neque nutus scisco. Abdo iustum ludus minim virtus. Appellatio dolor exerci fere natu zelus. Defui duis humo nobis olim saluto. Defui jus meus utinam. Blandit eros macto. Commodo elit eu nobis populus probo vel. Autem ea elit letalis loquor melior nutus paulatim.<\/p>\n<p>Appellatio at diam haero neo sudo usitas. Aptent at hendrerit jugis macto molior ratis saluto turpis. Adipiscing causa diam gilvus imputo patria singularis suscipit vel velit. Capto nunc turpis. Commodo pecus premo virtus ymo. Aptent natu patria tum veniam vereor.<\/p>\n<p>Ea melior mos pneum refero secundum suscipit tincidunt valde. Aliquam aliquip amet esca gemino iriure mos natu paratus saluto. Diam dignissim duis feugiat macto mauris neque os scisco uxor. Ea melior vel vicis. Haero ludus nunc saluto. Appellatio enim laoreet proprius sino ulciscor usitas.<\/p>\n<p>Neque refero ut uxor. Exerci ille sudo utrum. At autem nulla refero saluto suscipit valde verto. Nibh sudo utinam. Accumsan brevitas incassum magna paratus rusticus sed vulputate. Blandit commoveo diam melior quidne suscipere torqueo utinam.<\/p>\n<p>Nibh nimis valde. Aptent comis ex hos incassum minim molior pecus sit valde. Genitus hos valetudo vicis. Antehabeo distineo facilisi lobortis metuo veniam. Consequat gilvus ludus quae. Acsi decet jugis ludus mauris nutus secundum suscipere ulciscor vulpes. Enim esca nobis occuro similis suscipere volutpat. Brevitas facilisis haero huic jus nisl pecus te uxor. Bene humo immitto inhibeo iusto jugis typicus ymo.<\/p>\n<p>Nulla persto quae utrum vulputate. Adipiscing augue dolore dolus exerci facilisi inhibeo quis vereor. Dignissim enim et tego. Nulla praemitto proprius suscipit tamen. Distineo fere gravis quae typicus vulputate. Exerci hos importunus laoreet nisl nutus odio probo secundum tamen. Cui enim gemino incassum meus natu quia quidem turpis. Ex humo letalis macto os quis typicus. Adipiscing cogo duis eum nimis oppeto quibus te.<\/p>\n<p>Aliquam esca nimis saluto valde. Duis ea jus nunc refero saluto singularis. Commoveo enim ex lenis magna usitas vel voco. Dolore eligo euismod jus mauris roto valetudo vindico. Erat pecus quia. Genitus plaga quae veniam vulputate. Abluo eligo proprius. Amet haero mauris. Aliquip amet facilisis melior quis roto.<\/p>\n<p>Abigo comis defui elit facilisi feugiat natu obruo paratus. Capto hendrerit nisl praemitto. Adipiscing camur et euismod mauris quibus. Consectetuer et lenis nimis paulatim velit. Iaceo lenis minim modo secundum vero. Nulla quidem vicis virtus. Ad cogo eros jugis ratis refero tincidunt uxor. Abbas aliquip bene brevitas mos pala populus. Abico duis facilisis inhibeo obruo. Ad ex feugiat occuro quidne ratis venio.<\/p>\n<p>Abdo aliquam jugis meus probo. Bene causa commodo gemino genitus utrum vindico. Humo interdico letalis melior praesent singularis tum ullamcorper utrum. Ex hendrerit importunus mauris meus wisi. Autem defui dolus huic jumentum modo quibus rusticus tamen vulpes.<\/p>\n<p>Causa ex gilvus importunus minim pneum. Gilvus interdico magna mos neque os probo proprius valde. Ad camur facilisi gilvus laoreet populus secundum vel. Appellatio iusto jus ullamcorper uxor. Abico macto refoveo te valetudo. Cogo dolus fere feugiat refoveo. Abdo uxor zelus. Ad consequat ibidem illum interdico magna neque nibh occuro rusticus. Antehabeo appellatio commodo cui exputo minim uxor ymo.<\/p>\n",
+            "summary": "Amet dolor ea ideo immitto melior os paulatim quae voco. Augue blandit cogo defui letalis. Abbas ideo jugis luctus mos nisl saluto vereor vicis. Exerci luptatum nimis populus ratis tego uxor validus. Autem esse euismod ex lucidus venio. Commodo dolor iriure nimis nostrud patria zelus. Brevitas caecus gemino hendrerit ibidem natu sagaciter utrum vero.\n\nAbico consequat immitto quadrum sagaciter ut vicis vindico. Iustum oppeto tamen tum. Ad diam elit huic iustum vindico. Dignissim lucidus nutus venio. Caecus conventio jumentum lucidus pagus qui quia tincidunt volutpat. At brevitas cui euismod ex huic ideo nimis nulla. Ea erat feugiat hendrerit molior tego torqueo turpis.\n\nCapto defui dolor imputo neque rusticus sed te tum. Aliquam eum gemino ille mos natu neque nutus scisco. Abdo iustum ludus minim virtus. Appellatio dolor exerci fere natu zelus. Defui duis humo nobis olim saluto. Defui jus meus utinam. Blandit eros macto. Commodo elit eu nobis populus probo vel. Autem ea elit letalis loquor melior nutus paulatim.\n\nAppellatio at diam haero neo sudo usitas. Aptent at hendrerit jugis macto molior ratis saluto turpis. Adipiscing causa diam gilvus imputo patria singularis suscipit vel velit. Capto nunc turpis. Commodo pecus premo virtus ymo. Aptent natu patria tum veniam vereor.\n\nEa melior mos pneum refero secundum suscipit tincidunt valde. Aliquam aliquip amet esca gemino iriure mos natu paratus saluto. Diam dignissim duis feugiat macto mauris neque os scisco uxor. Ea melior vel vicis. Haero ludus nunc saluto. Appellatio enim laoreet proprius sino ulciscor usitas.\n\nNeque refero ut uxor. Exerci ille sudo utrum. At autem nulla refero saluto suscipit valde verto. Nibh sudo utinam. Accumsan brevitas incassum magna paratus rusticus sed vulputate. Blandit commoveo diam melior quidne suscipere torqueo utinam.\n\nNibh nimis valde. Aptent comis ex hos incassum minim molior pecus sit valde. Genitus hos valetudo vicis. Antehabeo distineo facilisi lobortis metuo veniam. Consequat gilvus ludus quae. Acsi decet jugis ludus mauris nutus secundum suscipere ulciscor vulpes. Enim esca nobis occuro similis suscipere volutpat. Brevitas facilisis haero huic jus nisl pecus te uxor. Bene humo immitto inhibeo iusto jugis typicus ymo.\n\nNulla persto quae utrum vulputate. Adipiscing augue dolore dolus exerci facilisi inhibeo quis vereor. Dignissim enim et tego. Nulla praemitto proprius suscipit tamen. Distineo fere gravis quae typicus vulputate. Exerci hos importunus laoreet nisl nutus odio probo secundum tamen. Cui enim gemino incassum meus natu quia quidem turpis. Ex humo letalis macto os quis typicus. Adipiscing cogo duis eum nimis oppeto quibus te.\n\nAliquam esca nimis saluto valde. Duis ea jus nunc refero saluto singularis. Commoveo enim ex lenis magna usitas vel voco. Dolore eligo euismod jus mauris roto valetudo vindico. Erat pecus quia. Genitus plaga quae veniam vulputate. Abluo eligo proprius. Amet haero mauris. Aliquip amet facilisis melior quis roto.\n\nAbigo comis defui elit facilisi feugiat natu obruo paratus. Capto hendrerit nisl praemitto. Adipiscing camur et euismod mauris quibus. Consectetuer et lenis nimis paulatim velit. Iaceo lenis minim modo secundum vero. Nulla quidem vicis virtus. Ad cogo eros jugis ratis refero tincidunt uxor. Abbas aliquip bene brevitas mos pala populus. Abico duis facilisis inhibeo obruo. Ad ex feugiat occuro quidne ratis venio.\n\nAbdo aliquam jugis meus probo. Bene causa commodo gemino genitus utrum vindico. Humo interdico letalis melior praesent singularis tum ullamcorper utrum. Ex hendrerit importunus mauris meus wisi. Autem defui dolus huic jumentum modo quibus rusticus tamen vulpes.\n\nCausa ex gilvus importunus minim pneum. Gilvus interdico magna mos neque os probo proprius valde. Ad camur facilisi gilvus laoreet populus secundum vel. Appellatio iusto jus ullamcorper uxor. Abico macto refoveo te valetudo. Cogo dolus fere feugiat refoveo. Abdo uxor zelus. Ad consequat ibidem illum interdico magna neque nibh occuro rusticus. Antehabeo appellatio commodo cui exputo minim uxor ymo.\n\n",
+            "lang": "en"
+        }
+    ],
+    "comment": [
+        {
+            "status": 1,
+            "cid": 0,
+            "last_comment_timestamp": 1597238945,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ]
+}

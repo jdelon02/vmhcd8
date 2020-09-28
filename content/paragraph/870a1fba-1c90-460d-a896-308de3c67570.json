@@ -1,0 +1,134 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/slideshow"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/paragraph\/slideshow\/field_slides": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "870a1fba-1c90-460d-a896-308de3c67570"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "slideshow"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-07-16T19:04:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraphs"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_layout": [
+        {
+            "value": "full_width",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/paragraph\/slideshow\/field_slides": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/slide"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "aa938134-de31-4642-ad5e-647a668271c7"
+                    }
+                ],
+                "target_revision_id": "781"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/slide"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bfc12882-d0a3-45ed-bbfb-aaf8fb4f8bc0"
+                    }
+                ],
+                "target_revision_id": "782"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/slide"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2ac5c132-8a68-43bd-9d94-52c2dff01d7a"
+                    }
+                ],
+                "target_revision_id": "783"
+            }
+        ]
+    }
+}

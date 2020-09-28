@@ -1,0 +1,199 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/events\/dolore-esse-patria-virtus?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/event"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_event_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_photo": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/4\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "481584aa-e898-4ffa-9ab7-1cfe35e2a1ad"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "event"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-12T14:19:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_event_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_photo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/4\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c2bfbe20-55d7-4350-ab89-d2dff5859d71"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Dolore Esse Patria Virtus",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-09T19:26:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T14:19:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Dolore Esse Patria Virtus | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/events\/dolore-esse-patria-virtus",
+                "description": "Acsi paulatim si vicis. Aliquip quidem turpis. Eros macto pala torqueo turpis valetudo vulputate. Diam elit et iaceo plaga quis sed vel vulputate. Camur ideo lobortis ludus nibh pneum tamen ut.\nAmet consequat enim. Ad autem blandit eligo genitus importunus quidem suscipere ymo zelus. Dignissim genitus loquor luctus magna occuro. Elit molior vulpes. Antehabeo autem esse metuo patria utrum voco. At dolor jumentum mauris roto tamen vindico. Macto plaga premo quis. Appellatio luptatum rusticus. At caecus haero letalis oppeto quis similis singularis.\nCogo esse nutus occuro quadrum. Abdo ideo nimis obruo saluto similis sino uxor venio. Luptatum mauris melior patria. Dolore meus nobis nulla. Genitus luctus paratus singularis tego zelus. Damnum incassum meus nisl. Aliquam appellatio augue cui laoreet paulatim quae. Acsi dolus hendrerit letalis luctus mos paulatim vindico.\nDignissim duis feugiat interdico loquor natu paratus pneum wisi. Cui esse huic macto metuo nibh similis sino velit verto. Commoveo esse oppeto te validus vindico zelus. Damnum distineo gilvus molior obruo quadrum veniam. Cui dolus eros hendrerit. Fere metuo neo valetudo. Eros loquor luctus validus voco. Antehabeo camur dolor inhibeo iusto letalis minim neo singularis valde.\nAbico diam interdico scisco. Abigo autem nostrud sagaciter sit. Consectetuer defui dignissim sino validus. Acsi elit lenis odio olim plaga uxor validus. Dolus eu gravis hos iusto minim volutpat. Consectetuer et eu gilvus nisl praemitto quibus turpis utinam.\nCogo modo paulatim qui ratis zelus. Abbas abigo antehabeo duis hendrerit loquor neque quae suscipere tincidunt. Fere jugis lobortis mauris neque probo ratis. Ad duis lucidus melior minim pagus singularis turpis vero.\nBene consectetuer dolor laoreet mauris nostrud tincidunt uxor wisi. Augue capto dolore in pala tincidunt ullamcorper. Blandit ex nostrud plaga sit tum. Quidem secundum sino ut. Antehabeo conventio si. Facilisis humo nibh nostrud nutus sino virtus. Gilvus luctus nunc premo quia rusticus vicis. Abdo acsi lobortis olim tamen.\nAmet brevitas duis iriure ratis refero sed utrum velit verto. Amet aptent fere jus. Patria pecus saepius suscipere vel. Letalis natu pecus qui. Abico abluo mauris nulla oppeto praesent probo sudo vulputate. Eros importunus magna. Caecus importunus praesent sagaciter sino tego.\nEros luptatum melior mos olim. Incassum iusto natu valetudo. Augue commodo esse eum iaceo quae utrum valde zelus. Duis eligo iustum laoreet magna nunc quis sit. Antehabeo augue immitto inhibeo macto magna nobis saluto. Aliquam caecus roto ut. Abigo cui eu immitto neo praemitto quibus. Comis jugis natu pertineo singularis tamen utinam. Abluo commodo hendrerit nutus venio. Causa elit et facilisi in luptatum natu paratus veniam ymo.\nAbigo ad aliquip commodo ea occuro pala. Amet in luptatum mos patria populus. Abluo acsi macto pertineo quis ratis tego. Adipiscing haero iusto oppeto scisco ymo. Cogo interdico wisi. Caecus molior obruo sed vulputate. Ea euismod hos humo persto roto. Caecus defui gravis immitto praemitto roto valde valetudo validus.\nEum humo ideo olim quibus. Causa dolore mos. Appellatio commodo commoveo. Abico dolus exputo iusto. Augue consectetuer nobis. Huic metuo modo nisl quadrum sed ullamcorper vindico. Lucidus natu quae.\nDefui exputo refero sagaciter. Capto haero imputo minim persto valde. Abdo accumsan cui humo iaceo jugis obruo praemitto scisco. Facilisis incassum lucidus magna oppeto paratus roto sit tation zelus. Eros nisl pneum tincidunt. Aliquam camur causa feugiat iusto nobis paratus roto vulputate."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/events\/dolore-esse-patria-virtus",
+            "pid": 350,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Acsi paulatim si vicis. Aliquip quidem turpis. Eros macto pala torqueo turpis valetudo vulputate. Diam elit et iaceo plaga quis sed vel vulputate. Camur ideo lobortis ludus nibh pneum tamen ut.\n\nAmet consequat enim. Ad autem blandit eligo genitus importunus quidem suscipere ymo zelus. Dignissim genitus loquor luctus magna occuro. Elit molior vulpes. Antehabeo autem esse metuo patria utrum voco. At dolor jumentum mauris roto tamen vindico. Macto plaga premo quis. Appellatio luptatum rusticus. At caecus haero letalis oppeto quis similis singularis.\n\nCogo esse nutus occuro quadrum. Abdo ideo nimis obruo saluto similis sino uxor venio. Luptatum mauris melior patria. Dolore meus nobis nulla. Genitus luctus paratus singularis tego zelus. Damnum incassum meus nisl. Aliquam appellatio augue cui laoreet paulatim quae. Acsi dolus hendrerit letalis luctus mos paulatim vindico.\n\nDignissim duis feugiat interdico loquor natu paratus pneum wisi. Cui esse huic macto metuo nibh similis sino velit verto. Commoveo esse oppeto te validus vindico zelus. Damnum distineo gilvus molior obruo quadrum veniam. Cui dolus eros hendrerit. Fere metuo neo valetudo. Eros loquor luctus validus voco. Antehabeo camur dolor inhibeo iusto letalis minim neo singularis valde.\n\nAbico diam interdico scisco. Abigo autem nostrud sagaciter sit. Consectetuer defui dignissim sino validus. Acsi elit lenis odio olim plaga uxor validus. Dolus eu gravis hos iusto minim volutpat. Consectetuer et eu gilvus nisl praemitto quibus turpis utinam.\n\nCogo modo paulatim qui ratis zelus. Abbas abigo antehabeo duis hendrerit loquor neque quae suscipere tincidunt. Fere jugis lobortis mauris neque probo ratis. Ad duis lucidus melior minim pagus singularis turpis vero.\n\nBene consectetuer dolor laoreet mauris nostrud tincidunt uxor wisi. Augue capto dolore in pala tincidunt ullamcorper. Blandit ex nostrud plaga sit tum. Quidem secundum sino ut. Antehabeo conventio si. Facilisis humo nibh nostrud nutus sino virtus. Gilvus luctus nunc premo quia rusticus vicis. Abdo acsi lobortis olim tamen.\n\nAmet brevitas duis iriure ratis refero sed utrum velit verto. Amet aptent fere jus. Patria pecus saepius suscipere vel. Letalis natu pecus qui. Abico abluo mauris nulla oppeto praesent probo sudo vulputate. Eros importunus magna. Caecus importunus praesent sagaciter sino tego.\n\nEros luptatum melior mos olim. Incassum iusto natu valetudo. Augue commodo esse eum iaceo quae utrum valde zelus. Duis eligo iustum laoreet magna nunc quis sit. Antehabeo augue immitto inhibeo macto magna nobis saluto. Aliquam caecus roto ut. Abigo cui eu immitto neo praemitto quibus. Comis jugis natu pertineo singularis tamen utinam. Abluo commodo hendrerit nutus venio. Causa elit et facilisi in luptatum natu paratus veniam ymo.\n\nAbigo ad aliquip commodo ea occuro pala. Amet in luptatum mos patria populus. Abluo acsi macto pertineo quis ratis tego. Adipiscing haero iusto oppeto scisco ymo. Cogo interdico wisi. Caecus molior obruo sed vulputate. Ea euismod hos humo persto roto. Caecus defui gravis immitto praemitto roto valde valetudo validus.\n\nEum humo ideo olim quibus. Causa dolore mos. Appellatio commodo commoveo. Abico dolus exputo iusto. Augue consectetuer nobis. Huic metuo modo nisl quadrum sed ullamcorper vindico. Lucidus natu quae.\n\nDefui exputo refero sagaciter. Capto haero imputo minim persto valde. Abdo accumsan cui humo iaceo jugis obruo praemitto scisco. Facilisis incassum lucidus magna oppeto paratus roto sit tation zelus. Eros nisl pneum tincidunt. Aliquam camur causa feugiat iusto nobis paratus roto vulputate.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Acsi paulatim si vicis. Aliquip quidem turpis. Eros macto pala torqueo turpis valetudo vulputate. Diam elit et iaceo plaga quis sed vel vulputate. Camur ideo lobortis ludus nibh pneum tamen ut.<\/p>\n<p>Amet consequat enim. Ad autem blandit eligo genitus importunus quidem suscipere ymo zelus. Dignissim genitus loquor luctus magna occuro. Elit molior vulpes. Antehabeo autem esse metuo patria utrum voco. At dolor jumentum mauris roto tamen vindico. Macto plaga premo quis. Appellatio luptatum rusticus. At caecus haero letalis oppeto quis similis singularis.<\/p>\n<p>Cogo esse nutus occuro quadrum. Abdo ideo nimis obruo saluto similis sino uxor venio. Luptatum mauris melior patria. Dolore meus nobis nulla. Genitus luctus paratus singularis tego zelus. Damnum incassum meus nisl. Aliquam appellatio augue cui laoreet paulatim quae. Acsi dolus hendrerit letalis luctus mos paulatim vindico.<\/p>\n<p>Dignissim duis feugiat interdico loquor natu paratus pneum wisi. Cui esse huic macto metuo nibh similis sino velit verto. Commoveo esse oppeto te validus vindico zelus. Damnum distineo gilvus molior obruo quadrum veniam. Cui dolus eros hendrerit. Fere metuo neo valetudo. Eros loquor luctus validus voco. Antehabeo camur dolor inhibeo iusto letalis minim neo singularis valde.<\/p>\n<p>Abico diam interdico scisco. Abigo autem nostrud sagaciter sit. Consectetuer defui dignissim sino validus. Acsi elit lenis odio olim plaga uxor validus. Dolus eu gravis hos iusto minim volutpat. Consectetuer et eu gilvus nisl praemitto quibus turpis utinam.<\/p>\n<p>Cogo modo paulatim qui ratis zelus. Abbas abigo antehabeo duis hendrerit loquor neque quae suscipere tincidunt. Fere jugis lobortis mauris neque probo ratis. Ad duis lucidus melior minim pagus singularis turpis vero.<\/p>\n<p>Bene consectetuer dolor laoreet mauris nostrud tincidunt uxor wisi. Augue capto dolore in pala tincidunt ullamcorper. Blandit ex nostrud plaga sit tum. Quidem secundum sino ut. Antehabeo conventio si. Facilisis humo nibh nostrud nutus sino virtus. Gilvus luctus nunc premo quia rusticus vicis. Abdo acsi lobortis olim tamen.<\/p>\n<p>Amet brevitas duis iriure ratis refero sed utrum velit verto. Amet aptent fere jus. Patria pecus saepius suscipere vel. Letalis natu pecus qui. Abico abluo mauris nulla oppeto praesent probo sudo vulputate. Eros importunus magna. Caecus importunus praesent sagaciter sino tego.<\/p>\n<p>Eros luptatum melior mos olim. Incassum iusto natu valetudo. Augue commodo esse eum iaceo quae utrum valde zelus. Duis eligo iustum laoreet magna nunc quis sit. Antehabeo augue immitto inhibeo macto magna nobis saluto. Aliquam caecus roto ut. Abigo cui eu immitto neo praemitto quibus. Comis jugis natu pertineo singularis tamen utinam. Abluo commodo hendrerit nutus venio. Causa elit et facilisi in luptatum natu paratus veniam ymo.<\/p>\n<p>Abigo ad aliquip commodo ea occuro pala. Amet in luptatum mos patria populus. Abluo acsi macto pertineo quis ratis tego. Adipiscing haero iusto oppeto scisco ymo. Cogo interdico wisi. Caecus molior obruo sed vulputate. Ea euismod hos humo persto roto. Caecus defui gravis immitto praemitto roto valde valetudo validus.<\/p>\n<p>Eum humo ideo olim quibus. Causa dolore mos. Appellatio commodo commoveo. Abico dolus exputo iusto. Augue consectetuer nobis. Huic metuo modo nisl quadrum sed ullamcorper vindico. Lucidus natu quae.<\/p>\n<p>Defui exputo refero sagaciter. Capto haero imputo minim persto valde. Abdo accumsan cui humo iaceo jugis obruo praemitto scisco. Facilisis incassum lucidus magna oppeto paratus roto sit tation zelus. Eros nisl pneum tincidunt. Aliquam camur causa feugiat iusto nobis paratus roto vulputate.<\/p>\n",
+            "summary": "Acsi paulatim si vicis. Aliquip quidem turpis. Eros macto pala torqueo turpis valetudo vulputate. Diam elit et iaceo plaga quis sed vel vulputate. Camur ideo lobortis ludus nibh pneum tamen ut.\n\nAmet consequat enim. Ad autem blandit eligo genitus importunus quidem suscipere ymo zelus. Dignissim genitus loquor luctus magna occuro. Elit molior vulpes. Antehabeo autem esse metuo patria utrum voco. At dolor jumentum mauris roto tamen vindico. Macto plaga premo quis. Appellatio luptatum rusticus. At caecus haero letalis oppeto quis similis singularis.\n\nCogo esse nutus occuro quadrum. Abdo ideo nimis obruo saluto similis sino uxor venio. Luptatum mauris melior patria. Dolore meus nobis nulla. Genitus luctus paratus singularis tego zelus. Damnum incassum meus nisl. Aliquam appellatio augue cui laoreet paulatim quae. Acsi dolus hendrerit letalis luctus mos paulatim vindico.\n\nDignissim duis feugiat interdico loquor natu paratus pneum wisi. Cui esse huic macto metuo nibh similis sino velit verto. Commoveo esse oppeto te validus vindico zelus. Damnum distineo gilvus molior obruo quadrum veniam. Cui dolus eros hendrerit. Fere metuo neo valetudo. Eros loquor luctus validus voco. Antehabeo camur dolor inhibeo iusto letalis minim neo singularis valde.\n\nAbico diam interdico scisco. Abigo autem nostrud sagaciter sit. Consectetuer defui dignissim sino validus. Acsi elit lenis odio olim plaga uxor validus. Dolus eu gravis hos iusto minim volutpat. Consectetuer et eu gilvus nisl praemitto quibus turpis utinam.\n\nCogo modo paulatim qui ratis zelus. Abbas abigo antehabeo duis hendrerit loquor neque quae suscipere tincidunt. Fere jugis lobortis mauris neque probo ratis. Ad duis lucidus melior minim pagus singularis turpis vero.\n\nBene consectetuer dolor laoreet mauris nostrud tincidunt uxor wisi. Augue capto dolore in pala tincidunt ullamcorper. Blandit ex nostrud plaga sit tum. Quidem secundum sino ut. Antehabeo conventio si. Facilisis humo nibh nostrud nutus sino virtus. Gilvus luctus nunc premo quia rusticus vicis. Abdo acsi lobortis olim tamen.\n\nAmet brevitas duis iriure ratis refero sed utrum velit verto. Amet aptent fere jus. Patria pecus saepius suscipere vel. Letalis natu pecus qui. Abico abluo mauris nulla oppeto praesent probo sudo vulputate. Eros importunus magna. Caecus importunus praesent sagaciter sino tego.\n\nEros luptatum melior mos olim. Incassum iusto natu valetudo. Augue commodo esse eum iaceo quae utrum valde zelus. Duis eligo iustum laoreet magna nunc quis sit. Antehabeo augue immitto inhibeo macto magna nobis saluto. Aliquam caecus roto ut. Abigo cui eu immitto neo praemitto quibus. Comis jugis natu pertineo singularis tamen utinam. Abluo commodo hendrerit nutus venio. Causa elit et facilisi in luptatum natu paratus veniam ymo.\n\nAbigo ad aliquip commodo ea occuro pala. Amet in luptatum mos patria populus. Abluo acsi macto pertineo quis ratis tego. Adipiscing haero iusto oppeto scisco ymo. Cogo interdico wisi. Caecus molior obruo sed vulputate. Ea euismod hos humo persto roto. Caecus defui gravis immitto praemitto roto valde valetudo validus.\n\nEum humo ideo olim quibus. Causa dolore mos. Appellatio commodo commoveo. Abico dolus exputo iusto. Augue consectetuer nobis. Huic metuo modo nisl quadrum sed ullamcorper vindico. Lucidus natu quae.\n\nDefui exputo refero sagaciter. Capto haero imputo minim persto valde. Abdo accumsan cui humo iaceo jugis obruo praemitto scisco. Facilisis incassum lucidus magna oppeto paratus roto sit tation zelus. Eros nisl pneum tincidunt. Aliquam camur causa feugiat iusto nobis paratus roto vulputate.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_event_date": [
+        {
+            "value": "2020-02-20T19:15:12-05:00",
+            "end_value": "2020-02-21T19:15:12-05:00"
+        }
+    ],
+    "field_registration_link": [
+        {
+            "uri": "http:\/\/www.hivauivaph.net",
+            "title": "",
+            "options": []
+        }
+    ]
+}

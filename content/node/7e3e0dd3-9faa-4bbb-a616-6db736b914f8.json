@@ -1,0 +1,400 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/basic?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/page"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/field_paragraphs": [
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/field_title_banner_media": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/7\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "7e3e0dd3-9faa-4bbb-a616-6db736b914f8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-09-04T12:49:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/field_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/wysiwyg_layouts"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cae6cf9a-2b2c-4556-b01d-ead76649c4e1"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "773"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/wysiwyg_layouts"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b35bdb27-d917-461c-9234-95088caabffb"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "774"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/wysiwyg_layouts"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "37b2b28b-ab03-44a5-a6f7-c42f554232f9"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "775"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/wysiwyg_layouts"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cb250668-36fb-4e82-b14f-3b1d25393365"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "776"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "163509d6-3b7f-43ad-b240-e0397d28e578"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "777"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/standalone_image_paragraph"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6c944200-f509-48a8-a4a9-74d4441cf56c"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "778"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/standalone_image_paragraph"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b78d2373-6e8b-4c94-b9ae-e18793eb83df"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "779"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/standalone_image_paragraph"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a3556b54-98d9-4ae0-981c-0577520edefc"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "780"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/slideshow"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "870a1fba-1c90-460d-a896-308de3c67570"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "784"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/field_title_banner_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/7\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "07ff0e27-d0b1-4e99-bae5-482263a6ef18"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Basic",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-29T13:56:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-09-04T12:49:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "ds_switch": [
+        {
+            "value": "view_mode_selector"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Basic | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/basic",
+                "description": "Candy marshmallow chocolate biscuit chupa chups chupa chups lemon drops pastry. Jelly beans icing fruitcake tiramisu drag\u00e9e candy canes ice cream cookie topping. Souffl\u00e9 lemon drops sugar plum biscuit cookie topping bear claw. Pastry gummies drag\u00e9e cake. Gummi bears cheesecake sesame snaps liquorice cheesecake. Bonbon pastry cheesecake lollipop muffin brownie macaroon jelly beans. Wafer souffl\u00e9 biscuit lollipop biscuit powder. Icing cheesecake tart marshmallow pastry chupa chups fruitcake toffee danish. Candy canes topping pie cake.Image 50% Right\r\n\r\nCandy marshmallow chocolate biscuit chupa chups chupa chups lemon drops pastry. Jelly beans icing fruitcake tiramisu drag\u00e9e candy canes ice cream cookie topping. Souffl\u00e9 lemon drops sugar plum biscuit cookie topping bear claw. Pastry gummies drag\u00e9e cake."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/basic",
+            "pid": 9,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><span>Candy marshmallow chocolate biscuit chupa chups chupa chups lemon drops pastry. Jelly beans icing fruitcake tiramisu drag\u00e9e candy canes ice cream cookie topping. Souffl\u00e9 lemon drops sugar plum biscuit cookie topping bear claw. Pastry gummies drag\u00e9e cake. Gummi bears cheesecake sesame snaps liquorice cheesecake. Bonbon pastry cheesecake lollipop muffin brownie macaroon jelly beans. Wafer souffl\u00e9 biscuit lollipop biscuit powder. Icing cheesecake tart marshmallow pastry chupa chups fruitcake toffee danish. Candy canes topping pie cake. Souffl\u00e9 apple pie cotton candy chocolate bar.<\/span><\/p>\r\n\r\n<blockquote>\r\n<p><span>Sweet tootsie roll gingerbread brownie cookie. Chocolate apple pie caramels wafer. Marshmallow cupcake dessert souffl\u00e9 muffin cupcake carrot cake. Bear claw biscuit biscuit sweet roll cookie jujubes dessert candy canes chocolate bar. Lemon drops chupa chups jelly-o jelly-o. Pie toffee wafer croissant cake tart cotton candy. Gummi bears pie chocolate cake bonbon chupa chups fruitcake wafer.<\/span><\/p>\r\n<\/blockquote>\r\n\r\n<p><strong>Pellentesque habitant morbi tristique<\/strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.<\/em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href=\"#\">Donec non enim<\/a> in turpis pulvinar facilisis. Ut felis.<\/p>\r\n\r\n<h2>Header Level 2<\/h2>\r\n\r\n<ol>\r\n\t<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<\/li>\r\n\t<li>Aliquam tincidunt mauris eu risus.<\/li>\r\n<\/ol>\r\n\r\n<blockquote>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.<\/p>\r\n<\/blockquote>\r\n\r\n<h3>Header Level 3<\/h3>\r\n\r\n<ul>\r\n\t<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<\/li>\r\n\t<li>Aliquam tincidunt mauris eu risus.<\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><span>Candy marshmallow chocolate biscuit chupa chups chupa chups lemon drops pastry. Jelly beans icing fruitcake tiramisu drag\u00e9e candy canes ice cream cookie topping. Souffl\u00e9 lemon drops sugar plum biscuit cookie topping bear claw. Pastry gummies drag\u00e9e cake. Gummi bears cheesecake sesame snaps liquorice cheesecake. Bonbon pastry cheesecake lollipop muffin brownie macaroon jelly beans. Wafer souffl\u00e9 biscuit lollipop biscuit powder. Icing cheesecake tart marshmallow pastry chupa chups fruitcake toffee danish. Candy canes topping pie cake. Souffl\u00e9 apple pie cotton candy chocolate bar.<\/span><\/p>\n\n<blockquote>\n<p><span>Sweet tootsie roll gingerbread brownie cookie. Chocolate apple pie caramels wafer. Marshmallow cupcake dessert souffl\u00e9 muffin cupcake carrot cake. Bear claw biscuit biscuit sweet roll cookie jujubes dessert candy canes chocolate bar. Lemon drops chupa chups jelly-o jelly-o. Pie toffee wafer croissant cake tart cotton candy. Gummi bears pie chocolate cake bonbon chupa chups fruitcake wafer.<\/span><\/p>\n<\/blockquote>\n\n<p><strong>Pellentesque habitant morbi tristique<\/strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.<\/em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href=\"#\">Donec non enim<\/a> in turpis pulvinar facilisis. Ut felis.<\/p>\n\n<h2>Header Level 2<\/h2>\n\n<ol>\n\t<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<\/li>\n\t<li>Aliquam tincidunt mauris eu risus.<\/li>\n<\/ol>\n\n<blockquote>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.<\/p>\n<\/blockquote>\n\n<h3>Header Level 3<\/h3>\n\n<ul>\n\t<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<\/li>\n\t<li>Aliquam tincidunt mauris eu risus.<\/li>\n<\/ul>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_meta_tags": [
+        {
+            "value": {
+                "description": "[node:summary][node:field_paragraphs:summary]"
+            },
+            "lang": "en"
+        }
+    ],
+    "field_page_options": [
+        {
+            "value": "banner_title"
+        }
+    ],
+    "field_title_banner_button": [
+        {
+            "uri": "internal:\/",
+            "title": "Call To action",
+            "options": []
+        }
+    ],
+    "field_title_banner_headline": [
+        {
+            "value": "Basic Page Demo"
+        }
+    ]
+}
