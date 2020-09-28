@@ -1,20 +1,20 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/botdemo.test\/media\/9\/edit?_format=hal_json"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/9\/edit?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/botdemo.test\/rest\/type\/media\/remote_video"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/media\/remote_video"
         },
-        "http:\/\/botdemo.test\/rest\/relation\/media\/remote_video\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/media\/remote_video\/uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/media\/remote_video\/thumbnail": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/media\/remote_video\/thumbnail": [
             {
-                "href": "http:\/\/botdemo.test\/sites\/default\/files\/oembed_thumbnails\/_WsCeHZepN4u2XtfabGuSwZs8BEug0zJbIqHVebnaTg.jpg",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/sites\/default\/files\/oembed_thumbnails\/_WsCeHZepN4u2XtfabGuSwZs8BEug0zJbIqHVebnaTg.jpg",
                 "lang": "en"
             }
         ]
@@ -48,14 +48,14 @@
         }
     ],
     "_embedded": {
-        "http:\/\/botdemo.test\/rest\/relation\/media\/remote_video\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/media\/remote_video\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -66,14 +66,14 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/media\/remote_video\/thumbnail": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/media\/remote_video\/thumbnail": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/sites\/default\/files\/oembed_thumbnails\/_WsCeHZepN4u2XtfabGuSwZs8BEug0zJbIqHVebnaTg.jpg"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/sites\/default\/files\/oembed_thumbnails\/_WsCeHZepN4u2XtfabGuSwZs8BEug0zJbIqHVebnaTg.jpg"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/file\/file"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [
@@ -121,7 +121,7 @@
         {
             "value": {
                 "title": "Default Content Deploy - Export | BackOffice Theme",
-                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
+                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/admin\/config\/development\/dcd\/export"
             }
         }
     ],

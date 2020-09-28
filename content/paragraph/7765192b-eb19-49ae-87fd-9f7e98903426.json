@@ -4,11 +4,11 @@
             "href": ""
         },
         "type": {
-            "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/from_library"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/paragraph\/from_library"
         },
-        "http:\/\/botdemo.test\/rest\/relation\/paragraph\/from_library\/field_reusable_paragraph": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/paragraph\/from_library\/field_reusable_paragraph": [
             {
-                "href": "http:\/\/botdemo.test\/admin\/content\/paragraphs\/1?_format=hal_json"
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/admin\/content\/paragraphs\/1?_format=hal_json"
             }
         ]
     },
@@ -74,14 +74,14 @@
         }
     ],
     "_embedded": {
-        "http:\/\/botdemo.test\/rest\/relation\/paragraph\/from_library\/field_reusable_paragraph": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/paragraph\/from_library\/field_reusable_paragraph": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/admin\/content\/paragraphs\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/admin\/content\/paragraphs\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraphs_library_item\/paragraphs_library_item"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/paragraphs_library_item\/paragraphs_library_item"
                     }
                 },
                 "uuid": [

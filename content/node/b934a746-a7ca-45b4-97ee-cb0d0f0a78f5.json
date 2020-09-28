@@ -1,32 +1,32 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/botdemo.test\/news\/commodo-distineo-gilvus-magna?_format=hal_json"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/news\/commodo-distineo-gilvus-magna?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/botdemo.test\/rest\/type\/node\/article"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/node\/article"
         },
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/revision_uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_news_type": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_news_type": [
             null
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_photo": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_photo": [
             {
-                "href": "http:\/\/botdemo.test\/media\/3\/edit?_format=hal_json",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/3\/edit?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_tags": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_tags": [
             {
                 "lang": "en"
             }
@@ -55,14 +55,14 @@
         }
     ],
     "_embedded": {
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -72,14 +72,14 @@
                 ]
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -90,17 +90,17 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_news_type": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_news_type": [
             null
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_photo": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_photo": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/media\/3\/edit?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/3\/edit?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/media\/image"
                     }
                 },
                 "uuid": [
@@ -111,7 +111,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_tags": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_tags": [
             {
                 "lang": "en"
             }
@@ -171,7 +171,7 @@
         {
             "value": {
                 "title": "Commodo Distineo Gilvus Magna | BackOffice Theme",
-                "canonical_url": "http:\/\/botdemo.test\/news\/commodo-distineo-gilvus-magna",
+                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/news\/commodo-distineo-gilvus-magna",
                 "description": "Esse feugiat importunus ludus oppeto sed te typicus vulputate. Dolore euismod feugiat lobortis nobis occuro premo si vereor verto. Aliquam consequat facilisis iaceo inhibeo qui. Abbas abigo aptent haero hos olim. Exputo gilvus macto nutus. Abigo dolore verto.\nHendrerit neo quae. Esse iaceo jugis roto te. Abdo caecus hendrerit humo jus probo vel vicis. At iustum nisl quae suscipit ymo. Caecus dolor ex exputo iusto obruo os te vero.\nAptent enim paulatim sagaciter uxor. Bene decet ibidem jumentum loquor neque torqueo utrum virtus vulpes. Antehabeo consequat cui feugiat nutus paulatim probo tincidunt turpis ullamcorper. Dignissim feugiat rusticus. Consectetuer nimis tum. Cui dolor fere gemino modo nibh nunc saepius. Diam imputo melior si sit suscipere venio vero vulputate. Amet eligo nimis praemitto sagaciter sudo torqueo validus. Amet aptent dignissim genitus odio pecus te veniam.\nAptent interdico scisco. Commoveo duis humo mauris olim ullamcorper vereor. Dolus ibidem nibh vindico. Abbas consectetuer fere hos lobortis pneum si valetudo. Cui damnum dolor genitus gilvus importunus quibus scisco typicus.\nMetuo nostrud quadrum. Aliquip esse eu hendrerit nibh valde vulputate. Decet dignissim facilisi facilisis laoreet pagus patria sagaciter typicus virtus. Abbas antehabeo consequat diam erat gemino gilvus iusto quidem sino. Capto eu lobortis neque si vicis vulputate. Augue conventio ex facilisis illum loquor vindico. Huic nutus similis te typicus virtus. Duis esse jugis jus letalis nulla proprius ullamcorper utrum.\nIncassum nisl obruo proprius quidem quidne vel. Dignissim elit gravis rusticus tamen valetudo verto voco. Hendrerit huic imputo lucidus minim pala. Acsi adipiscing appellatio cogo erat ex pertineo praemitto volutpat wisi.\nDistineo et roto zelus. Eligo inhibeo luctus obruo wisi. Elit magna mauris minim nisl scisco. Gilvus ludus occuro tincidunt vel. Antehabeo cogo duis iustum nisl suscipit ulciscor. Acsi in macto pecus praemitto ymo. Commodo et jugis nibh secundum similis suscipit. Consectetuer eligo probo qui sit. Abluo accumsan eum quis vero.\nEu nutus proprius. Ad appellatio exerci ibidem in nunc zelus. Augue esca genitus iaceo ludus ratis singularis veniam vero. Erat genitus lenis oppeto sudo. Abbas abdo appellatio lucidus nostrud tation te.\nAbbas dolore genitus jus nibh odio patria ratis. Genitus in neo pala quibus singularis tincidunt. Bene esca haero imputo sino sit suscipit. Abigo facilisis refoveo saepius. Commodo eligo valde. Dolor duis eu importunus incassum quia typicus vereor.\nEligo haero importunus lenis wisi zelus. Abluo accumsan exputo immitto lenis neo nunc zelus. Humo incassum magna nisl proprius tego venio.\nFere gravis hos jus vereor voco. Facilisis laoreet mos nunc oppeto refero sagaciter sed utrum. Elit probo sit tego. Hendrerit quis rusticus valde. Abigo accumsan eligo refoveo secundum singularis ulciscor ullamcorper venio. Nisl saepius utrum. Nisl ulciscor valetudo.\nAbluo cogo damnum ex gemino hos ibidem importunus quidne turpis. Defui ex ideo melior molior patria qui tincidunt tum ulciscor. Abigo blandit cogo ea genitus jus neque quidem suscipere tamen. Duis eligo et imputo jumentum neque pneum saluto turpis vulputate. Consectetuer consequat letalis oppeto refoveo usitas velit vereor vero virtus. Aptent patria turpis venio."
             }
         }

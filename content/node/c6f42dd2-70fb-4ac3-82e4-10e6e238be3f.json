@@ -1,19 +1,19 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/botdemo.test\/body-summary-test?_format=hal_json"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/body-summary-test?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/botdemo.test\/rest\/type\/node\/page"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/node\/page"
         },
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/revision_uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ]
@@ -41,14 +41,14 @@
         }
     ],
     "_embedded": {
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -58,14 +58,14 @@
                 ]
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -130,7 +130,7 @@
         {
             "value": {
                 "title": "Body summary test | BackOffice Theme",
-                "canonical_url": "http:\/\/botdemo.test\/body-summary-test",
+                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/body-summary-test",
                 "description": "This should only display for meta descriptions"
             }
         }

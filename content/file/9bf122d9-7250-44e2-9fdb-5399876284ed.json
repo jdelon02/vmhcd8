@@ -1,14 +1,14 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/generateImage_nEUiLy.gif"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/sites\/default\/files\/2020-08\/generateImage_nEUiLy.gif"
         },
         "type": {
-            "href": "http:\/\/botdemo.test\/rest\/type\/file\/file"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/file\/file"
         },
-        "http:\/\/botdemo.test\/rest\/relation\/file\/file\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/file\/file\/uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
             }
         ]
     },
@@ -23,14 +23,14 @@
         }
     ],
     "_embedded": {
-        "http:\/\/botdemo.test\/rest\/relation\/file\/file\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/file\/file\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [

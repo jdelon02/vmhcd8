@@ -1,63 +1,63 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/botdemo.test\/basic?_format=hal_json"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/basic?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/botdemo.test\/rest\/type\/node\/page"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/node\/page"
         },
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/revision_uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
-                "lang": "en"
-            }
-        ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/field_paragraphs": [
-            {
-                "href": "",
-                "lang": "en"
-            },
-            {
-                "href": "",
-                "lang": "en"
-            },
-            {
-                "href": "",
-                "lang": "en"
-            },
-            {
-                "href": "",
-                "lang": "en"
-            },
-            {
-                "href": "",
-                "lang": "en"
-            },
-            {
-                "href": "",
-                "lang": "en"
-            },
-            {
-                "href": "",
-                "lang": "en"
-            },
-            {
-                "href": "",
-                "lang": "en"
-            },
-            {
-                "href": "",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/field_title_banner_media": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/field_paragraphs": [
             {
-                "href": "http:\/\/botdemo.test\/media\/7\/edit?_format=hal_json"
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/field_title_banner_media": [
+            {
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/7\/edit?_format=hal_json"
             }
         ]
     },
@@ -84,14 +84,14 @@
         }
     ],
     "_embedded": {
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -101,14 +101,14 @@
                 ]
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -119,14 +119,14 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/field_paragraphs": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/field_paragraphs": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/wysiwyg_layouts"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/paragraph\/wysiwyg_layouts"
                     }
                 },
                 "uuid": [
@@ -143,7 +143,7 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/wysiwyg_layouts"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/paragraph\/wysiwyg_layouts"
                     }
                 },
                 "uuid": [
@@ -160,7 +160,7 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/wysiwyg_layouts"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/paragraph\/wysiwyg_layouts"
                     }
                 },
                 "uuid": [
@@ -177,7 +177,7 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/wysiwyg_layouts"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/paragraph\/wysiwyg_layouts"
                     }
                 },
                 "uuid": [
@@ -194,7 +194,7 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/text"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/paragraph\/text"
                     }
                 },
                 "uuid": [
@@ -211,7 +211,7 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/standalone_image_paragraph"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/paragraph\/standalone_image_paragraph"
                     }
                 },
                 "uuid": [
@@ -228,7 +228,7 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/standalone_image_paragraph"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/paragraph\/standalone_image_paragraph"
                     }
                 },
                 "uuid": [
@@ -245,7 +245,7 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/standalone_image_paragraph"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/paragraph\/standalone_image_paragraph"
                     }
                 },
                 "uuid": [
@@ -262,7 +262,7 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/slideshow"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/paragraph\/slideshow"
                     }
                 },
                 "uuid": [
@@ -274,14 +274,14 @@
                 "target_revision_id": "784"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/field_title_banner_media": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/field_title_banner_media": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/media\/7\/edit?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/7\/edit?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/media\/image"
                     }
                 },
                 "uuid": [
@@ -350,7 +350,7 @@
         {
             "value": {
                 "title": "Basic | BackOffice Theme",
-                "canonical_url": "http:\/\/botdemo.test\/basic",
+                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/basic",
                 "description": "Candy marshmallow chocolate biscuit chupa chups chupa chups lemon drops pastry. Jelly beans icing fruitcake tiramisu drag\u00e9e candy canes ice cream cookie topping. Souffl\u00e9 lemon drops sugar plum biscuit cookie topping bear claw. Pastry gummies drag\u00e9e cake. Gummi bears cheesecake sesame snaps liquorice cheesecake. Bonbon pastry cheesecake lollipop muffin brownie macaroon jelly beans. Wafer souffl\u00e9 biscuit lollipop biscuit powder. Icing cheesecake tart marshmallow pastry chupa chups fruitcake toffee danish. Candy canes topping pie cake.Image 50% Right\r\n\r\nCandy marshmallow chocolate biscuit chupa chups chupa chups lemon drops pastry. Jelly beans icing fruitcake tiramisu drag\u00e9e candy canes ice cream cookie topping. Souffl\u00e9 lemon drops sugar plum biscuit cookie topping bear claw. Pastry gummies drag\u00e9e cake."
             }
         }

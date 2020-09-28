@@ -1,28 +1,28 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/botdemo.test\/about\/jane-smithson?_format=hal_json"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/about\/jane-smithson?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/botdemo.test\/rest\/type\/node\/person"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/node\/person"
         },
-        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/person\/revision_uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/person\/uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/field_person_type": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/person\/field_person_type": [
             null
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/field_photo": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/person\/field_photo": [
             {
-                "href": "http:\/\/botdemo.test\/media\/4\/edit?_format=hal_json"
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/4\/edit?_format=hal_json"
             }
         ]
     },
@@ -49,14 +49,14 @@
         }
     ],
     "_embedded": {
-        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/person\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -66,14 +66,14 @@
                 ]
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/person\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -84,17 +84,17 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/field_person_type": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/person\/field_person_type": [
             null
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/field_photo": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/person\/field_photo": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/media\/4\/edit?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/4\/edit?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/media\/image"
                     }
                 },
                 "uuid": [
@@ -153,7 +153,7 @@
         {
             "value": {
                 "title": "Jane Smithson | BackOffice Theme",
-                "canonical_url": "http:\/\/botdemo.test\/about\/jane-smithson",
+                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/about\/jane-smithson",
                 "description": "The first drawback of anger is that it destroys your inner peace; the second is that it distorts your view of reality. If you think about this and come to understand that anger is really unhelpful, that it is only destructive, you can begin to distance yourself from anger.<\/p>"
             }
         }

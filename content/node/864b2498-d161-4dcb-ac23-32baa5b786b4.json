@@ -1,23 +1,23 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/botdemo.test\/basic-demo?_format=hal_json"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/basic-demo?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/botdemo.test\/rest\/type\/node\/page"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/node\/page"
         },
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/revision_uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/field_paragraphs": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/field_paragraphs": [
             {
                 "href": "",
                 "lang": "en"
@@ -47,14 +47,14 @@
         }
     ],
     "_embedded": {
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -64,14 +64,14 @@
                 ]
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -82,14 +82,14 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/field_paragraphs": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/page\/field_paragraphs": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/standalone_image_paragraph"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/paragraph\/standalone_image_paragraph"
                     }
                 },
                 "uuid": [
@@ -155,7 +155,7 @@
         {
             "value": {
                 "title": "Basic Demo | BackOffice Theme",
-                "canonical_url": "http:\/\/botdemo.test\/basic-demo",
+                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/basic-demo",
                 "description": "jgjgjgjg"
             }
         }

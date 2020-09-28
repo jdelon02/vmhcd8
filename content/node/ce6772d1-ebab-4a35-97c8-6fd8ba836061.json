@@ -1,32 +1,32 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/botdemo.test\/news\/abigo-consectetuer-nimis-usitas?_format=hal_json"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/news\/abigo-consectetuer-nimis-usitas?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/botdemo.test\/rest\/type\/node\/article"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/node\/article"
         },
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/revision_uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_news_type": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_news_type": [
             null
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_photo": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_photo": [
             {
-                "href": "http:\/\/botdemo.test\/media\/7\/edit?_format=hal_json",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/7\/edit?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_tags": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_tags": [
             {
                 "lang": "en"
             }
@@ -55,14 +55,14 @@
         }
     ],
     "_embedded": {
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -72,14 +72,14 @@
                 ]
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -90,17 +90,17 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_news_type": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_news_type": [
             null
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_photo": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_photo": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/media\/7\/edit?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/7\/edit?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/media\/image"
                     }
                 },
                 "uuid": [
@@ -111,7 +111,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_tags": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_tags": [
             {
                 "lang": "en"
             }
@@ -171,7 +171,7 @@
         {
             "value": {
                 "title": "Abigo Consectetuer Nimis Usitas | BackOffice Theme",
-                "canonical_url": "http:\/\/botdemo.test\/news\/abigo-consectetuer-nimis-usitas",
+                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/news\/abigo-consectetuer-nimis-usitas",
                 "description": "Abigo eros eum loquor minim neo neque. Aliquip commoveo olim quidne ratis si tation torqueo usitas vel. Commodo iriure nostrud nunc paratus vicis. Abdo accumsan hos te. Abico aliquip eros illum immitto iusto pneum quidne roto valde. Consectetuer facilisis in ludus macto paratus populus sudo utinam verto.\nCapto cogo defui dolor eu haero ibidem quadrum qui. Amet capto lobortis luptatum natu neo qui secundum sino turpis. Humo letalis minim sino te veniam zelus. Abigo accumsan distineo esse jugis molior os paratus scisco vero.\nAd aliquam cogo eros exputo utrum. Interdico laoreet nisl tum. Esse genitus jugis meus modo. Conventio feugiat hendrerit lobortis modo neo pagus venio. Abigo genitus in sit typicus. Caecus patria quae ut. Ad modo usitas uxor.\nCommodo commoveo facilisi mos te. Esse paulatim quibus. Brevitas rusticus verto. Exerci ideo ille jus loquor melior quia scisco te vero. Adipiscing exputo haero nutus quia saepius. Lucidus uxor venio. Interdico iustum natu vero. Abico dolor letalis paratus ut. Erat metuo quidem quidne quis saluto tego uxor ymo.\nAmet camur imputo neo quibus sudo volutpat. Abigo consequat iriure jus praemitto quadrum quidne utrum. Inhibeo pertineo sagaciter tamen turpis vindico. Aliquam dolus sagaciter. Iaceo laoreet os persto praemitto quadrum. Mos patria persto sino sudo ut. Iriure quia sit. Feugiat genitus torqueo. Commoveo defui gemino haero jus lobortis lucidus molior nulla vicis.\nAutem enim iustum. Et hendrerit melior tamen validus. Commodo exputo facilisi gilvus saluto ut. Brevitas obruo typicus vereor. Defui eligo ideo tincidunt validus.\nAmet decet luptatum melior. Abigo accumsan bene diam ea iriure refero. Acsi aliquam commodo dolore elit luctus natu paratus ut utrum. Blandit distineo ea interdico modo odio quadrum saluto venio. Humo ideo iustum neo. Bene caecus eu exerci gemino ibidem magna modo. Aptent distineo dolore exputo lobortis ludus refero roto scisco voco.\nDignissim letalis nobis te tego velit vicis zelus. Abico accumsan duis ea ibidem ideo jumentum plaga. In quidne similis valetudo venio. Conventio genitus nulla.\nAppellatio damnum importunus luptatum persto plaga populus quadrum tego utrum. Camur cogo eu in luctus si singularis usitas. Gilvus humo pertineo quadrum. Abdo duis fere paulatim sagaciter usitas ymo. Abico autem iustum quia tincidunt valde. Comis defui vindico. Dignissim facilisis pagus pertineo.\nDolore inhibeo qui quibus quis refero zelus. Euismod iustum vicis. Dolus nimis oppeto qui similis wisi. Accumsan euismod gemino in nobis suscipit validus. Abdo blandit duis eros ideo iustum pneum quidne vereor virtus. Aliquam blandit esse modo nobis paratus quidem tum. Modo usitas vicis vulpes.\nAt eligo pala patria quibus. Adipiscing conventio venio zelus. Mos si valde. Ad illum lenis probo veniam. At cui elit esse hos jugis neo obruo occuro quibus.\nAdipiscing ex facilisi molior quidne velit vindico. Capto defui esse ex exputo huic nibh premo tum virtus. Aliquam interdico iusto proprius valetudo. Causa diam enim hos ibidem natu pala quae scisco verto. Abdo camur haero scisco. Erat eum neque nisl. Abico at augue ea in laoreet typicus utinam virtus. Camur capto roto wisi. Consequat decet gemino sagaciter suscipit vindico."
             }
         }

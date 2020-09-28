@@ -1,32 +1,32 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/botdemo.test\/news\/cui?_format=hal_json"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/news\/cui?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/botdemo.test\/rest\/type\/node\/article"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/node\/article"
         },
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/revision_uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_news_type": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_news_type": [
             null
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_photo": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_photo": [
             {
-                "href": "http:\/\/botdemo.test\/media\/5\/edit?_format=hal_json",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/5\/edit?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_tags": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_tags": [
             {
                 "lang": "en"
             },
@@ -61,14 +61,14 @@
         }
     ],
     "_embedded": {
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -78,14 +78,14 @@
                 ]
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -96,17 +96,17 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_news_type": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_news_type": [
             null
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_photo": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_photo": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/media\/5\/edit?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/5\/edit?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/media\/image"
                     }
                 },
                 "uuid": [
@@ -117,7 +117,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_tags": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_tags": [
             {
                 "lang": "en"
             },
@@ -183,7 +183,7 @@
         {
             "value": {
                 "title": "Cui | BackOffice Theme",
-                "canonical_url": "http:\/\/botdemo.test\/news\/cui",
+                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/news\/cui",
                 "description": "Appellatio esca iaceo te. Amet luctus praemitto vero. Commodo veniam verto. Consectetuer dignissim eligo nimis. Aliquam blandit conventio fere gravis letalis oppeto saluto venio vero. Abigo duis genitus ille similis voco.\nAcsi magna meus molior neque plaga populus quae quidne ymo. Abluo paulatim tum velit vicis. Camur illum laoreet ludus patria scisco ut vulpes. Acsi cogo comis hendrerit incassum pertineo velit vero. Aliquip amet gilvus jus macto minim paratus rusticus torqueo voco.\nAutem conventio hos inhibeo macto proprius quibus refero. Appellatio commoveo cui ideo oppeto praesent saepius. Abluo aliquip commoveo pertineo typicus usitas. Caecus erat eros feugiat molior nulla sudo tamen tincidunt voco. Gemino jugis proprius scisco sed valde. Esca eum luctus ratis refero. Caecus cogo magna meus natu usitas vindico. Diam nobis proprius quia refoveo ulciscor ullamcorper. Occuro persto quibus quidne zelus.\nAmet commodo consectetuer hendrerit quis refoveo saluto utinam. Diam ea gemino singularis. Autem lenis quis sed. Ad aliquam caecus cogo conventio modo vero ymo.\nAbigo capto diam illum laoreet utinam utrum veniam. At capto hendrerit pagus torqueo. Antehabeo iaceo probo tum. Antehabeo iriure nutus. Gilvus nobis occuro. Abluo nibh populus. Commoveo decet facilisis ideo letalis ratis sed. Abbas abigo gravis ibidem pagus quibus tum velit ymo. Comis consequat ea fere imputo magna populus quia vicis.\nComis consequat ea gilvus ille mauris meus occuro quidem usitas. Augue diam eu pneum. Amet antehabeo consequat gemino humo ideo neque similis tego. Accumsan dolus duis euismod ibidem os pagus sudo typicus. Ea enim hos jumentum neo os praemitto proprius quia velit.\nAugue conventio laoreet nulla nutus plaga saluto secundum utinam valde. Enim iusto loquor paulatim. Erat esse jumentum mauris pala similis. Commoveo consectetuer facilisi hendrerit lenis quibus. Conventio luctus pneum valde. Ea erat esca in jumentum lucidus nostrud saepius veniam venio. Aliquip decet duis interdico mauris patria sed usitas.\nEuismod pala si tamen. Conventio duis inhibeo. Comis consectetuer esse obruo pagus populus tum valde. Eum huic neque nutus sed. Diam pecus quae valde. Decet duis et humo jugis modo.\nFere gilvus letalis lucidus magna volutpat. Pecus secundum te tego. Abdo augue enim genitus jugis melior pertineo probo veniam. Antehabeo immitto os quadrum validus. Imputo luctus macto neo utrum. Capto incassum pneum praesent proprius tation tincidunt valde vel zelus.\nDuis et ibidem modo nisl sagaciter. Defui imputo iustum neque occuro quidne typicus venio. Appellatio iaceo oppeto praemitto. Commoveo defui gemino refoveo tincidunt. Euismod facilisi nunc oppeto roto volutpat. Acsi blandit dolor duis et gilvus melior molior obruo pertineo. Abico abigo accumsan dolore macto nostrud nulla sed.\nAbdo acsi aliquip bene illum iriure nulla nunc praemitto. Bene damnum defui eros jugis lobortis modo nisl tincidunt. Illum minim venio. Aliquam causa cui eligo oppeto sagaciter ullamcorper valetudo zelus.\nConsequat ludus tincidunt. Abbas amet brevitas feugiat iaceo pala singularis vero. Ad macto metuo sed. Abigo feugiat haero macto paulatim persto pertineo probo saluto singularis."
             }
         }

@@ -1,32 +1,32 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/botdemo.test\/news\/neque-utinam?_format=hal_json"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/news\/neque-utinam?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/botdemo.test\/rest\/type\/node\/article"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/node\/article"
         },
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/revision_uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_news_type": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_news_type": [
             null
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_photo": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_photo": [
             {
-                "href": "http:\/\/botdemo.test\/media\/2\/edit?_format=hal_json",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/2\/edit?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_tags": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_tags": [
             {
                 "lang": "en"
             },
@@ -61,14 +61,14 @@
         }
     ],
     "_embedded": {
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -78,14 +78,14 @@
                 ]
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -96,17 +96,17 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_news_type": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_news_type": [
             null
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_photo": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_photo": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/media\/2\/edit?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/2\/edit?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/media\/image"
                     }
                 },
                 "uuid": [
@@ -117,7 +117,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_tags": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/article\/field_tags": [
             {
                 "lang": "en"
             },
@@ -183,7 +183,7 @@
         {
             "value": {
                 "title": "Neque Utinam | BackOffice Theme",
-                "canonical_url": "http:\/\/botdemo.test\/news\/neque-utinam",
+                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/news\/neque-utinam",
                 "description": "Camur eligo exputo ideo imputo jugis mauris natu paratus vulputate. Esca eum illum iusto mauris melior. Abico laoreet populus refoveo. Iaceo nulla quia. Damnum exputo interdico nimis premo vulputate. Dolor pala vereor. Iaceo illum nobis nunc pagus pneum quia velit vero.\nDistineo nunc pneum praemitto. Conventio erat haero magna suscipere. Occuro scisco secundum suscipere suscipit voco. Abdo caecus pertineo sino tation velit vero. Caecus hos neque obruo persto secundum. Commoveo eum molior pneum usitas wisi. Dignissim esca quidem. Augue lucidus pertineo plaga refoveo secundum venio volutpat. Brevitas gemino hendrerit iusto pneum turpis vel. Abbas conventio distineo minim pala singularis.\nBrevitas macto nisl. Eros importunus neo. Acsi ad consectetuer dolore esse mos proprius te. Hendrerit iustum wisi. Caecus nibh nisl pertineo quidem quis. Abbas bene dolor esca natu occuro. Eligo gilvus iaceo modo premo qui roto scisco sino tation. Dignissim persto sino volutpat.\nAd ludus nulla olim uxor. Cui dolore huic odio pagus persto premo torqueo. Autem ea nisl patria paulatim pneum. Acsi consectetuer consequat dignissim fere typicus ut vicis.\nAppellatio ex olim usitas. Esca minim tego. Comis cui exputo imputo iustum te turpis. Elit eum hos natu pagus sino tation. Abigo molior quis valetudo. Ad amet consectetuer ex gilvus immitto ludus persto premo.\nDamnum erat ludus pagus similis tego. Jugis metuo odio tation tincidunt. Dolor valetudo venio. Eros esca gemino valetudo. Appellatio decet duis eligo incassum neque nimis quadrum tego. Accumsan genitus lucidus obruo te typicus. Imputo molior quia refero turpis velit vicis.\nDecet magna quis. Appellatio aptent autem ibidem metuo minim sino virtus. At duis jus. Aliquam comis damnum ex hendrerit ideo luptatum patria vulpes.\nAbico gemino haero ibidem laoreet nisl nutus quibus ut velit. Autem camur pneum rusticus turpis. Dignissim incassum modo persto saepius singularis valde velit. Erat esse feugiat laoreet melior meus occuro premo saepius.\nAbdo aptent cui hos jugis paulatim sed si vulpes. Esca refero vero. Exputo ideo inhibeo modo sino ulciscor utinam vindico. Dignissim obruo quia. Luctus ludus minim tamen vulputate. Esse haero melior similis vereor verto. Abbas aliquam elit exputo fere ideo ille mos. Defui fere imputo nulla occuro praemitto typicus ut.\nAbbas blandit consequat erat hos in plaga praemitto ullamcorper. Euismod gemino ille in. Hos pagus refoveo saluto suscipit tincidunt ymo. Aptent camur dolor euismod iaceo pagus valde. Consequat praesent qui ulciscor veniam.\nAbdo aliquam minim nutus patria sit sudo tum voco. Adipiscing commodo ibidem patria. Gemino os sit tamen utrum. Capto cogo esca eum fere feugiat ille tincidunt ulciscor.\nBlandit conventio damnum eu natu persto pneum voco. Defui euismod ibidem macto mos quadrum vulputate. Caecus esca haero inhibeo melior tamen ut ymo. Conventio elit feugiat loquor metuo meus paratus qui refero. Abluo camur enim modo si veniam. Humo persto wisi. Amet conventio facilisi hos inhibeo luptatum occuro tego valetudo wisi."
             }
         }

@@ -1,28 +1,28 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/botdemo.test\/events\/cogo-gemino?_format=hal_json"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/events\/cogo-gemino?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/botdemo.test\/rest\/type\/node\/event"
+            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/node\/event"
         },
-        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/event\/revision_uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/event\/uid": [
             {
-                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_event_type": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/event\/field_event_type": [
             null
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_photo": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/event\/field_photo": [
             {
-                "href": "http:\/\/botdemo.test\/media\/7\/edit?_format=hal_json",
+                "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/7\/edit?_format=hal_json",
                 "lang": "en"
             }
         ]
@@ -50,14 +50,14 @@
         }
     ],
     "_embedded": {
-        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/revision_uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/event\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -67,14 +67,14 @@
                 ]
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/uid": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/event\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -85,17 +85,17 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_event_type": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/event\/field_event_type": [
             null
         ],
-        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_photo": [
+        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/node\/event\/field_photo": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/botdemo.test\/media\/7\/edit?_format=hal_json"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/7\/edit?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/media\/image"
                     }
                 },
                 "uuid": [
@@ -161,7 +161,7 @@
         {
             "value": {
                 "title": "Cogo Gemino | BackOffice Theme",
-                "canonical_url": "http:\/\/botdemo.test\/events\/cogo-gemino",
+                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/events\/cogo-gemino",
                 "description": "Hendrerit ideo ille sino tincidunt. Incassum jugis letalis tego typicus. Caecus camur consequat dignissim iusto odio refoveo. Eligo erat huic metuo quadrum suscipere tum ullamcorper vereor. Appellatio consectetuer facilisi immitto refoveo. Amet cui valetudo. Cui enim importunus iustum nunc os secundum voco.\nCaecus damnum immitto jugis mauris pala qui roto usitas. Dolus loquor meus rusticus secundum venio vindico. Abigo interdico quae. Ille nimis pertineo ratis. Camur incassum sagaciter scisco. Augue lobortis velit. Ad elit iaceo vulpes. Causa exerci quidem ullamcorper valde volutpat. Commodo jumentum volutpat. Ad at causa esse et in iusto mauris similis turpis.\nAccumsan bene distineo incassum nibh tincidunt vindico. Aliquip erat pagus vulputate. Autem facilisi lucidus mos premo. Enim facilisis illum olim pertineo refoveo scisco. Aptent capto erat nutus pala paratus ratis saepius. Adipiscing dolus ideo vero. Dolore ea fere feugiat hos olim quia turpis vindico. Decet ille in mauris quis te uxor valetudo vero vindico.\nAbico ludus molior neo nostrud praesent similis valde verto virtus. Jus pagus tum ullamcorper verto. Acsi et euismod interdico magna suscipere. Aliquip aptent duis gravis.\nBene consectetuer dolus quidne velit. Bene defui roto. Haero odio saepius typicus. Abico ea illum volutpat. Causa ibidem mos nimis nostrud valde. Imputo letalis ut vel veniam vindico.\nLaoreet pala plaga praesent singularis. Damnum illum lenis modo rusticus virtus. Dolor elit huic immitto jumentum quidem refero scisco utinam uxor. Haero luctus mauris. Dolore laoreet praesent suscipere. Antehabeo facilisis feugiat incassum macto saepius ymo. Gilvus pertineo verto.\nAbluo bene interdico loquor quidem. Appellatio damnum eligo et ex ibidem iriure quibus refoveo sit. Accumsan bene loquor melior quae zelus. Aliquam capto distineo iustum oppeto refero typicus ullamcorper vel veniam. Appellatio dolor iaceo iriure nulla obruo proprius wisi. Aliquam natu tum vel. Acsi blandit conventio duis immitto incassum laoreet proprius quidem tamen.\nGilvus iriure wisi. Gemino iaceo neo os virtus. Augue commoveo defui lucidus pala plaga singularis. Lenis similis vereor vicis. Dolus exerci inhibeo jugis nibh refoveo ullamcorper utrum.\nDignissim enim eum mauris nisl qui. Diam importunus interdico refoveo vindico vulpes vulputate. Exputo natu nimis nutus ratis. Adipiscing fere laoreet molior plaga tego vel. Aliquip modo rusticus sed similis veniam. Ad amet enim ideo sudo vindico. Defui distineo exputo huic inhibeo singularis suscipere venio. Exerci humo paratus quis roto.\nAutem cui exerci mauris nulla praemitto. Commoveo ille nunc populus similis ullamcorper velit vero. At dolore esca gemino hos huic luptatum odio patria saluto. At haero hendrerit letalis meus nimis ratis si suscipit utinam. Abigo jumentum ludus nibh oppeto torqueo ulciscor ullamcorper utrum. Ea mauris praesent premo saluto.\nGemino proprius suscipere uxor veniam ymo. Aptent augue damnum importunus. Defui natu sagaciter sino venio. Decet humo metuo nutus quia refero virtus. Esca gilvus iustum pecus utrum verto. Abico causa cui elit eu gravis persto usitas vindico wisi. Dolore eum quia sed utinam wisi. Gemino immitto pagus pertineo si singularis.\nAugue iustum valetudo vero. Augue conventio defui haero luctus pala sagaciter uxor voco ymo. Huic roto tamen uxor zelus. Autem feugiat paulatim ymo. Humo pecus saluto."
             }
         }
