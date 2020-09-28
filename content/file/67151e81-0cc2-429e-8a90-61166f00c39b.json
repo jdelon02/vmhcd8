@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/generateImage_Bb3liA.png"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/file\/file"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "67151e81-0cc2-429e-8a90-61166f00c39b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "generateImage_Bb3liA.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-08\/generateImage_Bb3liA.png",
+            "url": "\/sites\/default\/files\/2020-08\/generateImage_Bb3liA.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1461
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-11T15:09:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-11T15:09:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

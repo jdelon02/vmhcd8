@@ -1,0 +1,213 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/news\/premo-vindico?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/article"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_news_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_photo": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/8\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "lang": "en"
+            },
+            {
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "c21a7827-a8cd-4ac0-be56-ec2482812325"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-12T13:29:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_news_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_photo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/8\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0e5b6d9a-67c9-4f0b-9f59-6d0d9c1be057"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "lang": "en"
+            },
+            {
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Premo Vindico",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-11T13:50:32+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T13:29:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Premo Vindico | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/news\/premo-vindico",
+                "description": "Cui immitto meus modo neo. Aliquip cogo facilisis humo ideo nobis quae quis si suscipit. Exputo feugiat refoveo singularis vicis. Facilisis humo nunc valetudo. Abigo capto luptatum roto si suscipit. Facilisis hos iustum neo nunc saluto. Acsi exerci facilisis feugiat imputo ratis utinam. Defui dolore enim facilisi genitus jus validus vindico. Ea huic pecus singularis typicus.\nImportunus neo nulla. Blandit commoveo lenis pecus persto. Dignissim eu mos premo singularis tincidunt. Acsi fere feugiat ideo occuro te. Capto commoveo dolor pagus quibus refoveo saluto. Abico defui eum ex hos huic lobortis plaga premo quadrum. Duis euismod hos rusticus. Dolor macto meus nimis quidne saluto vereor vindico. Antehabeo causa defui euismod lucidus olim quadrum.\nAmet ex nisl occuro patria tation. Eligo in roto. Brevitas lucidus paratus te tincidunt tum. Brevitas letalis ullamcorper veniam. Aliquip amet interdico metuo meus praemitto quia ratis saepius secundum.\nGemino iaceo volutpat. Blandit diam gilvus ludus quadrum quidem suscipere veniam vicis. Nisl obruo tation. Elit et occuro pagus sed. Bene blandit dolor dolore duis modo refoveo sudo. Ideo inhibeo macto pala pertineo pneum premo quia rusticus tum. Consectetuer damnum erat in iusto oppeto vel vicis. Abdo facilisi gilvus natu pecus qui si velit ymo.\nAbbas brevitas cogo ibidem odio os praemitto valetudo vindico. Abico abigo accumsan ulciscor validus volutpat. Bene gilvus gravis ibidem ideo illum jus laoreet lobortis tincidunt. Esse eum iustum pertineo tum vindico. Os praesent quidem roto wisi.\nDignissim incassum quidem vulputate. Abdo commoveo exputo jus turpis vicis. Adipiscing facilisi ideo iriure rusticus. Humo iustum loquor odio quidne utrum. Exputo lucidus praesent quia. Brevitas lobortis nobis occuro odio pneum probo rusticus. Damnum euismod luptatum quae tum vereor. Camur iaceo ille. Autem iustum obruo os tincidunt. Cogo exerci facilisi humo natu olim sit sudo tego.\nDamnum ea facilisis immitto jus lenis mos quia sudo. Autem causa eligo lenis meus qui saluto veniam voco. Defui diam feugiat genitus illum in os pecus. Eligo fere iustum modo quia sed similis velit.\nAmet aptent metuo. In laoreet macto proprius ulciscor. Adipiscing aliquip lucidus nunc olim quidne tincidunt typicus. Abbas distineo esca venio. Autem distineo loquor minim sed uxor. Abigo huic ideo immitto imputo nobis si typicus. Abbas capto eros esca euismod hos iustum loquor paratus ymo.\nAbbas elit huic lenis molior probo ratis tincidunt vel. Antehabeo oppeto pala saluto singularis. Brevitas dolore illum jus suscipit volutpat. Bene erat ex mos validus verto virtus.\nAt autem defui dignissim hos importunus iusto nutus oppeto praemitto. Aliquam consectetuer dolore hendrerit nisl quia. Augue genitus gilvus gravis ille pala sed ulciscor ymo. Immitto saepius utrum. Esca euismod facilisi immitto neo quae vereor virtus. Feugiat ideo modo os persto sit tamen ut ymo. Esca suscipit wisi. Amet capto ea ideo iusto luctus minim patria suscipit.\nComis consectetuer patria refoveo. Capto gravis hos obruo pala persto si. Antehabeo commoveo letalis neque occuro proprius validus. Comis imputo quidne suscipit. Macto nutus pagus. Consectetuer cui immitto nibh patria ut vereor virtus. Diam huic plaga. Capto ideo iusto pagus plaga pneum scisco. Duis mos os pertineo probo quae si suscipit ulciscor virtus.\nAliquam antehabeo esse fere gilvus laoreet neo quadrum quia saluto. Fere in tation. Ad bene commoveo decet elit gilvus patria persto quibus vindico. Facilisis saluto sudo. Bene dolore dolus nobis pala pneum typicus. Diam iaceo importunus iustum laoreet molior nibh. Ea praesent proprius quia similis torqueo zelus. Iustum mos rusticus te valetudo verto voco. Abluo proprius quia tum."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/news\/premo-vindico",
+            "pid": 265,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Cui immitto meus modo neo. Aliquip cogo facilisis humo ideo nobis quae quis si suscipit. Exputo feugiat refoveo singularis vicis. Facilisis humo nunc valetudo. Abigo capto luptatum roto si suscipit. Facilisis hos iustum neo nunc saluto. Acsi exerci facilisis feugiat imputo ratis utinam. Defui dolore enim facilisi genitus jus validus vindico. Ea huic pecus singularis typicus.\n\nImportunus neo nulla. Blandit commoveo lenis pecus persto. Dignissim eu mos premo singularis tincidunt. Acsi fere feugiat ideo occuro te. Capto commoveo dolor pagus quibus refoveo saluto. Abico defui eum ex hos huic lobortis plaga premo quadrum. Duis euismod hos rusticus. Dolor macto meus nimis quidne saluto vereor vindico. Antehabeo causa defui euismod lucidus olim quadrum.\n\nAmet ex nisl occuro patria tation. Eligo in roto. Brevitas lucidus paratus te tincidunt tum. Brevitas letalis ullamcorper veniam. Aliquip amet interdico metuo meus praemitto quia ratis saepius secundum.\n\nGemino iaceo volutpat. Blandit diam gilvus ludus quadrum quidem suscipere veniam vicis. Nisl obruo tation. Elit et occuro pagus sed. Bene blandit dolor dolore duis modo refoveo sudo. Ideo inhibeo macto pala pertineo pneum premo quia rusticus tum. Consectetuer damnum erat in iusto oppeto vel vicis. Abdo facilisi gilvus natu pecus qui si velit ymo.\n\nAbbas brevitas cogo ibidem odio os praemitto valetudo vindico. Abico abigo accumsan ulciscor validus volutpat. Bene gilvus gravis ibidem ideo illum jus laoreet lobortis tincidunt. Esse eum iustum pertineo tum vindico. Os praesent quidem roto wisi.\n\nDignissim incassum quidem vulputate. Abdo commoveo exputo jus turpis vicis. Adipiscing facilisi ideo iriure rusticus. Humo iustum loquor odio quidne utrum. Exputo lucidus praesent quia. Brevitas lobortis nobis occuro odio pneum probo rusticus. Damnum euismod luptatum quae tum vereor. Camur iaceo ille. Autem iustum obruo os tincidunt. Cogo exerci facilisi humo natu olim sit sudo tego.\n\nDamnum ea facilisis immitto jus lenis mos quia sudo. Autem causa eligo lenis meus qui saluto veniam voco. Defui diam feugiat genitus illum in os pecus. Eligo fere iustum modo quia sed similis velit.\n\nAmet aptent metuo. In laoreet macto proprius ulciscor. Adipiscing aliquip lucidus nunc olim quidne tincidunt typicus. Abbas distineo esca venio. Autem distineo loquor minim sed uxor. Abigo huic ideo immitto imputo nobis si typicus. Abbas capto eros esca euismod hos iustum loquor paratus ymo.\n\nAbbas elit huic lenis molior probo ratis tincidunt vel. Antehabeo oppeto pala saluto singularis. Brevitas dolore illum jus suscipit volutpat. Bene erat ex mos validus verto virtus.\n\nAt autem defui dignissim hos importunus iusto nutus oppeto praemitto. Aliquam consectetuer dolore hendrerit nisl quia. Augue genitus gilvus gravis ille pala sed ulciscor ymo. Immitto saepius utrum. Esca euismod facilisi immitto neo quae vereor virtus. Feugiat ideo modo os persto sit tamen ut ymo. Esca suscipit wisi. Amet capto ea ideo iusto luctus minim patria suscipit.\n\nComis consectetuer patria refoveo. Capto gravis hos obruo pala persto si. Antehabeo commoveo letalis neque occuro proprius validus. Comis imputo quidne suscipit. Macto nutus pagus. Consectetuer cui immitto nibh patria ut vereor virtus. Diam huic plaga. Capto ideo iusto pagus plaga pneum scisco. Duis mos os pertineo probo quae si suscipit ulciscor virtus.\n\nAliquam antehabeo esse fere gilvus laoreet neo quadrum quia saluto. Fere in tation. Ad bene commoveo decet elit gilvus patria persto quibus vindico. Facilisis saluto sudo. Bene dolore dolus nobis pala pneum typicus. Diam iaceo importunus iustum laoreet molior nibh. Ea praesent proprius quia similis torqueo zelus. Iustum mos rusticus te valetudo verto voco. Abluo proprius quia tum.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Cui immitto meus modo neo. Aliquip cogo facilisis humo ideo nobis quae quis si suscipit. Exputo feugiat refoveo singularis vicis. Facilisis humo nunc valetudo. Abigo capto luptatum roto si suscipit. Facilisis hos iustum neo nunc saluto. Acsi exerci facilisis feugiat imputo ratis utinam. Defui dolore enim facilisi genitus jus validus vindico. Ea huic pecus singularis typicus.<\/p>\n<p>Importunus neo nulla. Blandit commoveo lenis pecus persto. Dignissim eu mos premo singularis tincidunt. Acsi fere feugiat ideo occuro te. Capto commoveo dolor pagus quibus refoveo saluto. Abico defui eum ex hos huic lobortis plaga premo quadrum. Duis euismod hos rusticus. Dolor macto meus nimis quidne saluto vereor vindico. Antehabeo causa defui euismod lucidus olim quadrum.<\/p>\n<p>Amet ex nisl occuro patria tation. Eligo in roto. Brevitas lucidus paratus te tincidunt tum. Brevitas letalis ullamcorper veniam. Aliquip amet interdico metuo meus praemitto quia ratis saepius secundum.<\/p>\n<p>Gemino iaceo volutpat. Blandit diam gilvus ludus quadrum quidem suscipere veniam vicis. Nisl obruo tation. Elit et occuro pagus sed. Bene blandit dolor dolore duis modo refoveo sudo. Ideo inhibeo macto pala pertineo pneum premo quia rusticus tum. Consectetuer damnum erat in iusto oppeto vel vicis. Abdo facilisi gilvus natu pecus qui si velit ymo.<\/p>\n<p>Abbas brevitas cogo ibidem odio os praemitto valetudo vindico. Abico abigo accumsan ulciscor validus volutpat. Bene gilvus gravis ibidem ideo illum jus laoreet lobortis tincidunt. Esse eum iustum pertineo tum vindico. Os praesent quidem roto wisi.<\/p>\n<p>Dignissim incassum quidem vulputate. Abdo commoveo exputo jus turpis vicis. Adipiscing facilisi ideo iriure rusticus. Humo iustum loquor odio quidne utrum. Exputo lucidus praesent quia. Brevitas lobortis nobis occuro odio pneum probo rusticus. Damnum euismod luptatum quae tum vereor. Camur iaceo ille. Autem iustum obruo os tincidunt. Cogo exerci facilisi humo natu olim sit sudo tego.<\/p>\n<p>Damnum ea facilisis immitto jus lenis mos quia sudo. Autem causa eligo lenis meus qui saluto veniam voco. Defui diam feugiat genitus illum in os pecus. Eligo fere iustum modo quia sed similis velit.<\/p>\n<p>Amet aptent metuo. In laoreet macto proprius ulciscor. Adipiscing aliquip lucidus nunc olim quidne tincidunt typicus. Abbas distineo esca venio. Autem distineo loquor minim sed uxor. Abigo huic ideo immitto imputo nobis si typicus. Abbas capto eros esca euismod hos iustum loquor paratus ymo.<\/p>\n<p>Abbas elit huic lenis molior probo ratis tincidunt vel. Antehabeo oppeto pala saluto singularis. Brevitas dolore illum jus suscipit volutpat. Bene erat ex mos validus verto virtus.<\/p>\n<p>At autem defui dignissim hos importunus iusto nutus oppeto praemitto. Aliquam consectetuer dolore hendrerit nisl quia. Augue genitus gilvus gravis ille pala sed ulciscor ymo. Immitto saepius utrum. Esca euismod facilisi immitto neo quae vereor virtus. Feugiat ideo modo os persto sit tamen ut ymo. Esca suscipit wisi. Amet capto ea ideo iusto luctus minim patria suscipit.<\/p>\n<p>Comis consectetuer patria refoveo. Capto gravis hos obruo pala persto si. Antehabeo commoveo letalis neque occuro proprius validus. Comis imputo quidne suscipit. Macto nutus pagus. Consectetuer cui immitto nibh patria ut vereor virtus. Diam huic plaga. Capto ideo iusto pagus plaga pneum scisco. Duis mos os pertineo probo quae si suscipit ulciscor virtus.<\/p>\n<p>Aliquam antehabeo esse fere gilvus laoreet neo quadrum quia saluto. Fere in tation. Ad bene commoveo decet elit gilvus patria persto quibus vindico. Facilisis saluto sudo. Bene dolore dolus nobis pala pneum typicus. Diam iaceo importunus iustum laoreet molior nibh. Ea praesent proprius quia similis torqueo zelus. Iustum mos rusticus te valetudo verto voco. Abluo proprius quia tum.<\/p>\n",
+            "summary": "Cui immitto meus modo neo. Aliquip cogo facilisis humo ideo nobis quae quis si suscipit. Exputo feugiat refoveo singularis vicis. Facilisis humo nunc valetudo. Abigo capto luptatum roto si suscipit. Facilisis hos iustum neo nunc saluto. Acsi exerci facilisis feugiat imputo ratis utinam. Defui dolore enim facilisi genitus jus validus vindico. Ea huic pecus singularis typicus.\n\nImportunus neo nulla. Blandit commoveo lenis pecus persto. Dignissim eu mos premo singularis tincidunt. Acsi fere feugiat ideo occuro te. Capto commoveo dolor pagus quibus refoveo saluto. Abico defui eum ex hos huic lobortis plaga premo quadrum. Duis euismod hos rusticus. Dolor macto meus nimis quidne saluto vereor vindico. Antehabeo causa defui euismod lucidus olim quadrum.\n\nAmet ex nisl occuro patria tation. Eligo in roto. Brevitas lucidus paratus te tincidunt tum. Brevitas letalis ullamcorper veniam. Aliquip amet interdico metuo meus praemitto quia ratis saepius secundum.\n\nGemino iaceo volutpat. Blandit diam gilvus ludus quadrum quidem suscipere veniam vicis. Nisl obruo tation. Elit et occuro pagus sed. Bene blandit dolor dolore duis modo refoveo sudo. Ideo inhibeo macto pala pertineo pneum premo quia rusticus tum. Consectetuer damnum erat in iusto oppeto vel vicis. Abdo facilisi gilvus natu pecus qui si velit ymo.\n\nAbbas brevitas cogo ibidem odio os praemitto valetudo vindico. Abico abigo accumsan ulciscor validus volutpat. Bene gilvus gravis ibidem ideo illum jus laoreet lobortis tincidunt. Esse eum iustum pertineo tum vindico. Os praesent quidem roto wisi.\n\nDignissim incassum quidem vulputate. Abdo commoveo exputo jus turpis vicis. Adipiscing facilisi ideo iriure rusticus. Humo iustum loquor odio quidne utrum. Exputo lucidus praesent quia. Brevitas lobortis nobis occuro odio pneum probo rusticus. Damnum euismod luptatum quae tum vereor. Camur iaceo ille. Autem iustum obruo os tincidunt. Cogo exerci facilisi humo natu olim sit sudo tego.\n\nDamnum ea facilisis immitto jus lenis mos quia sudo. Autem causa eligo lenis meus qui saluto veniam voco. Defui diam feugiat genitus illum in os pecus. Eligo fere iustum modo quia sed similis velit.\n\nAmet aptent metuo. In laoreet macto proprius ulciscor. Adipiscing aliquip lucidus nunc olim quidne tincidunt typicus. Abbas distineo esca venio. Autem distineo loquor minim sed uxor. Abigo huic ideo immitto imputo nobis si typicus. Abbas capto eros esca euismod hos iustum loquor paratus ymo.\n\nAbbas elit huic lenis molior probo ratis tincidunt vel. Antehabeo oppeto pala saluto singularis. Brevitas dolore illum jus suscipit volutpat. Bene erat ex mos validus verto virtus.\n\nAt autem defui dignissim hos importunus iusto nutus oppeto praemitto. Aliquam consectetuer dolore hendrerit nisl quia. Augue genitus gilvus gravis ille pala sed ulciscor ymo. Immitto saepius utrum. Esca euismod facilisi immitto neo quae vereor virtus. Feugiat ideo modo os persto sit tamen ut ymo. Esca suscipit wisi. Amet capto ea ideo iusto luctus minim patria suscipit.\n\nComis consectetuer patria refoveo. Capto gravis hos obruo pala persto si. Antehabeo commoveo letalis neque occuro proprius validus. Comis imputo quidne suscipit. Macto nutus pagus. Consectetuer cui immitto nibh patria ut vereor virtus. Diam huic plaga. Capto ideo iusto pagus plaga pneum scisco. Duis mos os pertineo probo quae si suscipit ulciscor virtus.\n\nAliquam antehabeo esse fere gilvus laoreet neo quadrum quia saluto. Fere in tation. Ad bene commoveo decet elit gilvus patria persto quibus vindico. Facilisis saluto sudo. Bene dolore dolus nobis pala pneum typicus. Diam iaceo importunus iustum laoreet molior nibh. Ea praesent proprius quia similis torqueo zelus. Iustum mos rusticus te valetudo verto voco. Abluo proprius quia tum.\n\n",
+            "lang": "en"
+        }
+    ],
+    "comment": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1597238945,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ]
+}

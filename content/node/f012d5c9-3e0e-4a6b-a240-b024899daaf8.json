@@ -1,0 +1,224 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/error-404?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/page"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/field_paragraphs": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/field_title_banner_media": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/11\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "f012d5c9-3e0e-4a6b-a240-b024899daaf8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-19T20:33:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/field_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c73f8894-a42d-4b1e-bee7-96001a21e4bd"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "759"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/page\/field_title_banner_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/11\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "312c4a04-7358-4574-b051-3dd571e23098"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "404 Oops, something's gone wrong",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-12T18:24:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-19T20:33:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "ds_switch": [
+        {
+            "value": "view_mode_selector"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "404 Oops, something's gone wrong | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/error-404",
+                "description": "We're sorry, that page does not exist.\n\nTry using the menu above or search this website."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/error-404",
+            "pid": 466,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p class=\"text-align-center\">We're sorry, that page does not exist.<\/p>\r\n\r\n<p class=\"text-align-center\">Try using the menu above or <a href=\"\/search\">search this website<\/a>.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p class=\"text-align-center\">We're sorry, that page does not exist.<\/p>\n\n<p class=\"text-align-center\">Try using the menu above or <a href=\"\/search\">search this website<\/a>.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_page_options": [
+        {
+            "value": "banner_title"
+        }
+    ],
+    "field_title_banner_button": [
+        {
+            "uri": "internal:\/search",
+            "title": "Start a new search",
+            "options": []
+        }
+    ],
+    "field_title_banner_headline": [
+        {
+            "value": "Oops, something's gone wrong"
+        }
+    ]
+}

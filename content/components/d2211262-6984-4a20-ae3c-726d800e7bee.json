@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/components\/9?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/components\/link_cards"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/components\/link_cards\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/components\/link_cards\/field_layout_width": [
+            {
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/components\/link_cards\/field_link_card": [
+            {
+                "href": "http:\/\/botdemo.test\/elements\/11?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/botdemo.test\/elements\/13?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/botdemo.test\/elements\/17?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/botdemo.test\/elements\/19?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "d2211262-6984-4a20-ae3c-726d800e7bee"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "link_cards"
+        }
+    ],
+    "title": [
+        {
+            "value": "Card Demo",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/components\/link_cards\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/components\/link_cards\/field_layout_width": [
+            {
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/components\/link_cards\/field_link_card": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/elements\/11?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/elements\/link_card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b8322880-2e14-4d23-acdd-b733af20dff0"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/elements\/13?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/elements\/link_card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fd7d5464-59d6-4b1b-ba9c-1e944c42a4bc"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/elements\/17?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/elements\/link_card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c49a3cc5-79f5-49b3-b0d5-71aa1d797e05"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/elements\/19?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/elements\/link_card"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "31e98d71-af95-403c-b3f5-7be345903e0e"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "2020-07-27T15:15:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-04T21:45:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Default Content Deploy - Export | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
+            }
+        }
+    ],
+    "field_headline": [
+        {
+            "value": "<h2 class=\"text-align-center\">Card demo optional H2 headline<\/h2>\r\n",
+            "format": "basic_html",
+            "processed": "<h2 class=\"text-align-center\">Card demo optional H2 headline<\/h2>\n",
+            "lang": "en"
+        }
+    ]
+}

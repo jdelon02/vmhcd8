@@ -1,0 +1,271 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/resources\/comis-olim-oppeto-veniam?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/resource"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_paragraphs": [
+            {
+                "href": "",
+                "lang": "en"
+            },
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_photo": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/7\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_downloads": [
+            {
+                "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/gobSppbAKK.txt"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_type": [
+            null
+        ]
+    },
+    "uuid": [
+        {
+            "value": "9bf10fe8-cf30-41a6-8ec9-f24139e162b8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "resource"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-12T14:59:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f8da1df3-8961-4b57-bea7-7b8dde4339da"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "729"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/from_library"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b63c9d22-8535-477a-84fa-5a2c9ba62587"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "730"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_photo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/7\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "07ff0e27-d0b1-4e99-bae5-482263a6ef18"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_downloads": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/gobSppbAKK.txt"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3c16a467-2ad5-4b3b-a7ab-2d9c99ceeb9c"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_type": [
+            null
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Comis Olim Oppeto Veniam",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-07T00:27:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T14:59:26+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Comis Olim Oppeto Veniam | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/resources\/comis-olim-oppeto-veniam",
+                "description": "Antehabeo autem facilisi facilisis letalis lobortis roto scisco sudo torqueo. Oppeto qui vereor. Aliquip minim modo oppeto quae. Accumsan ea exerci in laoreet nunc probo quae verto zelus.\nAptent elit eu illum pagus refoveo sudo turpis velit. Eu letalis valde. Magna pneum saepius te. Iaceo luctus neo nunc vereor. Blandit esca facilisi. Cui facilisis ideo neo oppeto veniam. Amet gilvus haero mos pala valde voco.\nAd dolore exputo hos in neque. Antehabeo facilisi imputo luctus sed. Abigo autem commoveo ea enim exputo illum mos plaga suscipit. Blandit jus premo. Abigo eum neo ulciscor. Abbas dignissim ille letalis nutus pecus. Abluo at premo velit virtus.\nAbluo consectetuer humo ymo. Damnum huic nobis nostrud probo quadrum quae ratis singularis veniam. Brevitas consectetuer duis ea haero macto. Eros neque si. Aliquip at defui erat gravis imputo mauris. Accumsan olim probo si te vero. Camur diam euismod neo nisl qui similis te venio. Aliquip lucidus qui quidne refoveo utrum. Aliquam aliquip comis et eu exerci quis scisco singularis.\nAntehabeo eum hendrerit metuo nibh olim. Camur diam dolor huic minim persto qui typicus. Abdo gilvus interdico macto praemitto quidne turpis usitas uxor. Abigo cogo laoreet mauris nobis te vindico virtus. Abico cogo decet duis humo ille jumentum pneum tamen. Genitus ille proprius refero tum ut velit. Appellatio distineo enim exputo feugiat hendrerit quadrum quidem singularis.\nAbigo eu gilvus plaga quadrum ratis sit voco. Haero jus laoreet tamen turpis. Defui diam ea lucidus olim pecus praemitto refero secundum ulciscor. Antehabeo feugiat mos neo singularis.\nGilvus ideo lucidus roto turpis uxor. Antehabeo dolor elit illum molior. Camur comis ea lenis neo nimis paulatim tego. Neo oppeto sudo. Cui esca ille imputo iriure velit. Et gravis melior. Abico aliquip conventio illum nunc oppeto roto validus vel.\nCommoveo os quia tum. Abluo letalis natu verto. Eu jus persto usitas. Exputo oppeto quia. Incassum inhibeo lenis loquor luptatum meus nibh typicus utrum validus. Ad consequat gilvus nibh probo vindico. Exerci iustum lobortis olim secundum singularis te velit verto.\nIdeo illum mauris melior nobis paulatim vero. Appellatio quis sino ut. Abigo aliquam eros eum iaceo populus praesent quadrum utinam verto. Abluo macto ut veniam virtus.\nDefui dignissim feugiat importunus jus macto melior tum veniam. Damnum esse hendrerit laoreet paulatim quia sudo venio vulpes. Defui eum nostrud nutus olim suscipit tation tego typicus. Camur commodo ea esca. Accumsan capto commoveo dolor dolore genitus obruo torqueo valde velit.\nAmet autem defui melior nunc pagus velit virtus vulpes. Aliquam ex iaceo jugis nobis saluto utinam vindico voco. Accumsan illum interdico iriure iustum pecus utrum veniam vindico ymo. Bene rusticus utinam. Caecus ille immitto persto refero similis sit. Facilisi incassum lobortis veniam. Cogo huic iaceo probo tincidunt zelus. Amet antehabeo ex ideo incassum jus natu quidne saluto ullamcorper. Commodo iusto lucidus minim nibh vindico voco.\nAbluo eligo iaceo lenis. Accumsan commodo commoveo humo suscipere validus vereor virtus. Antehabeo haero jus molior ut. Aliquip incassum metuo os rusticus similis tation te. Aliquam enim haero molior tego veniam. Caecus imputo sit. Commoveo dignissim dolus interdico luptatum nulla nutus quae sagaciter torqueo. Letalis ludus vulpes."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/resources\/comis-olim-oppeto-veniam",
+            "pid": 455,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Antehabeo autem facilisi facilisis letalis lobortis roto scisco sudo torqueo. Oppeto qui vereor. Aliquip minim modo oppeto quae. Accumsan ea exerci in laoreet nunc probo quae verto zelus.\n\nAptent elit eu illum pagus refoveo sudo turpis velit. Eu letalis valde. Magna pneum saepius te. Iaceo luctus neo nunc vereor. Blandit esca facilisi. Cui facilisis ideo neo oppeto veniam. Amet gilvus haero mos pala valde voco.\n\nAd dolore exputo hos in neque. Antehabeo facilisi imputo luctus sed. Abigo autem commoveo ea enim exputo illum mos plaga suscipit. Blandit jus premo. Abigo eum neo ulciscor. Abbas dignissim ille letalis nutus pecus. Abluo at premo velit virtus.\n\nAbluo consectetuer humo ymo. Damnum huic nobis nostrud probo quadrum quae ratis singularis veniam. Brevitas consectetuer duis ea haero macto. Eros neque si. Aliquip at defui erat gravis imputo mauris. Accumsan olim probo si te vero. Camur diam euismod neo nisl qui similis te venio. Aliquip lucidus qui quidne refoveo utrum. Aliquam aliquip comis et eu exerci quis scisco singularis.\n\nAntehabeo eum hendrerit metuo nibh olim. Camur diam dolor huic minim persto qui typicus. Abdo gilvus interdico macto praemitto quidne turpis usitas uxor. Abigo cogo laoreet mauris nobis te vindico virtus. Abico cogo decet duis humo ille jumentum pneum tamen. Genitus ille proprius refero tum ut velit. Appellatio distineo enim exputo feugiat hendrerit quadrum quidem singularis.\n\nAbigo eu gilvus plaga quadrum ratis sit voco. Haero jus laoreet tamen turpis. Defui diam ea lucidus olim pecus praemitto refero secundum ulciscor. Antehabeo feugiat mos neo singularis.\n\nGilvus ideo lucidus roto turpis uxor. Antehabeo dolor elit illum molior. Camur comis ea lenis neo nimis paulatim tego. Neo oppeto sudo. Cui esca ille imputo iriure velit. Et gravis melior. Abico aliquip conventio illum nunc oppeto roto validus vel.\n\nCommoveo os quia tum. Abluo letalis natu verto. Eu jus persto usitas. Exputo oppeto quia. Incassum inhibeo lenis loquor luptatum meus nibh typicus utrum validus. Ad consequat gilvus nibh probo vindico. Exerci iustum lobortis olim secundum singularis te velit verto.\n\nIdeo illum mauris melior nobis paulatim vero. Appellatio quis sino ut. Abigo aliquam eros eum iaceo populus praesent quadrum utinam verto. Abluo macto ut veniam virtus.\n\nDefui dignissim feugiat importunus jus macto melior tum veniam. Damnum esse hendrerit laoreet paulatim quia sudo venio vulpes. Defui eum nostrud nutus olim suscipit tation tego typicus. Camur commodo ea esca. Accumsan capto commoveo dolor dolore genitus obruo torqueo valde velit.\n\nAmet autem defui melior nunc pagus velit virtus vulpes. Aliquam ex iaceo jugis nobis saluto utinam vindico voco. Accumsan illum interdico iriure iustum pecus utrum veniam vindico ymo. Bene rusticus utinam. Caecus ille immitto persto refero similis sit. Facilisi incassum lobortis veniam. Cogo huic iaceo probo tincidunt zelus. Amet antehabeo ex ideo incassum jus natu quidne saluto ullamcorper. Commodo iusto lucidus minim nibh vindico voco.\n\nAbluo eligo iaceo lenis. Accumsan commodo commoveo humo suscipere validus vereor virtus. Antehabeo haero jus molior ut. Aliquip incassum metuo os rusticus similis tation te. Aliquam enim haero molior tego veniam. Caecus imputo sit. Commoveo dignissim dolus interdico luptatum nulla nutus quae sagaciter torqueo. Letalis ludus vulpes.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Antehabeo autem facilisi facilisis letalis lobortis roto scisco sudo torqueo. Oppeto qui vereor. Aliquip minim modo oppeto quae. Accumsan ea exerci in laoreet nunc probo quae verto zelus.<\/p>\n<p>Aptent elit eu illum pagus refoveo sudo turpis velit. Eu letalis valde. Magna pneum saepius te. Iaceo luctus neo nunc vereor. Blandit esca facilisi. Cui facilisis ideo neo oppeto veniam. Amet gilvus haero mos pala valde voco.<\/p>\n<p>Ad dolore exputo hos in neque. Antehabeo facilisi imputo luctus sed. Abigo autem commoveo ea enim exputo illum mos plaga suscipit. Blandit jus premo. Abigo eum neo ulciscor. Abbas dignissim ille letalis nutus pecus. Abluo at premo velit virtus.<\/p>\n<p>Abluo consectetuer humo ymo. Damnum huic nobis nostrud probo quadrum quae ratis singularis veniam. Brevitas consectetuer duis ea haero macto. Eros neque si. Aliquip at defui erat gravis imputo mauris. Accumsan olim probo si te vero. Camur diam euismod neo nisl qui similis te venio. Aliquip lucidus qui quidne refoveo utrum. Aliquam aliquip comis et eu exerci quis scisco singularis.<\/p>\n<p>Antehabeo eum hendrerit metuo nibh olim. Camur diam dolor huic minim persto qui typicus. Abdo gilvus interdico macto praemitto quidne turpis usitas uxor. Abigo cogo laoreet mauris nobis te vindico virtus. Abico cogo decet duis humo ille jumentum pneum tamen. Genitus ille proprius refero tum ut velit. Appellatio distineo enim exputo feugiat hendrerit quadrum quidem singularis.<\/p>\n<p>Abigo eu gilvus plaga quadrum ratis sit voco. Haero jus laoreet tamen turpis. Defui diam ea lucidus olim pecus praemitto refero secundum ulciscor. Antehabeo feugiat mos neo singularis.<\/p>\n<p>Gilvus ideo lucidus roto turpis uxor. Antehabeo dolor elit illum molior. Camur comis ea lenis neo nimis paulatim tego. Neo oppeto sudo. Cui esca ille imputo iriure velit. Et gravis melior. Abico aliquip conventio illum nunc oppeto roto validus vel.<\/p>\n<p>Commoveo os quia tum. Abluo letalis natu verto. Eu jus persto usitas. Exputo oppeto quia. Incassum inhibeo lenis loquor luptatum meus nibh typicus utrum validus. Ad consequat gilvus nibh probo vindico. Exerci iustum lobortis olim secundum singularis te velit verto.<\/p>\n<p>Ideo illum mauris melior nobis paulatim vero. Appellatio quis sino ut. Abigo aliquam eros eum iaceo populus praesent quadrum utinam verto. Abluo macto ut veniam virtus.<\/p>\n<p>Defui dignissim feugiat importunus jus macto melior tum veniam. Damnum esse hendrerit laoreet paulatim quia sudo venio vulpes. Defui eum nostrud nutus olim suscipit tation tego typicus. Camur commodo ea esca. Accumsan capto commoveo dolor dolore genitus obruo torqueo valde velit.<\/p>\n<p>Amet autem defui melior nunc pagus velit virtus vulpes. Aliquam ex iaceo jugis nobis saluto utinam vindico voco. Accumsan illum interdico iriure iustum pecus utrum veniam vindico ymo. Bene rusticus utinam. Caecus ille immitto persto refero similis sit. Facilisi incassum lobortis veniam. Cogo huic iaceo probo tincidunt zelus. Amet antehabeo ex ideo incassum jus natu quidne saluto ullamcorper. Commodo iusto lucidus minim nibh vindico voco.<\/p>\n<p>Abluo eligo iaceo lenis. Accumsan commodo commoveo humo suscipere validus vereor virtus. Antehabeo haero jus molior ut. Aliquip incassum metuo os rusticus similis tation te. Aliquam enim haero molior tego veniam. Caecus imputo sit. Commoveo dignissim dolus interdico luptatum nulla nutus quae sagaciter torqueo. Letalis ludus vulpes.<\/p>\n",
+            "summary": "Antehabeo autem facilisi facilisis letalis lobortis roto scisco sudo torqueo. Oppeto qui vereor. Aliquip minim modo oppeto quae. Accumsan ea exerci in laoreet nunc probo quae verto zelus.\n\nAptent elit eu illum pagus refoveo sudo turpis velit. Eu letalis valde. Magna pneum saepius te. Iaceo luctus neo nunc vereor. Blandit esca facilisi. Cui facilisis ideo neo oppeto veniam. Amet gilvus haero mos pala valde voco.\n\nAd dolore exputo hos in neque. Antehabeo facilisi imputo luctus sed. Abigo autem commoveo ea enim exputo illum mos plaga suscipit. Blandit jus premo. Abigo eum neo ulciscor. Abbas dignissim ille letalis nutus pecus. Abluo at premo velit virtus.\n\nAbluo consectetuer humo ymo. Damnum huic nobis nostrud probo quadrum quae ratis singularis veniam. Brevitas consectetuer duis ea haero macto. Eros neque si. Aliquip at defui erat gravis imputo mauris. Accumsan olim probo si te vero. Camur diam euismod neo nisl qui similis te venio. Aliquip lucidus qui quidne refoveo utrum. Aliquam aliquip comis et eu exerci quis scisco singularis.\n\nAntehabeo eum hendrerit metuo nibh olim. Camur diam dolor huic minim persto qui typicus. Abdo gilvus interdico macto praemitto quidne turpis usitas uxor. Abigo cogo laoreet mauris nobis te vindico virtus. Abico cogo decet duis humo ille jumentum pneum tamen. Genitus ille proprius refero tum ut velit. Appellatio distineo enim exputo feugiat hendrerit quadrum quidem singularis.\n\nAbigo eu gilvus plaga quadrum ratis sit voco. Haero jus laoreet tamen turpis. Defui diam ea lucidus olim pecus praemitto refero secundum ulciscor. Antehabeo feugiat mos neo singularis.\n\nGilvus ideo lucidus roto turpis uxor. Antehabeo dolor elit illum molior. Camur comis ea lenis neo nimis paulatim tego. Neo oppeto sudo. Cui esca ille imputo iriure velit. Et gravis melior. Abico aliquip conventio illum nunc oppeto roto validus vel.\n\nCommoveo os quia tum. Abluo letalis natu verto. Eu jus persto usitas. Exputo oppeto quia. Incassum inhibeo lenis loquor luptatum meus nibh typicus utrum validus. Ad consequat gilvus nibh probo vindico. Exerci iustum lobortis olim secundum singularis te velit verto.\n\nIdeo illum mauris melior nobis paulatim vero. Appellatio quis sino ut. Abigo aliquam eros eum iaceo populus praesent quadrum utinam verto. Abluo macto ut veniam virtus.\n\nDefui dignissim feugiat importunus jus macto melior tum veniam. Damnum esse hendrerit laoreet paulatim quia sudo venio vulpes. Defui eum nostrud nutus olim suscipit tation tego typicus. Camur commodo ea esca. Accumsan capto commoveo dolor dolore genitus obruo torqueo valde velit.\n\nAmet autem defui melior nunc pagus velit virtus vulpes. Aliquam ex iaceo jugis nobis saluto utinam vindico voco. Accumsan illum interdico iriure iustum pecus utrum veniam vindico ymo. Bene rusticus utinam. Caecus ille immitto persto refero similis sit. Facilisi incassum lobortis veniam. Cogo huic iaceo probo tincidunt zelus. Amet antehabeo ex ideo incassum jus natu quidne saluto ullamcorper. Commodo iusto lucidus minim nibh vindico voco.\n\nAbluo eligo iaceo lenis. Accumsan commodo commoveo humo suscipere validus vereor virtus. Antehabeo haero jus molior ut. Aliquip incassum metuo os rusticus similis tation te. Aliquam enim haero molior tego veniam. Caecus imputo sit. Commoveo dignissim dolus interdico luptatum nulla nutus quae sagaciter torqueo. Letalis ludus vulpes.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_resource_links": [
+        {
+            "uri": "http:\/\/www.uavutriwradu.biz",
+            "title": "Immitto proprius si ullamcorper ut.",
+            "options": []
+        },
+        {
+            "uri": "http:\/\/www.crijishi.org",
+            "title": "Abigo esse mauris qui tation tum velit.",
+            "options": []
+        },
+        {
+            "uri": "http:\/\/www.howecrijobuwrad.gov",
+            "title": "Causa eros facilisis lobortis pagus quibus velit venio virtus.",
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/kd7jxGEl7x.txt"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/file\/file"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "a20783d7-c4e2-4a56-8a43-164beaa7e11d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "kd7jxGEl7x.txt"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-08\/kd7jxGEl7x.txt",
+            "url": "\/sites\/default\/files\/2020-08\/kd7jxGEl7x.txt"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "text\/plain"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 528
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-12T13:51:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T13:51:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

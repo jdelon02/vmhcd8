@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/markus-spiske-WUehAgqO5hE-unsplash.jpg"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/file\/file"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "07b6244d-b971-4081-8daa-7832e2e719f8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "markus-spiske-WUehAgqO5hE-unsplash.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-08\/markus-spiske-WUehAgqO5hE-unsplash.jpg",
+            "url": "\/sites\/default\/files\/2020-08\/markus-spiske-WUehAgqO5hE-unsplash.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 440164
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-12T16:29:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T16:29:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

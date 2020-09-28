@@ -1,0 +1,250 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/resources\/vicis-volutpat?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/resource"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_paragraphs": [
+            {
+                "href": "",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_photo": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/1\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_downloads": [
+            {
+                "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/wwzstXufkW.txt"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_type": [
+            null
+        ]
+    },
+    "uuid": [
+        {
+            "value": "b3845726-c37d-4302-95b1-1af5861166ac"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "resource"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-12T14:57:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/image_grid"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "aee18ceb-edd4-457b-add4-0cb821fe1672"
+                    }
+                ],
+                "lang": "en",
+                "target_revision_id": "629"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_photo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/1\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6045e42a-c8b5-4bcf-893b-d8b52ec4a021"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_downloads": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/wwzstXufkW.txt"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "814ee394-9a0b-44d7-831a-4c1784e65c14"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/resource\/field_resource_type": [
+            null
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Vicis Volutpat",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-11T14:04:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T14:57:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Vicis Volutpat | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/resources\/vicis-volutpat",
+                "description": "Consectetuer enim immitto quia. Eros fere plaga qui saepius tego typicus. Dolus esca hendrerit. Aliquam damnum eligo ex feugiat jumentum minim nisl suscipere veniam.\nCaecus ex occuro sino usitas velit vindico. Laoreet quia quidem. Distineo eu luptatum odio rusticus sagaciter. Esca facilisi illum imputo jus quidem typicus. Adipiscing hendrerit immitto natu olim persto velit veniam vulpes wisi. Adipiscing eligo eum obruo praemitto quidne valetudo vindico volutpat ymo. Abdo adipiscing erat facilisis nunc pala tego ullamcorper valde.\nEum iriure jumentum laoreet ludus metuo turpis. Distineo eligo immitto in iusto luptatum tation. Abigo aliquip enim feugiat gravis meus nulla proprius sudo. Abdo eros eum persto rusticus. Euismod iaceo jumentum nimis pala typicus validus wisi. Abigo augue blandit iaceo inhibeo iustum nunc quae rusticus typicus.\nDecet feugiat molior nostrud refoveo torqueo utrum validus vulpes. Abdo abluo decet lenis letalis plaga uxor. Antehabeo exerci ibidem molior pagus roto ulciscor. Ad causa commoveo ex exputo ille modo ratis. Abico jus lucidus natu probo. At defui ex genitus gilvus ludus pertineo plaga pneum tamen.\nAt augue eligo jumentum rusticus valde vel wisi. Abigo acsi capto dolus iusto pecus quis te. Eum in pertineo ratis valetudo. Facilisi hendrerit letalis natu pala vicis.\nAccumsan appellatio aptent capto facilisi huic modo persto quis valetudo. Erat ex tamen typicus ulciscor validus vulputate. Comis esse paratus. Camur conventio jumentum nunc pneum quibus uxor. Abluo appellatio natu paulatim suscipit. Cui esca jumentum lenis plaga. Elit enim ille qui suscipit tum. Commodo mos quis ratis vero verto.\nBrevitas immitto luctus neque vicis. At augue diam tincidunt. Ea sudo tation vel. Abigo aliquip distineo dolor hos ibidem sed singularis tego. Abbas amet mos persto probo rusticus utinam vicis. Abluo capto esca eum probo si sudo voco. Abdo cogo quidem similis tego. Facilisis jumentum macto persto pneum refoveo secundum si turpis typicus. Illum immitto iriure olim pagus singularis verto vindico.\nConventio enim quidne. Distineo eligo elit esca sed. Jus sino ut venio vero ymo. Ea hos pertineo sagaciter sino sit vero. Abbas diam feugiat genitus illum ratis saluto ut. Enim erat iaceo melior os paulatim probo sed vindico.\nAliquip importunus melior metuo mos validus vereor vicis. Abbas et proprius refero. Camur erat sed vulpes. At dignissim distineo gilvus obruo pecus quidem saepius. Abbas abigo aliquip autem commoveo ludus. Camur eligo genitus singularis tego zelus. Importunus volutpat zelus. Abdo commodo defui lobortis magna nunc suscipere validus vel vindico.\nAbluo adipiscing gravis ludus meus molior plaga suscipere valetudo volutpat. Acsi adipiscing dolus facilisi iaceo importunus iusto macto nutus pecus. Tamen tation virtus zelus. Euismod populus similis. Amet commoveo facilisi hos praesent quibus si tum. Appellatio populus saepius. Amet diam elit incassum lobortis natu ratis voco.\nAbbas consequat esse ille laoreet pertineo usitas ymo. Accumsan comis commoveo neo os vicis volutpat. Abigo commodo consectetuer iaceo ille laoreet magna melior metuo turpis. Aliquam paulatim quis suscipere te turpis. Augue decet illum macto pagus quibus similis. Enim neo nisl praesent utinam validus vicis. Appellatio bene brevitas causa cui elit probo singularis tation uxor.\nAbico abigo esca feugiat laoreet nostrud pagus qui tincidunt vulputate. Abbas acsi aliquam consequat nutus paratus voco. Commodo quidem volutpat. Augue dolus macto mos neo pala. Et fere ille mos nulla populus usitas venio zelus. Gilvus imputo jugis modo nulla paulatim saepius valetudo vulpes zelus. Aptent nisl plaga sagaciter secundum wisi. Dolore elit quidem quis tamen. Cui iaceo jus nisl pala."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/resources\/vicis-volutpat",
+            "pid": 417,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Consectetuer enim immitto quia. Eros fere plaga qui saepius tego typicus. Dolus esca hendrerit. Aliquam damnum eligo ex feugiat jumentum minim nisl suscipere veniam.\n\nCaecus ex occuro sino usitas velit vindico. Laoreet quia quidem. Distineo eu luptatum odio rusticus sagaciter. Esca facilisi illum imputo jus quidem typicus. Adipiscing hendrerit immitto natu olim persto velit veniam vulpes wisi. Adipiscing eligo eum obruo praemitto quidne valetudo vindico volutpat ymo. Abdo adipiscing erat facilisis nunc pala tego ullamcorper valde.\n\nEum iriure jumentum laoreet ludus metuo turpis. Distineo eligo immitto in iusto luptatum tation. Abigo aliquip enim feugiat gravis meus nulla proprius sudo. Abdo eros eum persto rusticus. Euismod iaceo jumentum nimis pala typicus validus wisi. Abigo augue blandit iaceo inhibeo iustum nunc quae rusticus typicus.\n\nDecet feugiat molior nostrud refoveo torqueo utrum validus vulpes. Abdo abluo decet lenis letalis plaga uxor. Antehabeo exerci ibidem molior pagus roto ulciscor. Ad causa commoveo ex exputo ille modo ratis. Abico jus lucidus natu probo. At defui ex genitus gilvus ludus pertineo plaga pneum tamen.\n\nAt augue eligo jumentum rusticus valde vel wisi. Abigo acsi capto dolus iusto pecus quis te. Eum in pertineo ratis valetudo. Facilisi hendrerit letalis natu pala vicis.\n\nAccumsan appellatio aptent capto facilisi huic modo persto quis valetudo. Erat ex tamen typicus ulciscor validus vulputate. Comis esse paratus. Camur conventio jumentum nunc pneum quibus uxor. Abluo appellatio natu paulatim suscipit. Cui esca jumentum lenis plaga. Elit enim ille qui suscipit tum. Commodo mos quis ratis vero verto.\n\nBrevitas immitto luctus neque vicis. At augue diam tincidunt. Ea sudo tation vel. Abigo aliquip distineo dolor hos ibidem sed singularis tego. Abbas amet mos persto probo rusticus utinam vicis. Abluo capto esca eum probo si sudo voco. Abdo cogo quidem similis tego. Facilisis jumentum macto persto pneum refoveo secundum si turpis typicus. Illum immitto iriure olim pagus singularis verto vindico.\n\nConventio enim quidne. Distineo eligo elit esca sed. Jus sino ut venio vero ymo. Ea hos pertineo sagaciter sino sit vero. Abbas diam feugiat genitus illum ratis saluto ut. Enim erat iaceo melior os paulatim probo sed vindico.\n\nAliquip importunus melior metuo mos validus vereor vicis. Abbas et proprius refero. Camur erat sed vulpes. At dignissim distineo gilvus obruo pecus quidem saepius. Abbas abigo aliquip autem commoveo ludus. Camur eligo genitus singularis tego zelus. Importunus volutpat zelus. Abdo commodo defui lobortis magna nunc suscipere validus vel vindico.\n\nAbluo adipiscing gravis ludus meus molior plaga suscipere valetudo volutpat. Acsi adipiscing dolus facilisi iaceo importunus iusto macto nutus pecus. Tamen tation virtus zelus. Euismod populus similis. Amet commoveo facilisi hos praesent quibus si tum. Appellatio populus saepius. Amet diam elit incassum lobortis natu ratis voco.\n\nAbbas consequat esse ille laoreet pertineo usitas ymo. Accumsan comis commoveo neo os vicis volutpat. Abigo commodo consectetuer iaceo ille laoreet magna melior metuo turpis. Aliquam paulatim quis suscipere te turpis. Augue decet illum macto pagus quibus similis. Enim neo nisl praesent utinam validus vicis. Appellatio bene brevitas causa cui elit probo singularis tation uxor.\n\nAbico abigo esca feugiat laoreet nostrud pagus qui tincidunt vulputate. Abbas acsi aliquam consequat nutus paratus voco. Commodo quidem volutpat. Augue dolus macto mos neo pala. Et fere ille mos nulla populus usitas venio zelus. Gilvus imputo jugis modo nulla paulatim saepius valetudo vulpes zelus. Aptent nisl plaga sagaciter secundum wisi. Dolore elit quidem quis tamen. Cui iaceo jus nisl pala.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Consectetuer enim immitto quia. Eros fere plaga qui saepius tego typicus. Dolus esca hendrerit. Aliquam damnum eligo ex feugiat jumentum minim nisl suscipere veniam.<\/p>\n<p>Caecus ex occuro sino usitas velit vindico. Laoreet quia quidem. Distineo eu luptatum odio rusticus sagaciter. Esca facilisi illum imputo jus quidem typicus. Adipiscing hendrerit immitto natu olim persto velit veniam vulpes wisi. Adipiscing eligo eum obruo praemitto quidne valetudo vindico volutpat ymo. Abdo adipiscing erat facilisis nunc pala tego ullamcorper valde.<\/p>\n<p>Eum iriure jumentum laoreet ludus metuo turpis. Distineo eligo immitto in iusto luptatum tation. Abigo aliquip enim feugiat gravis meus nulla proprius sudo. Abdo eros eum persto rusticus. Euismod iaceo jumentum nimis pala typicus validus wisi. Abigo augue blandit iaceo inhibeo iustum nunc quae rusticus typicus.<\/p>\n<p>Decet feugiat molior nostrud refoveo torqueo utrum validus vulpes. Abdo abluo decet lenis letalis plaga uxor. Antehabeo exerci ibidem molior pagus roto ulciscor. Ad causa commoveo ex exputo ille modo ratis. Abico jus lucidus natu probo. At defui ex genitus gilvus ludus pertineo plaga pneum tamen.<\/p>\n<p>At augue eligo jumentum rusticus valde vel wisi. Abigo acsi capto dolus iusto pecus quis te. Eum in pertineo ratis valetudo. Facilisi hendrerit letalis natu pala vicis.<\/p>\n<p>Accumsan appellatio aptent capto facilisi huic modo persto quis valetudo. Erat ex tamen typicus ulciscor validus vulputate. Comis esse paratus. Camur conventio jumentum nunc pneum quibus uxor. Abluo appellatio natu paulatim suscipit. Cui esca jumentum lenis plaga. Elit enim ille qui suscipit tum. Commodo mos quis ratis vero verto.<\/p>\n<p>Brevitas immitto luctus neque vicis. At augue diam tincidunt. Ea sudo tation vel. Abigo aliquip distineo dolor hos ibidem sed singularis tego. Abbas amet mos persto probo rusticus utinam vicis. Abluo capto esca eum probo si sudo voco. Abdo cogo quidem similis tego. Facilisis jumentum macto persto pneum refoveo secundum si turpis typicus. Illum immitto iriure olim pagus singularis verto vindico.<\/p>\n<p>Conventio enim quidne. Distineo eligo elit esca sed. Jus sino ut venio vero ymo. Ea hos pertineo sagaciter sino sit vero. Abbas diam feugiat genitus illum ratis saluto ut. Enim erat iaceo melior os paulatim probo sed vindico.<\/p>\n<p>Aliquip importunus melior metuo mos validus vereor vicis. Abbas et proprius refero. Camur erat sed vulpes. At dignissim distineo gilvus obruo pecus quidem saepius. Abbas abigo aliquip autem commoveo ludus. Camur eligo genitus singularis tego zelus. Importunus volutpat zelus. Abdo commodo defui lobortis magna nunc suscipere validus vel vindico.<\/p>\n<p>Abluo adipiscing gravis ludus meus molior plaga suscipere valetudo volutpat. Acsi adipiscing dolus facilisi iaceo importunus iusto macto nutus pecus. Tamen tation virtus zelus. Euismod populus similis. Amet commoveo facilisi hos praesent quibus si tum. Appellatio populus saepius. Amet diam elit incassum lobortis natu ratis voco.<\/p>\n<p>Abbas consequat esse ille laoreet pertineo usitas ymo. Accumsan comis commoveo neo os vicis volutpat. Abigo commodo consectetuer iaceo ille laoreet magna melior metuo turpis. Aliquam paulatim quis suscipere te turpis. Augue decet illum macto pagus quibus similis. Enim neo nisl praesent utinam validus vicis. Appellatio bene brevitas causa cui elit probo singularis tation uxor.<\/p>\n<p>Abico abigo esca feugiat laoreet nostrud pagus qui tincidunt vulputate. Abbas acsi aliquam consequat nutus paratus voco. Commodo quidem volutpat. Augue dolus macto mos neo pala. Et fere ille mos nulla populus usitas venio zelus. Gilvus imputo jugis modo nulla paulatim saepius valetudo vulpes zelus. Aptent nisl plaga sagaciter secundum wisi. Dolore elit quidem quis tamen. Cui iaceo jus nisl pala.<\/p>\n",
+            "summary": "Consectetuer enim immitto quia. Eros fere plaga qui saepius tego typicus. Dolus esca hendrerit. Aliquam damnum eligo ex feugiat jumentum minim nisl suscipere veniam.\n\nCaecus ex occuro sino usitas velit vindico. Laoreet quia quidem. Distineo eu luptatum odio rusticus sagaciter. Esca facilisi illum imputo jus quidem typicus. Adipiscing hendrerit immitto natu olim persto velit veniam vulpes wisi. Adipiscing eligo eum obruo praemitto quidne valetudo vindico volutpat ymo. Abdo adipiscing erat facilisis nunc pala tego ullamcorper valde.\n\nEum iriure jumentum laoreet ludus metuo turpis. Distineo eligo immitto in iusto luptatum tation. Abigo aliquip enim feugiat gravis meus nulla proprius sudo. Abdo eros eum persto rusticus. Euismod iaceo jumentum nimis pala typicus validus wisi. Abigo augue blandit iaceo inhibeo iustum nunc quae rusticus typicus.\n\nDecet feugiat molior nostrud refoveo torqueo utrum validus vulpes. Abdo abluo decet lenis letalis plaga uxor. Antehabeo exerci ibidem molior pagus roto ulciscor. Ad causa commoveo ex exputo ille modo ratis. Abico jus lucidus natu probo. At defui ex genitus gilvus ludus pertineo plaga pneum tamen.\n\nAt augue eligo jumentum rusticus valde vel wisi. Abigo acsi capto dolus iusto pecus quis te. Eum in pertineo ratis valetudo. Facilisi hendrerit letalis natu pala vicis.\n\nAccumsan appellatio aptent capto facilisi huic modo persto quis valetudo. Erat ex tamen typicus ulciscor validus vulputate. Comis esse paratus. Camur conventio jumentum nunc pneum quibus uxor. Abluo appellatio natu paulatim suscipit. Cui esca jumentum lenis plaga. Elit enim ille qui suscipit tum. Commodo mos quis ratis vero verto.\n\nBrevitas immitto luctus neque vicis. At augue diam tincidunt. Ea sudo tation vel. Abigo aliquip distineo dolor hos ibidem sed singularis tego. Abbas amet mos persto probo rusticus utinam vicis. Abluo capto esca eum probo si sudo voco. Abdo cogo quidem similis tego. Facilisis jumentum macto persto pneum refoveo secundum si turpis typicus. Illum immitto iriure olim pagus singularis verto vindico.\n\nConventio enim quidne. Distineo eligo elit esca sed. Jus sino ut venio vero ymo. Ea hos pertineo sagaciter sino sit vero. Abbas diam feugiat genitus illum ratis saluto ut. Enim erat iaceo melior os paulatim probo sed vindico.\n\nAliquip importunus melior metuo mos validus vereor vicis. Abbas et proprius refero. Camur erat sed vulpes. At dignissim distineo gilvus obruo pecus quidem saepius. Abbas abigo aliquip autem commoveo ludus. Camur eligo genitus singularis tego zelus. Importunus volutpat zelus. Abdo commodo defui lobortis magna nunc suscipere validus vel vindico.\n\nAbluo adipiscing gravis ludus meus molior plaga suscipere valetudo volutpat. Acsi adipiscing dolus facilisi iaceo importunus iusto macto nutus pecus. Tamen tation virtus zelus. Euismod populus similis. Amet commoveo facilisi hos praesent quibus si tum. Appellatio populus saepius. Amet diam elit incassum lobortis natu ratis voco.\n\nAbbas consequat esse ille laoreet pertineo usitas ymo. Accumsan comis commoveo neo os vicis volutpat. Abigo commodo consectetuer iaceo ille laoreet magna melior metuo turpis. Aliquam paulatim quis suscipere te turpis. Augue decet illum macto pagus quibus similis. Enim neo nisl praesent utinam validus vicis. Appellatio bene brevitas causa cui elit probo singularis tation uxor.\n\nAbico abigo esca feugiat laoreet nostrud pagus qui tincidunt vulputate. Abbas acsi aliquam consequat nutus paratus voco. Commodo quidem volutpat. Augue dolus macto mos neo pala. Et fere ille mos nulla populus usitas venio zelus. Gilvus imputo jugis modo nulla paulatim saepius valetudo vulpes zelus. Aptent nisl plaga sagaciter secundum wisi. Dolore elit quidem quis tamen. Cui iaceo jus nisl pala.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_resource_links": [
+        {
+            "uri": "http:\/\/www.croswekilo.com",
+            "title": "Adipiscing mos scisco. Augue esse facilisis letalis nulla pala plaga quis ymo.",
+            "options": []
+        },
+        {
+            "uri": "http:\/\/www.clugecathojap.edu",
+            "title": "At capto dolor elit ideo immitto plaga probo quadrum quis.",
+            "options": []
+        },
+        {
+            "uri": "http:\/\/www.briphikowrip.org",
+            "title": "Brevitas consectetuer damnum decet.",
+            "options": []
+        }
+    ]
+}

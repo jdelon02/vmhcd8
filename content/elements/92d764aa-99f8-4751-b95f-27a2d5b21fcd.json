@@ -1,0 +1,124 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/elements\/30?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/elements\/link_card_item"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/link_card_item\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/90?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/link_card_item\/field_imagee": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/11\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "92d764aa-99f8-4751-b95f-27a2d5b21fcd"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "link_card_item"
+        }
+    ],
+    "title": [
+        {
+            "value": "Link Card With Background",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/link_card_item\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/90?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5afa0a73-9b4a-43ad-aea7-9ad43e4edbbf"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/link_card_item\/field_imagee": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/11\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "312c4a04-7358-4574-b051-3dd571e23098"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "2020-09-22T01:03:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-09-22T01:03:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Default Content Deploy - Export | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
+            }
+        }
+    ],
+    "field_call_to_action": [
+        {
+            "uri": "internal:\/",
+            "title": "Home Page",
+            "options": []
+        }
+    ],
+    "field_description": [
+        {
+            "value": "<p>I bet this will look really great!<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>I bet this will look really great!<\/p>\n"
+        }
+    ]
+}

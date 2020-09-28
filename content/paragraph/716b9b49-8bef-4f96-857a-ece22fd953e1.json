@@ -1,0 +1,101 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/paragraph\/standalone_image_paragraph"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/paragraph\/standalone_image_paragraph\/field_media": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/4\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "716b9b49-8bef-4f96-857a-ece22fd953e1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "standalone_image_paragraph"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-07-13T18:33:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "2"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraphs"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": {
+                "paragraphs_viewmode_behavior": {
+                    "view_mode": "centered_content_width"
+                }
+            }
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/paragraph\/standalone_image_paragraph\/field_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/4\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c2bfbe20-55d7-4350-ab89-d2dff5859d71"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "field_media_view_mode": [
+        {
+            "value": "portrait_3_4",
+            "lang": "en"
+        }
+    ]
+}

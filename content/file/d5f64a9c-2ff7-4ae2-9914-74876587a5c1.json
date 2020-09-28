@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-08\/generateImage_VxCLYp.gif"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/file\/file"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "d5f64a9c-2ff7-4ae2-9914-74876587a5c1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "generateImage_VxCLYp.gif"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-08\/generateImage_VxCLYp.gif",
+            "url": "\/sites\/default\/files\/2020-08\/generateImage_VxCLYp.gif"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/gif"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 5874
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-11T15:38:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-11T15:38:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/elements\/20?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/elements\/link_card_item"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/link_card_item\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/link_card_item\/field_imagee": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/5\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "7451469a-e765-4194-9c54-e9057656dc6e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "link_card_item"
+        }
+    ],
+    "title": [
+        {
+            "value": "Card Legal",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/link_card_item\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/link_card_item\/field_imagee": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/5\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1c5fc016-65a6-4a1c-8f70-4cf6fb2b9e47"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "2020-08-10T00:49:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-10T00:49:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Default Content Deploy - Export | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
+            }
+        }
+    ],
+    "field_call_to_action": [
+        {
+            "uri": "internal:\/",
+            "title": "Link",
+            "options": []
+        }
+    ],
+    "field_description": [
+        {
+            "value": "<p>Reasonable Value of This License. This License shall survive, including but not limited to broadcasting, communication and various recording media. If any files are modified, you must give any other recipients of the License, and that you distribute of the Work, you may, without restriction, provided the result does not prevent the user installing or running the Program in a commercial product offering, such Distributor (\"Commercial Distributor\") hereby agrees to defend and hold each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to the work, which we will strive to indicate in any way, provided that you distribute must include a notice placed by Apple identifying such program or other liability obligations to your programs, too.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Reasonable Value of This License. This License shall survive, including but not limited to broadcasting, communication and various recording media. If any files are modified, you must give any other recipients of the License, and that you distribute of the Work, you may, without restriction, provided the result does not prevent the user installing or running the Program in a commercial product offering, such Distributor (\"Commercial Distributor\") hereby agrees to defend and hold each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to the work, which we will strive to indicate in any way, provided that you distribute must include a notice placed by Apple identifying such program or other liability obligations to your programs, too.<\/p>\n"
+        }
+    ]
+}

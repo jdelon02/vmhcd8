@@ -638,7 +638,7 @@
         "version_normalized": "3.5.1.0",
         "source": {
             "type": "git",
-            "url": "git@github.com:jquery/jquery-dist.git",
+            "url": "https://github.com/jquery/jquery-dist.git",
             "reference": "4c0e4becb8263bb5b3e6dadc448d8e7305ef8215"
         },
         "dist": {
@@ -2368,6 +2368,69 @@
         "support": {
             "source": "https://git.drupalcode.org/project/better_exposed_filters",
             "issues": "https://www.drupal.org/project/issues/better_exposed_filters"
+        }
+    },
+    {
+        "name": "drupal/better_normalizers",
+        "version": "1.0.0-beta4",
+        "version_normalized": "1.0.0.0-beta4",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/better_normalizers.git",
+            "reference": "8.x-1.0-beta4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/better_normalizers-8.x-1.0-beta4.zip",
+            "reference": "8.x-1.0-beta4",
+            "shasum": "19e63328ca9ab77aaa328d87efd7429f4adb386e"
+        },
+        "require": {
+            "drupal/core": "^8.7.7 || ^9"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "8.x-1.0-beta4",
+                "datestamp": "1576069085",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Christian Fritsch (chr.fritsch)",
+                "homepage": "https://www.drupal.org/u/chrfritsch",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Andrey Postnikov (andypost)",
+                "homepage": "https://www.drupal.org/u/andypost",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Sam Becker (Sam152)",
+                "homepage": "https://www.drupal.org/u/sam152",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Lee Rowlands (larowlan)",
+                "homepage": "https://www.drupal.org/u/larowlan",
+                "role": "Maintainer"
+            }
+        ],
+        "description": "Improve the normalizers in core.",
+        "homepage": "https://www.drupal.org/project/better_normalizers",
+        "support": {
+            "source": "https://git.drupal.org/project/better_normalizers.git",
+            "issues": "https://www.drupal.org/project/issues/better_normalizers"
         }
     },
     {
@@ -4369,6 +4432,67 @@
         }
     },
     {
+        "name": "drupal/default_content_deploy",
+        "version": "1.0.0-beta3",
+        "version_normalized": "1.0.0.0-beta3",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/default_content_deploy.git",
+            "reference": "8.x-1.0-beta3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/default_content_deploy-8.x-1.0-beta3.zip",
+            "reference": "8.x-1.0-beta3",
+            "shasum": "30fd39d45f40c36ae5ac8a99e05edee1091a6b2c"
+        },
+        "require": {
+            "drupal/core": "^8 || ^9",
+            "php": ">=5.6.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "8.x-1.0-beta3",
+                "datestamp": "1601027167",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            },
+            "drush": {
+                "services": {
+                    "drush.services.yml": "^9"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Martin Klíma",
+                "homepage": "https://www.drupal.org/user/340058",
+                "email": "martin.klima@hqis.cz"
+            },
+            {
+                "name": "Jakub Hnilička",
+                "homepage": "https://www.drupal.org/user/2784335"
+            },
+            {
+                "name": "Radoslav Terezka",
+                "homepage": "https://www.drupal.org/user/3289357"
+            }
+        ],
+        "description": "Drupal 8 module for exporting and deploying content in *.json files. Sponsored by: HBF s.r.o., http://hbf.sk, https://drupal.org/hbf",
+        "homepage": "https://www.drupal.org/project/default_content_deploy",
+        "support": {
+            "source": "https://git.drupalcode.org/project/default_content_deploy"
+        }
+    },
+    {
         "name": "drupal/devel",
         "version": "4.0.1",
         "version_normalized": "4.0.1.0",
@@ -5453,6 +5577,128 @@
         "homepage": "https://www.drupal.org/project/field_token_value",
         "support": {
             "source": "https://git.drupalcode.org/project/field_token_value"
+        }
+    },
+    {
+        "name": "drupal/file_entity",
+        "version": "2.0.0-beta7",
+        "version_normalized": "2.0.0.0-beta7",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/file_entity.git",
+            "reference": "8.x-2.0-beta7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/file_entity-8.x-2.0-beta7.zip",
+            "reference": "8.x-2.0-beta7",
+            "shasum": "8b683d06c7cbe9a57130edaf875a058a2f1bfc70"
+        },
+        "require": {
+            "drupal/core": "^8",
+            "drupal/token": "*"
+        },
+        "require-dev": {
+            "drupal/pathauto": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "8.x-2.0-beta7",
+                "datestamp": "1562796485",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Berdir",
+                "homepage": "https://www.drupal.org/user/214652"
+            },
+            {
+                "name": "DamienMcKenna",
+                "homepage": "https://www.drupal.org/user/108450"
+            },
+            {
+                "name": "Dave Reid",
+                "homepage": "https://www.drupal.org/user/53892"
+            },
+            {
+                "name": "Devin Carlson",
+                "homepage": "https://www.drupal.org/user/290182"
+            },
+            {
+                "name": "Drupal Media Team",
+                "homepage": "https://www.drupal.org/user/3260690"
+            },
+            {
+                "name": "Drupal media CI",
+                "homepage": "https://www.drupal.org/user/3057985"
+            },
+            {
+                "name": "JacobSingh",
+                "homepage": "https://www.drupal.org/user/68912"
+            },
+            {
+                "name": "JeffM2001",
+                "homepage": "https://www.drupal.org/user/262092"
+            },
+            {
+                "name": "ParisLiakos",
+                "homepage": "https://www.drupal.org/user/1011436"
+            },
+            {
+                "name": "aaron",
+                "homepage": "https://www.drupal.org/user/33420"
+            },
+            {
+                "name": "arthurf",
+                "homepage": "https://www.drupal.org/user/27259"
+            },
+            {
+                "name": "dsnopek",
+                "homepage": "https://www.drupal.org/user/266527"
+            },
+            {
+                "name": "dsutter",
+                "homepage": "https://www.drupal.org/user/3357810"
+            },
+            {
+                "name": "effulgentsia",
+                "homepage": "https://www.drupal.org/user/78040"
+            },
+            {
+                "name": "joseph.olstad",
+                "homepage": "https://www.drupal.org/user/1321830"
+            },
+            {
+                "name": "mpotter",
+                "homepage": "https://www.drupal.org/user/616192"
+            },
+            {
+                "name": "mxr576",
+                "homepage": "https://www.drupal.org/user/315522"
+            },
+            {
+                "name": "robeano",
+                "homepage": "https://www.drupal.org/user/67660"
+            },
+            {
+                "name": "slashrsm",
+                "homepage": "https://www.drupal.org/user/744628"
+            }
+        ],
+        "description": "Extends Drupal file entities to be fieldable and viewable.",
+        "homepage": "https://www.drupal.org/project/file_entity",
+        "support": {
+            "source": "https://git.drupalcode.org/project/file_entity"
         }
     },
     {

@@ -1,0 +1,193 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/about\/jane-smithson?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/person"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/field_person_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/field_photo": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/4\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "f0b3be27-2289-4f98-81af-8cb233d893f7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "person"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-12T16:41:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/field_person_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/person\/field_photo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/4\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c2bfbe20-55d7-4350-ab89-d2dff5859d71"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Jane Smithson",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-10T01:52:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T16:41:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Jane Smithson | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/about\/jane-smithson",
+                "description": "The first drawback of anger is that it destroys your inner peace; the second is that it distorts your view of reality. If you think about this and come to understand that anger is really unhelpful, that it is only destructive, you can begin to distance yourself from anger.<\/p>"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/about\/jane-smithson",
+            "pid": 1,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>The first drawback of anger is that it destroys your inner peace; the second is that it distorts your view of reality. If you think about this and come to understand that anger is really unhelpful, that it is only destructive, you can begin to distance yourself from anger.&lt;\/p&gt;<\/p>\r\n\r\n<p>More fundamental than religion is our basic human spirituality. We have a basic human disposition towards love, kindness and affection, irrespective of whether we have a religious framework or not. When we nurture this most basic human resource when we set about cultivating those basic inner values which we all appreciate in others, then we start to live spiritually.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>The first drawback of anger is that it destroys your inner peace; the second is that it distorts your view of reality. If you think about this and come to understand that anger is really unhelpful, that it is only destructive, you can begin to distance yourself from anger.&lt;\/p&gt;<\/p>\n\n<p>More fundamental than religion is our basic human spirituality. We have a basic human disposition towards love, kindness and affection, irrespective of whether we have a religious framework or not. When we nurture this most basic human resource when we set about cultivating those basic inner values which we all appreciate in others, then we start to live spiritually.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_first_name": [
+        {
+            "value": "Jane"
+        }
+    ],
+    "field_last_name": [
+        {
+            "value": "Smithson"
+        }
+    ],
+    "field_position": [
+        {
+            "value": "CMO, Content Enthusiast"
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/components\/16?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/components\/view_block"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/components\/view_block\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/components\/view_block\/field_background_colors": [
+            {
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/components\/view_block\/field_view_item": [
+            {
+                "href": "http:\/\/botdemo.test\/elements\/26?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "8fd180c4-e029-4f71-a347-6649c815023d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "view_block"
+        }
+    ],
+    "title": [
+        {
+            "value": "Board",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/components\/view_block\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/components\/view_block\/field_background_colors": [
+            {
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/components\/view_block\/field_view_item": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/elements\/26?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/elements\/view_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "beb122ab-a57b-41a1-bed5-ea04265d8228"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "2020-08-12T16:10:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T16:27:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Default Content Deploy - Export | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
+            }
+        }
+    ]
+}

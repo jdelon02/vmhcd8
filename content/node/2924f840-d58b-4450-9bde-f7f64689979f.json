@@ -1,0 +1,219 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/news\/commoveo-esca-eum-nulla?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/article"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_news_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_photo": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/4\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "lang": "en"
+            },
+            {
+                "lang": "en"
+            },
+            {
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "2924f840-d58b-4450-9bde-f7f64689979f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-12T13:29:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_news_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_photo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/4\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c2bfbe20-55d7-4350-ab89-d2dff5859d71"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "lang": "en"
+            },
+            {
+                "lang": "en"
+            },
+            {
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Commoveo Esca Eum Nulla",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-06T10:39:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T13:29:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Commoveo Esca Eum Nulla | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/news\/commoveo-esca-eum-nulla",
+                "description": "Caecus dolore esca eum imputo luptatum rusticus vicis. Gemino minim obruo persto premo sudo tum. Lenis nisl olim patria quae quidem refero sino utrum vicis. Commodo consequat fere lenis ludus macto neo quidne rusticus zelus.\nDuis eu gilvus iriure sit vindico ymo. Fere jugis loquor luptatum praesent velit. Dolor eum jugis laoreet utinam uxor voco. Feugiat iusto nulla occuro odio patria ratis refero sit.\nLuptatum sit vel. Amet blandit cui persto pneum quibus. Aptent consequat iaceo imputo interdico jus magna patria vindico. Commoveo consequat scisco tamen vero.\nEt huic illum patria quadrum quis. Consequat facilisi ibidem os tum usitas. Camur consectetuer facilisis iustum minim natu obruo valde. Hendrerit quidne vulpes. Abico consectetuer conventio hendrerit nisl suscipere validus.\nAptent comis elit euismod iusto plaga similis. Abigo aliquip bene cui huic pagus sudo vulputate. Consequat ea eu jumentum nibh qui quia sed. Abbas acsi antehabeo comis hos jus si tamen valetudo.\nAd enim esca iustum quadrum tamen ulciscor utinam voco. Camur euismod iustum minim neo nutus quae valetudo. Mos nutus velit wisi. Conventio praemitto suscipit. Esse exerci genitus loquor natu te.\nCommoveo immitto roto. Damnum duis pala usitas utinam verto. Damnum feugiat imputo nimis plaga volutpat. Abluo at ludus occuro premo vereor volutpat vulpes. Accumsan cui illum ut. Causa fere gravis tincidunt torqueo utinam. At brevitas capto diam exerci imputo paratus saepius te.\nAbdo incassum magna patria secundum zelus. Dolore enim haero similis vel. Macto neque sed. Aliquam causa consectetuer dolore illum jus nunc quidne suscipere vindico.\nLenis lobortis secundum similis. Hos natu usitas. Abluo augue damnum oppeto quia similis torqueo velit. Incassum tego validus. Adipiscing camur esca eu ludus modo nobis oppeto suscipere valetudo.\nConsequat genitus mauris quis. Aptent eu incassum iriure modo patria probo te vulputate. Praesent tamen typicus vulpes zelus. Abigo gemino huic iaceo lucidus. Camur comis dolor facilisis ibidem iustum sed sit suscipit. Adipiscing fere iusto si vereor wisi.\nConsequat esse hendrerit pagus qui sit torqueo tum vel vicis. Abico capto enim metuo quidne si sit utinam velit vulpes. Camur conventio cui mauris. Commoveo eros importunus imputo letalis macto.\nAppellatio enim neque nimis sino velit. Antehabeo dolore enim facilisis populus sudo. Capto hendrerit lucidus macto. Accumsan blandit duis gravis letalis os pertineo quae qui si. Aliquip cui inhibeo lobortis lucidus quis sed tincidunt utinam vereor. Comis facilisi lobortis meus obruo occuro praesent saepius vicis vulpes."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/news\/commoveo-esca-eum-nulla",
+            "pid": 254,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Caecus dolore esca eum imputo luptatum rusticus vicis. Gemino minim obruo persto premo sudo tum. Lenis nisl olim patria quae quidem refero sino utrum vicis. Commodo consequat fere lenis ludus macto neo quidne rusticus zelus.\n\nDuis eu gilvus iriure sit vindico ymo. Fere jugis loquor luptatum praesent velit. Dolor eum jugis laoreet utinam uxor voco. Feugiat iusto nulla occuro odio patria ratis refero sit.\n\nLuptatum sit vel. Amet blandit cui persto pneum quibus. Aptent consequat iaceo imputo interdico jus magna patria vindico. Commoveo consequat scisco tamen vero.\n\nEt huic illum patria quadrum quis. Consequat facilisi ibidem os tum usitas. Camur consectetuer facilisis iustum minim natu obruo valde. Hendrerit quidne vulpes. Abico consectetuer conventio hendrerit nisl suscipere validus.\n\nAptent comis elit euismod iusto plaga similis. Abigo aliquip bene cui huic pagus sudo vulputate. Consequat ea eu jumentum nibh qui quia sed. Abbas acsi antehabeo comis hos jus si tamen valetudo.\n\nAd enim esca iustum quadrum tamen ulciscor utinam voco. Camur euismod iustum minim neo nutus quae valetudo. Mos nutus velit wisi. Conventio praemitto suscipit. Esse exerci genitus loquor natu te.\n\nCommoveo immitto roto. Damnum duis pala usitas utinam verto. Damnum feugiat imputo nimis plaga volutpat. Abluo at ludus occuro premo vereor volutpat vulpes. Accumsan cui illum ut. Causa fere gravis tincidunt torqueo utinam. At brevitas capto diam exerci imputo paratus saepius te.\n\nAbdo incassum magna patria secundum zelus. Dolore enim haero similis vel. Macto neque sed. Aliquam causa consectetuer dolore illum jus nunc quidne suscipere vindico.\n\nLenis lobortis secundum similis. Hos natu usitas. Abluo augue damnum oppeto quia similis torqueo velit. Incassum tego validus. Adipiscing camur esca eu ludus modo nobis oppeto suscipere valetudo.\n\nConsequat genitus mauris quis. Aptent eu incassum iriure modo patria probo te vulputate. Praesent tamen typicus vulpes zelus. Abigo gemino huic iaceo lucidus. Camur comis dolor facilisis ibidem iustum sed sit suscipit. Adipiscing fere iusto si vereor wisi.\n\nConsequat esse hendrerit pagus qui sit torqueo tum vel vicis. Abico capto enim metuo quidne si sit utinam velit vulpes. Camur conventio cui mauris. Commoveo eros importunus imputo letalis macto.\n\nAppellatio enim neque nimis sino velit. Antehabeo dolore enim facilisis populus sudo. Capto hendrerit lucidus macto. Accumsan blandit duis gravis letalis os pertineo quae qui si. Aliquip cui inhibeo lobortis lucidus quis sed tincidunt utinam vereor. Comis facilisi lobortis meus obruo occuro praesent saepius vicis vulpes.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Caecus dolore esca eum imputo luptatum rusticus vicis. Gemino minim obruo persto premo sudo tum. Lenis nisl olim patria quae quidem refero sino utrum vicis. Commodo consequat fere lenis ludus macto neo quidne rusticus zelus.<\/p>\n<p>Duis eu gilvus iriure sit vindico ymo. Fere jugis loquor luptatum praesent velit. Dolor eum jugis laoreet utinam uxor voco. Feugiat iusto nulla occuro odio patria ratis refero sit.<\/p>\n<p>Luptatum sit vel. Amet blandit cui persto pneum quibus. Aptent consequat iaceo imputo interdico jus magna patria vindico. Commoveo consequat scisco tamen vero.<\/p>\n<p>Et huic illum patria quadrum quis. Consequat facilisi ibidem os tum usitas. Camur consectetuer facilisis iustum minim natu obruo valde. Hendrerit quidne vulpes. Abico consectetuer conventio hendrerit nisl suscipere validus.<\/p>\n<p>Aptent comis elit euismod iusto plaga similis. Abigo aliquip bene cui huic pagus sudo vulputate. Consequat ea eu jumentum nibh qui quia sed. Abbas acsi antehabeo comis hos jus si tamen valetudo.<\/p>\n<p>Ad enim esca iustum quadrum tamen ulciscor utinam voco. Camur euismod iustum minim neo nutus quae valetudo. Mos nutus velit wisi. Conventio praemitto suscipit. Esse exerci genitus loquor natu te.<\/p>\n<p>Commoveo immitto roto. Damnum duis pala usitas utinam verto. Damnum feugiat imputo nimis plaga volutpat. Abluo at ludus occuro premo vereor volutpat vulpes. Accumsan cui illum ut. Causa fere gravis tincidunt torqueo utinam. At brevitas capto diam exerci imputo paratus saepius te.<\/p>\n<p>Abdo incassum magna patria secundum zelus. Dolore enim haero similis vel. Macto neque sed. Aliquam causa consectetuer dolore illum jus nunc quidne suscipere vindico.<\/p>\n<p>Lenis lobortis secundum similis. Hos natu usitas. Abluo augue damnum oppeto quia similis torqueo velit. Incassum tego validus. Adipiscing camur esca eu ludus modo nobis oppeto suscipere valetudo.<\/p>\n<p>Consequat genitus mauris quis. Aptent eu incassum iriure modo patria probo te vulputate. Praesent tamen typicus vulpes zelus. Abigo gemino huic iaceo lucidus. Camur comis dolor facilisis ibidem iustum sed sit suscipit. Adipiscing fere iusto si vereor wisi.<\/p>\n<p>Consequat esse hendrerit pagus qui sit torqueo tum vel vicis. Abico capto enim metuo quidne si sit utinam velit vulpes. Camur conventio cui mauris. Commoveo eros importunus imputo letalis macto.<\/p>\n<p>Appellatio enim neque nimis sino velit. Antehabeo dolore enim facilisis populus sudo. Capto hendrerit lucidus macto. Accumsan blandit duis gravis letalis os pertineo quae qui si. Aliquip cui inhibeo lobortis lucidus quis sed tincidunt utinam vereor. Comis facilisi lobortis meus obruo occuro praesent saepius vicis vulpes.<\/p>\n",
+            "summary": "Caecus dolore esca eum imputo luptatum rusticus vicis. Gemino minim obruo persto premo sudo tum. Lenis nisl olim patria quae quidem refero sino utrum vicis. Commodo consequat fere lenis ludus macto neo quidne rusticus zelus.\n\nDuis eu gilvus iriure sit vindico ymo. Fere jugis loquor luptatum praesent velit. Dolor eum jugis laoreet utinam uxor voco. Feugiat iusto nulla occuro odio patria ratis refero sit.\n\nLuptatum sit vel. Amet blandit cui persto pneum quibus. Aptent consequat iaceo imputo interdico jus magna patria vindico. Commoveo consequat scisco tamen vero.\n\nEt huic illum patria quadrum quis. Consequat facilisi ibidem os tum usitas. Camur consectetuer facilisis iustum minim natu obruo valde. Hendrerit quidne vulpes. Abico consectetuer conventio hendrerit nisl suscipere validus.\n\nAptent comis elit euismod iusto plaga similis. Abigo aliquip bene cui huic pagus sudo vulputate. Consequat ea eu jumentum nibh qui quia sed. Abbas acsi antehabeo comis hos jus si tamen valetudo.\n\nAd enim esca iustum quadrum tamen ulciscor utinam voco. Camur euismod iustum minim neo nutus quae valetudo. Mos nutus velit wisi. Conventio praemitto suscipit. Esse exerci genitus loquor natu te.\n\nCommoveo immitto roto. Damnum duis pala usitas utinam verto. Damnum feugiat imputo nimis plaga volutpat. Abluo at ludus occuro premo vereor volutpat vulpes. Accumsan cui illum ut. Causa fere gravis tincidunt torqueo utinam. At brevitas capto diam exerci imputo paratus saepius te.\n\nAbdo incassum magna patria secundum zelus. Dolore enim haero similis vel. Macto neque sed. Aliquam causa consectetuer dolore illum jus nunc quidne suscipere vindico.\n\nLenis lobortis secundum similis. Hos natu usitas. Abluo augue damnum oppeto quia similis torqueo velit. Incassum tego validus. Adipiscing camur esca eu ludus modo nobis oppeto suscipere valetudo.\n\nConsequat genitus mauris quis. Aptent eu incassum iriure modo patria probo te vulputate. Praesent tamen typicus vulpes zelus. Abigo gemino huic iaceo lucidus. Camur comis dolor facilisis ibidem iustum sed sit suscipit. Adipiscing fere iusto si vereor wisi.\n\nConsequat esse hendrerit pagus qui sit torqueo tum vel vicis. Abico capto enim metuo quidne si sit utinam velit vulpes. Camur conventio cui mauris. Commoveo eros importunus imputo letalis macto.\n\nAppellatio enim neque nimis sino velit. Antehabeo dolore enim facilisis populus sudo. Capto hendrerit lucidus macto. Accumsan blandit duis gravis letalis os pertineo quae qui si. Aliquip cui inhibeo lobortis lucidus quis sed tincidunt utinam vereor. Comis facilisi lobortis meus obruo occuro praesent saepius vicis vulpes.\n\n",
+            "lang": "en"
+        }
+    ],
+    "comment": [
+        {
+            "status": 0,
+            "cid": 0,
+            "last_comment_timestamp": 1597238945,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/elements\/27?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/elements\/view_item"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/view_item\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/view_item\/field_layout_width": [
+            null
+        ]
+    },
+    "uuid": [
+        {
+            "value": "033ecd68-67e5-4132-bae9-c9fda9ad0060"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "view_item"
+        }
+    ],
+    "title": [
+        {
+            "value": "Volunteers",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/view_item\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/view_item\/field_layout_width": [
+            null
+        ]
+    },
+    "created": [
+        {
+            "value": "2020-08-12T16:10:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T16:10:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Default Content Deploy - Export | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
+            }
+        }
+    ],
+    "field_displayed_view": [
+        {
+            "target_id": "person_listings",
+            "display_id": "block_1",
+            "argument": null,
+            "title": "0",
+            "data": null
+        }
+    ],
+    "field_headline_intro": [
+        {
+            "value": "<h2>Meet Our Volunteers<\/h2>\r\n",
+            "format": "basic_html",
+            "processed": "<h2>Meet Our Volunteers<\/h2>\n"
+        }
+    ]
+}

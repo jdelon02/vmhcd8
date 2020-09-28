@@ -29,6 +29,12 @@ include __DIR__ . "/settings.pantheon.php";
 $settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '/config';
 
 /**
+ * Default Content Directory
+ *
+ */
+$settings['default_content_deploy_content_directory'] = dirname(DRUPAL_ROOT) . '/content';
+
+/**
  * enviro ind setup.
  */
 $config['environment_indicator.indicator']['name'] = PANTHEON_ENVIRONMENT;

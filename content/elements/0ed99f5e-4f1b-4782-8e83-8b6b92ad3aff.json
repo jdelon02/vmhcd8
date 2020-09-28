@@ -1,0 +1,101 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/elements\/14?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/elements\/testimonial"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/testimonial\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "0ed99f5e-4f1b-4782-8e83-8b6b92ad3aff"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "testimonial"
+        }
+    ],
+    "title": [
+        {
+            "value": "Testimonial 1",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/testimonial\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "2020-07-27T16:03:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-07-27T16:03:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Default Content Deploy - Export | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
+            }
+        }
+    ],
+    "field_description": [
+        {
+            "value": "<p>Cat gets stuck in tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers&nbsp;hide when guests come over, for&nbsp;have a lot of grump in yourself because you can't forget to be grumpy and not be like king grumpy cat&nbsp;chew master's slippers&nbsp;run up and down stairs&nbsp;and&nbsp;annoy owner until he gives you food<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Cat gets stuck in tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers\u00a0hide when guests come over, for\u00a0have a lot of grump in yourself because you can't forget to be grumpy and not be like king grumpy cat\u00a0chew master's slippers\u00a0run up and down stairs\u00a0and\u00a0annoy owner until he gives you food<\/p>\n",
+            "lang": "en"
+        }
+    ],
+    "field_testimonial_author": [
+        {
+            "value": "<p><strong>Coco<\/strong>, The Cat<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Coco<\/strong>, The Cat<\/p>\n"
+        }
+    ]
+}

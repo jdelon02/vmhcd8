@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - media
-id: media.cinemascope_21_9
-label: 'Cinemascope (21:9)'
-targetEntityType: media
-cache: true

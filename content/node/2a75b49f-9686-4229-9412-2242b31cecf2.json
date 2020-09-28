@@ -1,0 +1,199 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/events\/enim-uxor-wisi?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/node\/event"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/revision_uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_event_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_photo": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/4\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "2a75b49f-9686-4229-9412-2242b31cecf2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "event"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-08-12T14:19:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_event_type": [
+            null
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/node\/event\/field_photo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/4\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c2bfbe20-55d7-4350-ab89-d2dff5859d71"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Enim Uxor Wisi",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-08-11T22:08:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-08-12T14:19:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Enim Uxor Wisi | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/events\/enim-uxor-wisi",
+                "description": "Cogo et hos lucidus quadrum vindico volutpat. Abbas decet distineo euismod interdico modo tamen te turpis volutpat. Duis esca metuo neo volutpat wisi. Conventio duis facilisis quae. Amet gravis iustum quadrum secundum si tamen.\nAbigo quibus refoveo. Aliquip causa facilisis iaceo importunus in nobis verto ymo. Abluo adipiscing commodo nisl sino voco. Antehabeo damnum eu inhibeo molior obruo pagus scisco te. Ludus metuo patria. Probo rusticus typicus. Interdico jugis refero saepius utrum. Eu fere iaceo olim pagus quia valde validus. Aliquam caecus damnum eu gravis ille jugis modo tum.\nAccumsan decet facilisi jumentum nutus paulatim populus qui suscipere ulciscor. Capto obruo rusticus sed tamen. Autem conventio hendrerit huic vicis. Appellatio cui lenis probo sagaciter ut validus. Consectetuer genitus humo iriure lobortis macto turpis. Abdo causa immitto oppeto scisco.\nIncassum laoreet scisco vereor. Fere proprius similis verto. Augue tum usitas. Melior occuro pala tation zelus. Brevitas decet immitto. Dolore iusto minim qui refoveo venio. Hos immitto iriure magna mos natu quadrum similis turpis.\nConsequat conventio dolus luptatum melior nimis probo voco. At bene causa distineo eligo meus pagus ulciscor. Antehabeo commoveo esca eum feugiat laoreet probo qui sino sit. Commodo commoveo distineo facilisis interdico. Hos loquor ludus nutus.\nAugue bene decet quadrum vulputate. Aptent ex nimis typicus. Aliquam exerci jumentum macto mauris pagus pala tamen. Dolor interdico pala persto saepius suscipit valde venio. Ex gemino jugis obruo paratus venio vulputate. Conventio dolus ex feugiat jus laoreet ratis secundum similis. Brevitas scisco tum veniam. Accumsan aliquam aliquip duis tego. Aliquam causa haero quidne refoveo te. Erat humo illum luptatum proprius uxor wisi.\nCommoveo consectetuer ludus minim praemitto sudo. Abluo bene cogo enim neque patria pneum saluto utinam. Ibidem persto quidne venio. Erat eu imputo occuro praemitto qui tum velit.\nAutem elit esse feugiat molior pecus populus proprius rusticus. Adipiscing brevitas cogo dolus erat in saepius uxor. Decet ea pecus. Abico augue bene euismod facilisi immitto turpis ut voco zelus. Ad modo virtus. Caecus diam dolus paratus quia quis secundum si te. Abluo commoveo ille neo quae quia sudo. Imputo refoveo sagaciter. Brevitas gravis incassum roto tincidunt. Abdo conventio olim os paratus torqueo.\nBlandit facilisis illum praesent quidem tum ut. Accumsan esse gemino nostrud usitas virtus. Caecus dignissim exputo jumentum loquor obruo pneum quidem quis. Eros huic imputo quia saluto torqueo tum typicus.\nAptent camur sed. Comis natu venio vero. Eum te wisi. Cui exerci facilisis jumentum lucidus pecus praesent tego tum turpis. Capto commodo conventio praesent velit vulputate. In jus lucidus nulla populus quia sagaciter torqueo volutpat ymo.\nAbdo exerci imputo quae vindico. Abbas abluo facilisi ludus odio patria pecus saluto vel. Accumsan brevitas eum humo lenis. Abigo aliquip damnum eum iaceo mauris populus refero usitas wisi.\nConsequat conventio immitto nibh. Commodo exputo importunus natu quidem suscipit torqueo ulciscor veniam vicis. Distineo dolor jus modo praemitto quidem similis sino. Commoveo ea ex natu. Camur gravis pecus quadrum. Abigo capto jumentum luptatum ulciscor valde venio zelus."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/events\/enim-uxor-wisi",
+            "pid": 353,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Cogo et hos lucidus quadrum vindico volutpat. Abbas decet distineo euismod interdico modo tamen te turpis volutpat. Duis esca metuo neo volutpat wisi. Conventio duis facilisis quae. Amet gravis iustum quadrum secundum si tamen.\n\nAbigo quibus refoveo. Aliquip causa facilisis iaceo importunus in nobis verto ymo. Abluo adipiscing commodo nisl sino voco. Antehabeo damnum eu inhibeo molior obruo pagus scisco te. Ludus metuo patria. Probo rusticus typicus. Interdico jugis refero saepius utrum. Eu fere iaceo olim pagus quia valde validus. Aliquam caecus damnum eu gravis ille jugis modo tum.\n\nAccumsan decet facilisi jumentum nutus paulatim populus qui suscipere ulciscor. Capto obruo rusticus sed tamen. Autem conventio hendrerit huic vicis. Appellatio cui lenis probo sagaciter ut validus. Consectetuer genitus humo iriure lobortis macto turpis. Abdo causa immitto oppeto scisco.\n\nIncassum laoreet scisco vereor. Fere proprius similis verto. Augue tum usitas. Melior occuro pala tation zelus. Brevitas decet immitto. Dolore iusto minim qui refoveo venio. Hos immitto iriure magna mos natu quadrum similis turpis.\n\nConsequat conventio dolus luptatum melior nimis probo voco. At bene causa distineo eligo meus pagus ulciscor. Antehabeo commoveo esca eum feugiat laoreet probo qui sino sit. Commodo commoveo distineo facilisis interdico. Hos loquor ludus nutus.\n\nAugue bene decet quadrum vulputate. Aptent ex nimis typicus. Aliquam exerci jumentum macto mauris pagus pala tamen. Dolor interdico pala persto saepius suscipit valde venio. Ex gemino jugis obruo paratus venio vulputate. Conventio dolus ex feugiat jus laoreet ratis secundum similis. Brevitas scisco tum veniam. Accumsan aliquam aliquip duis tego. Aliquam causa haero quidne refoveo te. Erat humo illum luptatum proprius uxor wisi.\n\nCommoveo consectetuer ludus minim praemitto sudo. Abluo bene cogo enim neque patria pneum saluto utinam. Ibidem persto quidne venio. Erat eu imputo occuro praemitto qui tum velit.\n\nAutem elit esse feugiat molior pecus populus proprius rusticus. Adipiscing brevitas cogo dolus erat in saepius uxor. Decet ea pecus. Abico augue bene euismod facilisi immitto turpis ut voco zelus. Ad modo virtus. Caecus diam dolus paratus quia quis secundum si te. Abluo commoveo ille neo quae quia sudo. Imputo refoveo sagaciter. Brevitas gravis incassum roto tincidunt. Abdo conventio olim os paratus torqueo.\n\nBlandit facilisis illum praesent quidem tum ut. Accumsan esse gemino nostrud usitas virtus. Caecus dignissim exputo jumentum loquor obruo pneum quidem quis. Eros huic imputo quia saluto torqueo tum typicus.\n\nAptent camur sed. Comis natu venio vero. Eum te wisi. Cui exerci facilisis jumentum lucidus pecus praesent tego tum turpis. Capto commodo conventio praesent velit vulputate. In jus lucidus nulla populus quia sagaciter torqueo volutpat ymo.\n\nAbdo exerci imputo quae vindico. Abbas abluo facilisi ludus odio patria pecus saluto vel. Accumsan brevitas eum humo lenis. Abigo aliquip damnum eum iaceo mauris populus refero usitas wisi.\n\nConsequat conventio immitto nibh. Commodo exputo importunus natu quidem suscipit torqueo ulciscor veniam vicis. Distineo dolor jus modo praemitto quidem similis sino. Commoveo ea ex natu. Camur gravis pecus quadrum. Abigo capto jumentum luptatum ulciscor valde venio zelus.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Cogo et hos lucidus quadrum vindico volutpat. Abbas decet distineo euismod interdico modo tamen te turpis volutpat. Duis esca metuo neo volutpat wisi. Conventio duis facilisis quae. Amet gravis iustum quadrum secundum si tamen.<\/p>\n<p>Abigo quibus refoveo. Aliquip causa facilisis iaceo importunus in nobis verto ymo. Abluo adipiscing commodo nisl sino voco. Antehabeo damnum eu inhibeo molior obruo pagus scisco te. Ludus metuo patria. Probo rusticus typicus. Interdico jugis refero saepius utrum. Eu fere iaceo olim pagus quia valde validus. Aliquam caecus damnum eu gravis ille jugis modo tum.<\/p>\n<p>Accumsan decet facilisi jumentum nutus paulatim populus qui suscipere ulciscor. Capto obruo rusticus sed tamen. Autem conventio hendrerit huic vicis. Appellatio cui lenis probo sagaciter ut validus. Consectetuer genitus humo iriure lobortis macto turpis. Abdo causa immitto oppeto scisco.<\/p>\n<p>Incassum laoreet scisco vereor. Fere proprius similis verto. Augue tum usitas. Melior occuro pala tation zelus. Brevitas decet immitto. Dolore iusto minim qui refoveo venio. Hos immitto iriure magna mos natu quadrum similis turpis.<\/p>\n<p>Consequat conventio dolus luptatum melior nimis probo voco. At bene causa distineo eligo meus pagus ulciscor. Antehabeo commoveo esca eum feugiat laoreet probo qui sino sit. Commodo commoveo distineo facilisis interdico. Hos loquor ludus nutus.<\/p>\n<p>Augue bene decet quadrum vulputate. Aptent ex nimis typicus. Aliquam exerci jumentum macto mauris pagus pala tamen. Dolor interdico pala persto saepius suscipit valde venio. Ex gemino jugis obruo paratus venio vulputate. Conventio dolus ex feugiat jus laoreet ratis secundum similis. Brevitas scisco tum veniam. Accumsan aliquam aliquip duis tego. Aliquam causa haero quidne refoveo te. Erat humo illum luptatum proprius uxor wisi.<\/p>\n<p>Commoveo consectetuer ludus minim praemitto sudo. Abluo bene cogo enim neque patria pneum saluto utinam. Ibidem persto quidne venio. Erat eu imputo occuro praemitto qui tum velit.<\/p>\n<p>Autem elit esse feugiat molior pecus populus proprius rusticus. Adipiscing brevitas cogo dolus erat in saepius uxor. Decet ea pecus. Abico augue bene euismod facilisi immitto turpis ut voco zelus. Ad modo virtus. Caecus diam dolus paratus quia quis secundum si te. Abluo commoveo ille neo quae quia sudo. Imputo refoveo sagaciter. Brevitas gravis incassum roto tincidunt. Abdo conventio olim os paratus torqueo.<\/p>\n<p>Blandit facilisis illum praesent quidem tum ut. Accumsan esse gemino nostrud usitas virtus. Caecus dignissim exputo jumentum loquor obruo pneum quidem quis. Eros huic imputo quia saluto torqueo tum typicus.<\/p>\n<p>Aptent camur sed. Comis natu venio vero. Eum te wisi. Cui exerci facilisis jumentum lucidus pecus praesent tego tum turpis. Capto commodo conventio praesent velit vulputate. In jus lucidus nulla populus quia sagaciter torqueo volutpat ymo.<\/p>\n<p>Abdo exerci imputo quae vindico. Abbas abluo facilisi ludus odio patria pecus saluto vel. Accumsan brevitas eum humo lenis. Abigo aliquip damnum eum iaceo mauris populus refero usitas wisi.<\/p>\n<p>Consequat conventio immitto nibh. Commodo exputo importunus natu quidem suscipit torqueo ulciscor veniam vicis. Distineo dolor jus modo praemitto quidem similis sino. Commoveo ea ex natu. Camur gravis pecus quadrum. Abigo capto jumentum luptatum ulciscor valde venio zelus.<\/p>\n",
+            "summary": "Cogo et hos lucidus quadrum vindico volutpat. Abbas decet distineo euismod interdico modo tamen te turpis volutpat. Duis esca metuo neo volutpat wisi. Conventio duis facilisis quae. Amet gravis iustum quadrum secundum si tamen.\n\nAbigo quibus refoveo. Aliquip causa facilisis iaceo importunus in nobis verto ymo. Abluo adipiscing commodo nisl sino voco. Antehabeo damnum eu inhibeo molior obruo pagus scisco te. Ludus metuo patria. Probo rusticus typicus. Interdico jugis refero saepius utrum. Eu fere iaceo olim pagus quia valde validus. Aliquam caecus damnum eu gravis ille jugis modo tum.\n\nAccumsan decet facilisi jumentum nutus paulatim populus qui suscipere ulciscor. Capto obruo rusticus sed tamen. Autem conventio hendrerit huic vicis. Appellatio cui lenis probo sagaciter ut validus. Consectetuer genitus humo iriure lobortis macto turpis. Abdo causa immitto oppeto scisco.\n\nIncassum laoreet scisco vereor. Fere proprius similis verto. Augue tum usitas. Melior occuro pala tation zelus. Brevitas decet immitto. Dolore iusto minim qui refoveo venio. Hos immitto iriure magna mos natu quadrum similis turpis.\n\nConsequat conventio dolus luptatum melior nimis probo voco. At bene causa distineo eligo meus pagus ulciscor. Antehabeo commoveo esca eum feugiat laoreet probo qui sino sit. Commodo commoveo distineo facilisis interdico. Hos loquor ludus nutus.\n\nAugue bene decet quadrum vulputate. Aptent ex nimis typicus. Aliquam exerci jumentum macto mauris pagus pala tamen. Dolor interdico pala persto saepius suscipit valde venio. Ex gemino jugis obruo paratus venio vulputate. Conventio dolus ex feugiat jus laoreet ratis secundum similis. Brevitas scisco tum veniam. Accumsan aliquam aliquip duis tego. Aliquam causa haero quidne refoveo te. Erat humo illum luptatum proprius uxor wisi.\n\nCommoveo consectetuer ludus minim praemitto sudo. Abluo bene cogo enim neque patria pneum saluto utinam. Ibidem persto quidne venio. Erat eu imputo occuro praemitto qui tum velit.\n\nAutem elit esse feugiat molior pecus populus proprius rusticus. Adipiscing brevitas cogo dolus erat in saepius uxor. Decet ea pecus. Abico augue bene euismod facilisi immitto turpis ut voco zelus. Ad modo virtus. Caecus diam dolus paratus quia quis secundum si te. Abluo commoveo ille neo quae quia sudo. Imputo refoveo sagaciter. Brevitas gravis incassum roto tincidunt. Abdo conventio olim os paratus torqueo.\n\nBlandit facilisis illum praesent quidem tum ut. Accumsan esse gemino nostrud usitas virtus. Caecus dignissim exputo jumentum loquor obruo pneum quidem quis. Eros huic imputo quia saluto torqueo tum typicus.\n\nAptent camur sed. Comis natu venio vero. Eum te wisi. Cui exerci facilisis jumentum lucidus pecus praesent tego tum turpis. Capto commodo conventio praesent velit vulputate. In jus lucidus nulla populus quia sagaciter torqueo volutpat ymo.\n\nAbdo exerci imputo quae vindico. Abbas abluo facilisi ludus odio patria pecus saluto vel. Accumsan brevitas eum humo lenis. Abigo aliquip damnum eum iaceo mauris populus refero usitas wisi.\n\nConsequat conventio immitto nibh. Commodo exputo importunus natu quidem suscipit torqueo ulciscor veniam vicis. Distineo dolor jus modo praemitto quidem similis sino. Commoveo ea ex natu. Camur gravis pecus quadrum. Abigo capto jumentum luptatum ulciscor valde venio zelus.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_event_date": [
+        {
+            "value": "2019-08-28T18:21:11-04:00",
+            "end_value": "2019-08-29T18:21:11-04:00"
+        }
+    ],
+    "field_registration_link": [
+        {
+            "uri": "http:\/\/www.vemifru.edu",
+            "title": "",
+            "options": []
+        }
+    ]
+}
