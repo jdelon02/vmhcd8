@@ -1,16 +1,14 @@
-uuid: da6b71ba-26ce-40ed-bb1b-1fe7d0f0ff6d
+uuid: a832df8b-274a-4e66-a939-3d0b0102cfe9
 langcode: en
 status: true
 dependencies:
   config:
-    - eck.eck_type.components.simple_title_and_body
-    - field.field.components.simple_title_and_body.field_body
-    - field.field.components.simple_title_and_body.field_layout_width_text
-    - field.field.components.simple_title_and_body.field_meta_t
+    - eck.eck_type.components.view_block
+    - field.field.components.view_block.field_background_colors
+    - field.field.components.view_block.field_view_item
   module:
     - ds
     - entity_class_formatter
-    - text
 third_party_settings:
   ds:
     layout:
@@ -23,8 +21,7 @@ third_party_settings:
         layout:
           wrapper: div
           classes:
-            clearfix: clearfix
-            row: row
+            col-sm-12: col-sm-12
           add_layout_class: 1
           attributes: ''
         regions:
@@ -32,32 +29,26 @@ third_party_settings:
             wrapper: div
             classes:
               clearfix: clearfix
-              col-sm-12: col-sm-12
             add_region_classes: 1
             attributes: ''
     regions:
       main:
-        - field_body
-        - field_layout_width_text
+        - field_background_colors
+        - field_headline
+        - field_view_item
+        - field_link
 _core:
-  default_config_hash: PtkPGc212ooVk4cElitg0GMmqdaOQ1wmX4wTu_ZIz7o
-id: components.simple_title_and_body.default
+  default_config_hash: yfP1TQkEaNsrdGy_Pu97i4f7Ie-2l5HQUtSGe2PWWz0
+id: components.view_block.default
 targetEntityType: components
-bundle: simple_title_and_body
+bundle: view_block
 mode: default
 content:
-  field_body:
+  field_background_colors:
     weight: 0
     label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: main
-  field_layout_width_text:
-    weight: 1
-    label: hidden
     settings:
-      prefix: width-
+      prefix: bg-color-
       suffix: ''
       attr: ''
     third_party_settings:
@@ -70,9 +61,17 @@ content:
             classes: {  }
     type: entity_class_formatter
     region: main
+  field_view_item:
+    weight: 2
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: main
 hidden:
   changed: true
   created: true
-  field_meta_t: true
   title: true
   uid: true

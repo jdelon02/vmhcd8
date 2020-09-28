@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - eck.eck_type.elements.link_card
+    - field.field.elements.link_card.field_card_layout
     - field.field.elements.link_card.field_link_card
   module:
     - field_layout
@@ -44,4 +45,5 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_card_layout: true
   uid: true

@@ -2,14 +2,21 @@ module:
   admin_toolbar: 0
   admin_toolbar_tools: 0
   adminimal_admin_toolbar: 0
+  auto_entitylabel: 0
   automated_cron: 0
   backoffice_thinking_artcl_pers_res_ct: 0
+  backoffice_thinking_autolobal_eck: 0
   backoffice_thinking_basic_page_and_paragraphs: 0
   backoffice_thinking_callout_component_and_elements: 0
   backoffice_thinking_entity_enabling: 0
   backoffice_thinking_events: 0
   backoffice_thinking_initial_setup: 0
+  backoffice_thinking_link_cards_comp_and_elmnts: 0
   backoffice_thinking_responsive_image_and_related: 0
+  backoffice_thinking_simple_title_body_comp: 0
+  backoffice_thinking_slideshow_comp_and_elem: 0
+  backoffice_thinking_testimonials_comp_and_elmnts: 0
+  backoffice_thinking_views_block_component: 0
   better_exposed_filters: 0
   better_normalizers: 0
   big_pipe: 0
