@@ -10,6 +10,7 @@ dependencies:
   - admin_toolbar_tools
   - adminimal_admin_toolbar
   - better_exposed_filters
+  - better_normalizers
   - blazy_ui
   - block_class
   - bootstrap_layouts
@@ -22,6 +23,8 @@ dependencies:
   - context_ui
   - crop
   - dblog
+  - default_content
+  - default_content_deploy
   - devel
   - devel_generate
   - ds
@@ -35,6 +38,7 @@ dependencies:
   - field
   - field_group
   - field_layout
+  - file_entity
   - focal_point
   - google_analytics
   - inline_entity_form
@@ -52,6 +56,9 @@ dependencies:
   - node
   - paragraphs
   - path
+  - rabbit_hole
+  - recaptcha
+  - recaptcha_v3
   - simple_sitemap
   - slick_entityreference
   - smart_trim
