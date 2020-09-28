@@ -1,0 +1,101 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/elements\/15?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/elements\/testimonial"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/testimonial\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "ea75eefd-27d0-41bf-8a4f-961768c54dd3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "testimonial"
+        }
+    ],
+    "title": [
+        {
+            "value": "Testimonial 2",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/testimonial\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "2020-07-27T16:04:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-07-27T16:04:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Default Content Deploy - Export | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
+            }
+        }
+    ],
+    "field_description": [
+        {
+            "value": "<p>Head nudges&nbsp;my slave human didn't give me any food so i pooped on the floor&nbsp;for&nbsp;groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked&nbsp;i shall purr myself to sleep.&nbsp;Cat mojo&nbsp;white cat sleeps on a black shirt&nbsp;adventure always.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Head nudges\u00a0my slave human didn't give me any food so i pooped on the floor\u00a0for\u00a0groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked\u00a0i shall purr myself to sleep.\u00a0Cat mojo\u00a0white cat sleeps on a black shirt\u00a0adventure always.<\/p>\n",
+            "lang": "en"
+        }
+    ],
+    "field_testimonial_author": [
+        {
+            "value": "<p><strong>Maple<\/strong>, The Flat Faced Kitty<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Maple<\/strong>, The Flat Faced Kitty<\/p>\n"
+        }
+    ]
+}

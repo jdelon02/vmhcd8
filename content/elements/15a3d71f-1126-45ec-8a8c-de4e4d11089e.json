@@ -1,0 +1,124 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/elements\/28?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/elements\/link_card_item"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/link_card_item\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/90?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/link_card_item\/field_imagee": [
+            {
+                "href": "http:\/\/botdemo.test\/media\/12\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "15a3d71f-1126-45ec-8a8c-de4e4d11089e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "link_card_item"
+        }
+    ],
+    "title": [
+        {
+            "value": "My Title On The Card",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/link_card_item\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/90?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5afa0a73-9b4a-43ad-aea7-9ad43e4edbbf"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/elements\/link_card_item\/field_imagee": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/media\/12\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fb1310f3-f895-4654-a929-501dcf0de61e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "2020-09-22T01:02:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-09-22T01:02:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Default Content Deploy - Export | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
+            }
+        }
+    ],
+    "field_call_to_action": [
+        {
+            "uri": "entity:node\/21",
+            "title": "Learn More",
+            "options": []
+        }
+    ],
+    "field_description": [
+        {
+            "value": "<p>This is a description.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>This is a description.<\/p>\n"
+        }
+    ]
+}

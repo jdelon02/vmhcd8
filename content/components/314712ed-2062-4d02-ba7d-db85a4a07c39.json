@@ -1,0 +1,154 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/botdemo.test\/components\/7?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/botdemo.test\/rest\/type\/components\/slideshow"
+        },
+        "http:\/\/botdemo.test\/rest\/relation\/components\/slideshow\/uid": [
+            {
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/components\/slideshow\/field_layout_width": [
+            {
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/components\/slideshow\/field_slidee": [
+            {
+                "href": "http:\/\/botdemo.test\/elements\/5?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/botdemo.test\/elements\/6?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/botdemo.test\/elements\/7?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "314712ed-2062-4d02-ba7d-db85a4a07c39"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "slideshow"
+        }
+    ],
+    "title": [
+        {
+            "value": "Slideshow Component",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/botdemo.test\/rest\/relation\/components\/slideshow\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "acdfcba1-884c-4b96-8000-232f9d10fe74"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/components\/slideshow\/field_layout_width": [
+            {
+                "lang": "en"
+            }
+        ],
+        "http:\/\/botdemo.test\/rest\/relation\/components\/slideshow\/field_slidee": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/elements\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/elements\/slide"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "90d526f3-424d-4435-9406-7d2d586f049d"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/elements\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/elements\/slide"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "502a7f54-2046-472b-806f-782b291147f0"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/botdemo.test\/elements\/7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/botdemo.test\/rest\/type\/elements\/slide"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4b0b2f36-5d41-4746-8053-7d31ac46083b"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "2020-07-27T14:08:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-07-27T19:23:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Default Content Deploy - Export | BackOffice Theme",
+                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
+            }
+        }
+    ]
+}
