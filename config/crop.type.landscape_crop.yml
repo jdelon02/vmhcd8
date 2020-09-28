@@ -1,0 +1,14 @@
+uuid: 5400a1c0-7594-445f-9f0a-b94d93a978ae
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ySzM4vqWxF2btxJ8ZEvl-wOjSmy63Uppss40fCI-eqs
+id: landscape_crop
+label: 'Landscape Crop'
+description: 'Meant for images that should be cropped and rendered in 4:3 ratio.'
+aspect_ratio: '4:3'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: 960
+hard_limit_height: 720

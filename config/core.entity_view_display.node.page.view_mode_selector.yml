@@ -1,0 +1,51 @@
+uuid: 3234276d-8e33-4112-90dd-605758a7ba00
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.view_mode_selector
+    - field.field.node.page.body
+    - field.field.node.page.field_title_banner_button
+    - field.field.node.page.field_title_banner_headline
+    - field.field.node.page.field_title_banner_media
+    - node.type.page
+  module:
+    - field_layout
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+_core:
+  default_config_hash: qrtoRl7rdAA4U9l-A6Fvme4j9qh8n3t3FN8wm7w8e2c
+id: node.page.view_mode_selector
+targetEntityType: node
+bundle: page
+mode: view_mode_selector
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_title_banner_media:
+    type: entity_reference_entity_view
+    weight: 4
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_title_banner_button: true
+  field_title_banner_headline: true

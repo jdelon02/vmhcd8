@@ -1,0 +1,49 @@
+uuid: 035449c8-d105-4aa5-8ceb-f85b108757ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.simple_title_and_body
+    - field.field.components.simple_title_and_body.field_body
+    - field.field.components.simple_title_and_body.field_layout_width_text
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+_core:
+  default_config_hash: Ec6Lz3DevXd_tE7dOmg_JfKpqEPewyBDQZd7wehoqGY
+id: components.simple_title_and_body.default
+targetEntityType: components
+bundle: simple_title_and_body
+mode: default
+content:
+  field_body:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_layout_width_text:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

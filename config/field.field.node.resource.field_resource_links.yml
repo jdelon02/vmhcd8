@@ -1,0 +1,25 @@
+uuid: 9d6699b0-435b-41fc-b769-4d89cab8f443
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resource_links
+    - node.type.resource
+  module:
+    - link
+_core:
+  default_config_hash: RF5o2yTvkF7frxuh2cxE3RFkXu0uEA-k_CgoMezzkec
+id: node.resource.field_resource_links
+field_name: field_resource_links
+entity_type: node
+bundle: resource
+label: 'Resource Links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

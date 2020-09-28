@@ -1,0 +1,36 @@
+uuid: 4b4f6980-4ccb-4fea-9bd8-420d7d150b76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.wysiwyg_layouts.field_body
+    - field.field.paragraph.wysiwyg_layouts.field_media
+    - paragraphs.paragraphs_type.wysiwyg_layouts
+  module:
+    - entity_reference_display
+    - text
+_core:
+  default_config_hash: s5h8mmpCasXZ7nkQsYx_d7bWbhd0VfYNC7A_tZXdqoA
+id: paragraph.wysiwyg_layouts.default
+targetEntityType: paragraph
+bundle: wysiwyg_layouts
+mode: default
+content:
+  field_body:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_media:
+    type: entity_reference_display_default
+    weight: 1
+    label: hidden
+    settings:
+      display_field: field_media_view_mode
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden: {  }

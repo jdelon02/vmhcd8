@@ -1,0 +1,12 @@
+uuid: 48a7bc03-3761-4531-ab36-e0fea85eeaf1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: OzZHNvNOMUg4nM7z-mvWwVGNRGWobjTZ8qPB8kDilXM
+id: node.banner_title
+label: 'Banner Title'
+targetEntityType: node
+cache: true

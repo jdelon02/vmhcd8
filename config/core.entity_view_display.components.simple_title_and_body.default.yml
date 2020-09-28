@@ -1,0 +1,76 @@
+uuid: da6b71ba-26ce-40ed-bb1b-1fe7d0f0ff6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.simple_title_and_body
+    - field.field.components.simple_title_and_body.field_body
+    - field.field.components.simple_title_and_body.field_layout_width_text
+  module:
+    - ds
+    - entity_class_formatter
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: bs_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        layout:
+          wrapper: div
+          classes:
+            clearfix: clearfix
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          main:
+            wrapper: div
+            classes:
+              clearfix: clearfix
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - field_body
+        - field_layout_width_text
+_core:
+  default_config_hash: PtkPGc212ooVk4cElitg0GMmqdaOQ1wmX4wTu_ZIz7o
+id: components.simple_title_and_body.default
+targetEntityType: components
+bundle: simple_title_and_body
+mode: default
+content:
+  field_body:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: main
+  field_layout_width_text:
+    weight: 1
+    label: hidden
+    settings:
+      prefix: width-
+      suffix: ''
+      attr: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_class_formatter
+    region: main
+hidden:
+  changed: true
+  created: true
+  title: true
+  uid: true

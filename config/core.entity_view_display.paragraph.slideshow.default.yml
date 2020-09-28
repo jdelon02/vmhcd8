@@ -1,0 +1,14 @@
+uuid: 863b3af4-8f63-47f0-bfa8-d679e3fd679b
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.slideshow
+_core:
+  default_config_hash: Vlb1ekTK9tG7z7pTaNDBQZIewcMBv3sGmlRKvKsqvSM
+id: paragraph.slideshow.default
+targetEntityType: paragraph
+bundle: slideshow
+mode: default
+content: {  }
+hidden: {  }
