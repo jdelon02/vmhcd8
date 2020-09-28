@@ -1,4 +1,4 @@
-uuid: c7ba83e8-e12f-44dd-ad09-b312c80ef3b0
+uuid: 5aa8653c-39e5-4ce0-ae85-4aaf4c0fbbfe
 langcode: en
 status: true
 dependencies:
@@ -22,6 +22,12 @@ targetEntityType: elements
 bundle: link_card
 mode: default
 content:
+  field_card_layout:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_link_card:
     type: inline_entity_form_simple
     weight: 3
@@ -45,5 +51,4 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  field_card_layout: true
   uid: true

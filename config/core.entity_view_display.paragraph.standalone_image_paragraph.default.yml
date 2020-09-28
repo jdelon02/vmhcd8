@@ -1,12 +1,15 @@
-uuid: 9967bd96-e4ce-4a1a-9598-5777783d1732
+uuid: d36a7ea4-dc25-449d-9f3b-19cea2abf1aa
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.paragraph.standalone_image_paragraph.field_media
+    - field.field.paragraph.standalone_image_paragraph.field_media_view_mode
+    - field.field.paragraph.standalone_image_paragraph.field_width
     - paragraphs.paragraphs_type.standalone_image_paragraph
   module:
     - ds
+    - entity_class_formatter
     - entity_reference_display
 third_party_settings:
   ds:
@@ -46,4 +49,15 @@ content:
     third_party_settings: {  }
     type: entity_reference_display_default
     region: ds_content
-hidden: {  }
+  field_width:
+    weight: 1
+    label: hidden
+    settings:
+      prefix: ''
+      suffix: ''
+      attr: ''
+    third_party_settings: {  }
+    type: entity_class_formatter
+    region: ds_content
+hidden:
+  field_media_view_mode: true

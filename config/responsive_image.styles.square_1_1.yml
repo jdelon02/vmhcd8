@@ -1,4 +1,4 @@
-uuid: 5df697e2-1e71-45db-8d9f-b396d77f3f75
+uuid: a65951e7-f213-459e-ad25-278d41d415b5
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - image.style.fp_square_256
     - image.style.fp_square_512
     - image.style.fp_square_768
+  theme:
+    - bot_custom
 _core:
   default_config_hash: n6L3nRv2bUG1ndyqRTfEYMwEnyliFmMoO31W1LwukV4
 id: square_1_1

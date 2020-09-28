@@ -1,4 +1,4 @@
-uuid: ba2c67b9-6d2a-4e78-aa78-fb07476f1d52
+uuid: 3f468b3e-be71-49bc-ab9b-60ef7ac39694
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - image.style.fp_widescreen_1920x1080
     - image.style.fp_widescreen_768x432
     - image.style.fp_widescreen_992x558
+  theme:
+    - bot_custom
 _core:
   default_config_hash: 9G0QWI7WiH8iJi7fp5GbyUu7QocAshXnhx9LRdBXD8E
 id: widescreen_16_9

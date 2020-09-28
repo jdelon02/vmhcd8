@@ -1,10 +1,12 @@
-uuid: 6fc19a9d-bf16-4f69-8cd8-09366288b321
+uuid: 56b43bfd-9045-48d6-917d-5ecd5545d66f
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.resource.body
+    - field.field.node.resource.field_meta_tags
+    - field.field.node.resource.field_paragraphs
     - field.field.node.resource.field_photo
     - field.field.node.resource.field_resource_downloads
     - field.field.node.resource.field_resource_links
@@ -189,6 +191,8 @@ content:
             fis-def-at: false
             fi-def-at: false
 hidden:
+  field_meta_tags: true
+  field_paragraphs: true
   field_resource_downloads: true
   field_resource_links: true
   links: true

@@ -1,4 +1,4 @@
-uuid: 2d0cb1dd-c68d-41e5-b8e2-18ffe8dc518e
+uuid: bededf75-2231-4216-bc06-eea06397efc4
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.field.node.landing.field_body
     - field.field.node.landing.field_components
     - field.field.node.landing.field_meta_description
+    - field.field.node.landing.field_meta_tags
+    - field.field.node.landing.field_page_options
     - field.field.node.landing.field_title_banner_button
     - field.field.node.landing.field_title_banner_headline
     - field.field.node.landing.field_title_banner_media
@@ -13,6 +15,7 @@ dependencies:
   module:
     - ds
     - link
+    - metatag
     - user
 third_party_settings:
   ds:
@@ -65,6 +68,13 @@ content:
     third_party_settings: {  }
     type: basic_string
     region: content
+  field_meta_tags:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
   field_title_banner_button:
     weight: 3
     label: above
@@ -95,4 +105,5 @@ content:
     region: main
 hidden:
   field_body: true
+  field_page_options: true
   links: true

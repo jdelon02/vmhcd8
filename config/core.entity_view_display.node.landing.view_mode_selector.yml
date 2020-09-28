@@ -1,4 +1,4 @@
-uuid: 61b27b44-efa9-46fd-a5bb-2d8120a94669
+uuid: 4e3ead63-1270-4164-8009-fda2580744d6
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.field.node.landing.field_body
     - field.field.node.landing.field_components
     - field.field.node.landing.field_meta_description
+    - field.field.node.landing.field_meta_tags
+    - field.field.node.landing.field_page_options
     - field.field.node.landing.field_title_banner_button
     - field.field.node.landing.field_title_banner_headline
     - field.field.node.landing.field_title_banner_media
@@ -15,6 +17,7 @@ dependencies:
     - ds
     - link
     - user
+    - view_mode_selector
 third_party_settings:
   ds:
     layout:
@@ -60,6 +63,13 @@ content:
     third_party_settings: {  }
     type: entity_reference_entity_view
     region: main
+  field_page_options:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: view_mode_selector
+    region: main
   field_title_banner_button:
     weight: 3
     label: above
@@ -91,4 +101,5 @@ content:
 hidden:
   field_body: true
   field_meta_description: true
+  field_meta_tags: true
   links: true

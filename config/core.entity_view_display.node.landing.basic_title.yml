@@ -1,4 +1,4 @@
-uuid: 6eecc36b-4a9c-4608-84c5-a4439959b1b8
+uuid: dd7a9edb-0521-4ca2-a165-176647eaa27a
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.field.node.landing.field_body
     - field.field.node.landing.field_components
     - field.field.node.landing.field_meta_description
+    - field.field.node.landing.field_meta_tags
+    - field.field.node.landing.field_page_options
     - field.field.node.landing.field_title_banner_button
     - field.field.node.landing.field_title_banner_headline
     - field.field.node.landing.field_title_banner_media
@@ -75,6 +77,8 @@ content:
 hidden:
   field_body: true
   field_meta_description: true
+  field_meta_tags: true
+  field_page_options: true
   field_title_banner_button: true
   field_title_banner_headline: true
   field_title_banner_media: true

@@ -1,9 +1,11 @@
-uuid: a06747f9-2fef-45a6-a7dc-e72c381a7ef6
+uuid: b1a94682-4362-4242-921b-f406ff45938d
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.paragraph.standalone_image_paragraph.field_media
+    - field.field.paragraph.standalone_image_paragraph.field_media_view_mode
+    - field.field.paragraph.standalone_image_paragraph.field_width
     - paragraphs.paragraphs_type.standalone_image_paragraph
   module:
     - field_group
@@ -43,6 +45,18 @@ content:
       media_types: {  }
     third_party_settings: {  }
     type: media_library_widget
+    region: content
+  field_media_view_mode:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_width:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
 hidden:
   created: true

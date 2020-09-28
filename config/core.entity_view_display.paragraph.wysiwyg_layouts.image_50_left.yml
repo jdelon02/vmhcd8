@@ -1,11 +1,13 @@
-uuid: aee02a07-8687-404d-8774-eedc08bda254
+uuid: 6cd0d91f-abc8-4ac0-941b-3ef65bc5b770
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.paragraph.image_50_left
     - field.field.paragraph.wysiwyg_layouts.field_body
+    - field.field.paragraph.wysiwyg_layouts.field_layout
     - field.field.paragraph.wysiwyg_layouts.field_media
+    - field.field.paragraph.wysiwyg_layouts.field_media_view_mode
     - paragraphs.paragraphs_type.wysiwyg_layouts
   module:
     - ds
@@ -56,4 +58,6 @@ content:
       link: false
     third_party_settings: {  }
     region: ds_content
-hidden: {  }
+hidden:
+  field_layout: true
+  field_media_view_mode: true

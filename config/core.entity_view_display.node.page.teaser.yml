@@ -1,10 +1,13 @@
-uuid: 3b7e0d2d-718e-4ae7-9b5f-b4ed306e6758
+uuid: 13ce50f6-502c-4edf-a55a-f54de34d1357
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
+    - field.field.node.page.field_meta_tags
+    - field.field.node.page.field_page_options
+    - field.field.node.page.field_paragraphs
     - field.field.node.page.field_title_banner_button
     - field.field.node.page.field_title_banner_headline
     - field.field.node.page.field_title_banner_media
@@ -37,6 +40,9 @@ content:
     weight: 101
     region: content
 hidden:
+  field_meta_tags: true
+  field_page_options: true
+  field_paragraphs: true
   field_title_banner_button: true
   field_title_banner_headline: true
   field_title_banner_media: true

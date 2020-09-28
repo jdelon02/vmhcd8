@@ -1,12 +1,15 @@
-uuid: 7422e945-7198-4104-81ba-22d43c7efd40
+uuid: 5d43199b-6b28-46fd-b8bb-32aa5d87bdc3
 langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.slideshow.field_layout
+    - field.field.paragraph.slideshow.field_slides
     - paragraphs.paragraphs_type.slideshow
   module:
     - field_layout
     - layout_discovery
+    - paragraphs
 third_party_settings:
   field_layout:
     id: layout_onecol
@@ -18,7 +21,25 @@ id: paragraph.slideshow.default
 targetEntityType: paragraph
 bundle: slideshow
 mode: default
-content: {  }
+content:
+  field_layout:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_slides:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
 hidden:
   created: true
   status: true

@@ -1,10 +1,13 @@
-uuid: fcc41bec-6abf-4131-b2bf-e74b3dbdfbde
+uuid: 95065be2-5180-48ae-b65a-bf926dd9f005
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.banner_title
     - field.field.node.page.body
+    - field.field.node.page.field_meta_tags
+    - field.field.node.page.field_page_options
+    - field.field.node.page.field_paragraphs
     - field.field.node.page.field_title_banner_button
     - field.field.node.page.field_title_banner_headline
     - field.field.node.page.field_title_banner_media
@@ -12,6 +15,7 @@ dependencies:
   module:
     - button_link
     - ds
+    - entity_reference_revisions
     - field_group
     - field_layout
     - text
@@ -104,6 +108,15 @@ content:
     region: main
     settings: {  }
     third_party_settings: {  }
+  field_paragraphs:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    region: main
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
   field_title_banner_button:
     type: button_link
     weight: 4
@@ -175,4 +188,6 @@ content:
             classes: {  }
     region: main
 hidden:
+  field_meta_tags: true
+  field_page_options: true
   links: true

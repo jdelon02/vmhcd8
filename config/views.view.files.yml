@@ -1,9 +1,10 @@
-uuid: 49f883a2-2b3f-469e-8f6a-e04a29e4e0f4
+uuid: 8369ef39-c9ba-4841-a06c-9c2e8f90d855
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - file
+    - file_entity
     - user
 _core:
   default_config_hash: gLmoA0yjvlXfMRp9ihOhRKSSQQlbdLdvpDkbVwkYPrg

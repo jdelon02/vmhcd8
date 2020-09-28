@@ -1,9 +1,9 @@
-uuid: 9d3269bf-65d7-4cfc-ba03-bf5657528615
+uuid: 861bf7bb-0871-4aea-9ff5-7981d970c20b
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: '-WYB5hDQmcxrxoj2rY1xarD8X3eelTjbLLJHk2zM7l8'
+  default_config_hash: ChSdK5IrgDN2eFdi208-Ms9dly49T4i5D8Np3lg3UDM
 name: 'Theme Colors'
 vid: theme_colors
 description: ''

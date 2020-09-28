@@ -1,16 +1,20 @@
-uuid: 95c93705-f194-4c91-bdbc-ffc477db0307
+uuid: 26c3e2db-eede-4344-9d86-8fa11268c256
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.event.body
+    - field.field.node.event.field_event_date
     - field.field.node.event.field_event_type
+    - field.field.node.event.field_meta_tags
     - field.field.node.event.field_photo
     - field.field.node.event.field_registration_link
     - node.type.event
   module:
     - button_link
+    - datetime_range
     - ds
+    - metatag
     - text
     - user
 third_party_settings:
@@ -73,6 +77,23 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: main
+  field_event_date:
+    weight: 1
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: medium
+      separator: to
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: daterange_default
+    region: main
   field_event_type:
     weight: 2
     label: inline
@@ -109,6 +130,13 @@ content:
             fi-def-at: false
     type: entity_reference_label
     region: main
+  field_meta_tags:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
   field_photo:
     type: entity_reference_entity_view
     weight: 4

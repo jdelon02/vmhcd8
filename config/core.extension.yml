@@ -8,6 +8,7 @@ module:
   backoffice_thinking_autolobal_eck: 0
   backoffice_thinking_basic_page_and_paragraphs: 0
   backoffice_thinking_callout_component_and_elements: 0
+  backoffice_thinking_def_tax: 0
   backoffice_thinking_entity_enabling: 0
   backoffice_thinking_events: 0
   backoffice_thinking_initial_setup: 0
@@ -25,6 +26,7 @@ module:
   block: 0
   block_class: 0
   block_content: 0
+  book: 0
   bootstrap_layouts: 0
   breakpoint: 0
   button_link: 0
@@ -82,6 +84,7 @@ module:
   media: 0
   media_library: 0
   menu_block: 0
+  menu_link_content: 0
   menu_ui: 0
   metatag: 0
   module_filter: 0
@@ -114,14 +117,12 @@ module:
   token_filter: 0
   toolbar: 0
   tour: 0
-  update: 0
   user: 0
   view_mode_selector: 0
   views_infinite_scroll: 0
   views_ui: 0
   viewsreference: 0
   ds: 1
-  menu_link_content: 1
   pathauto: 1
   ds_extras: 2
   views: 10

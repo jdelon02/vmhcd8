@@ -1,16 +1,19 @@
-uuid: ce618082-cab3-4ccb-aeff-8ae39066b114
+uuid: 9cbf5635-553c-419f-8755-ba1cd9ca8828
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.event.body
+    - field.field.node.event.field_event_date
     - field.field.node.event.field_event_type
+    - field.field.node.event.field_meta_tags
     - field.field.node.event.field_photo
     - field.field.node.event.field_registration_link
     - image.style.listing_image
     - node.type.event
   module:
+    - datetime_range
     - ds
     - media
     - smart_trim
@@ -174,6 +177,23 @@ content:
             lb-col: false
             classes: {  }
     region: right
+  field_event_date:
+    type: daterange_default
+    weight: 3
+    region: right
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+      separator: to
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
   field_event_type:
     type: entity_reference_label
     weight: 1
@@ -227,5 +247,6 @@ content:
             lb-col: false
             classes: {  }
 hidden:
+  field_meta_tags: true
   field_registration_link: true
   links: true

@@ -1,9 +1,11 @@
-uuid: ac09dc70-4e87-4217-ba1e-89df7666a1da
+uuid: 779bc6fb-9e24-4f82-9401-c9007e6af588
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.resource.body
+    - field.field.node.resource.field_meta_tags
+    - field.field.node.resource.field_paragraphs
     - field.field.node.resource.field_photo
     - field.field.node.resource.field_resource_downloads
     - field.field.node.resource.field_resource_links
@@ -11,8 +13,10 @@ dependencies:
     - node.type.resource
   module:
     - ds
+    - entity_reference_revisions
     - file
     - link
+    - metatag
     - text
     - user
 third_party_settings:
@@ -74,6 +78,22 @@ content:
     weight: 2
     settings: {  }
     third_party_settings: {  }
+    region: main
+  field_meta_tags:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  field_paragraphs:
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
     region: main
   field_resource_downloads:
     weight: 4

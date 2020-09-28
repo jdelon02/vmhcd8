@@ -1,4 +1,4 @@
-uuid: cc5629cb-a61f-4d9b-999e-8f0ccd542278
+uuid: b4ee7682-94fe-4de2-a9b9-6bbd7a964aad
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,6 @@ dependencies:
   module:
     - field_layout
     - layout_discovery
-    - path
 third_party_settings:
   field_layout:
     id: layout_onecol
@@ -45,11 +44,5 @@ content:
     settings:
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  path:
-    type: path
-    weight: 30
-    region: content
-    settings: {  }
     third_party_settings: {  }
 hidden: {  }

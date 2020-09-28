@@ -1,4 +1,4 @@
-uuid: da6b71ba-26ce-40ed-bb1b-1fe7d0f0ff6d
+uuid: 324a92d8-be5e-4b6d-84fd-c53ff96e15fe
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,7 @@ dependencies:
   module:
     - ds
     - entity_class_formatter
+    - metatag
     - text
 third_party_settings:
   ds:
@@ -70,9 +71,15 @@ content:
             classes: {  }
     type: entity_class_formatter
     region: main
+  field_meta_t:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
 hidden:
   changed: true
   created: true
-  field_meta_t: true
   title: true
   uid: true

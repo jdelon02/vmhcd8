@@ -1,9 +1,11 @@
-uuid: 81cf1a6a-d723-41df-b22b-584c7716f141
+uuid: ee567932-985c-4288-8e61-10cdd8644f9a
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.resource.body
+    - field.field.node.resource.field_meta_tags
+    - field.field.node.resource.field_paragraphs
     - field.field.node.resource.field_photo
     - field.field.node.resource.field_resource_downloads
     - field.field.node.resource.field_resource_links
@@ -15,6 +17,8 @@ dependencies:
     - layout_discovery
     - link
     - media_library
+    - metatag
+    - paragraphs
     - path
     - text
 third_party_settings:
@@ -45,6 +49,31 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_meta_tags:
+    weight: 127
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  field_paragraphs:
+    weight: 122
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+    type: paragraphs
+    region: content
   field_photo:
     weight: 125
     settings:

@@ -1,4 +1,4 @@
-uuid: b26cd0c7-d4bb-4bd4-a502-2428a0f69cb7
+uuid: b4576478-e49e-4fbf-bd69-f3b8640c803f
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - image.style.fp_portrait_432x576
     - image.style.fp_portrait_576x768
     - image.style.fp_portrait_768x1024
+  theme:
+    - bot_custom
 _core:
   default_config_hash: 5eoAoEKtYmSV2B-PUb8rtVbWgJUh1mhDOpBmsisNiPs
 id: portrait_3_4

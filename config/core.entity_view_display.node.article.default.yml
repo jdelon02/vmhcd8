@@ -1,4 +1,4 @@
-uuid: a189ec7f-87ca-452a-bd9e-03dde51d4067
+uuid: da146fff-4d6c-4f3f-b0a1-8e49740dff3e
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_image
+    - field.field.node.article.field_meta_tags
     - field.field.node.article.field_news_type
     - field.field.node.article.field_photo
     - field.field.node.article.field_tags
@@ -69,5 +70,6 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_meta_tags: true
   field_news_type: true
   field_photo: true

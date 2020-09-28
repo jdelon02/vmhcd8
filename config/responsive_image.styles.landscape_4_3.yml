@@ -1,4 +1,4 @@
-uuid: b89c33f4-959f-42c1-9fde-cce49c446223
+uuid: 74fcefc0-e5b6-4a70-886b-7134df0e368a
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - image.style.fp_landscape_1920x1440
     - image.style.fp_landscape_768x576
     - image.style.fp_landscape_992x744
+  theme:
+    - bot_custom
 _core:
   default_config_hash: t-MZN5o_8TpAt5N9cDH_Dgq15SO_KZtXFI_4RHiUNbY
 id: landscape_4_3

@@ -1,4 +1,4 @@
-uuid: 035449c8-d105-4aa5-8ceb-f85b108757ef
+uuid: 40b60b9e-275a-4bd4-a397-96290e3fe82c
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,7 @@ dependencies:
   module:
     - field_layout
     - layout_discovery
+    - metatag
     - text
 third_party_settings:
   field_layout:
@@ -37,6 +38,13 @@ content:
     third_party_settings: {  }
     type: options_select
     region: content
+  field_meta_t:
+    weight: 3
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
   title:
     type: string_textfield
     weight: 0
@@ -47,5 +55,4 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  field_meta_t: true
   uid: true

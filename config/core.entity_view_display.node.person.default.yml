@@ -1,4 +1,4 @@
-uuid: ccff0a5c-7e7a-4c70-8fd5-661b5782ce16
+uuid: b9fff850-99f0-4d53-a77b-db759effd1f3
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.person.body
     - field.field.node.person.field_first_name
     - field.field.node.person.field_last_name
+    - field.field.node.person.field_meta_tags
     - field.field.node.person.field_person_type
     - field.field.node.person.field_photo
     - field.field.node.person.field_position
@@ -13,6 +14,7 @@ dependencies:
   module:
     - ds
     - field_group
+    - metatag
     - text
     - user
 third_party_settings:
@@ -132,6 +134,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: middle
+  field_meta_tags:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
   field_person_type:
     weight: 2
     label: hidden

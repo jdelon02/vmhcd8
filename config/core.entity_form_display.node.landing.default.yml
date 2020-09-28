@@ -1,4 +1,4 @@
-uuid: 851d7b9e-1e23-4cae-8f6f-fbfd4f41be2f
+uuid: 9090f52f-6499-432d-8ba2-a83ec22f7654
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.field.node.landing.field_body
     - field.field.node.landing.field_components
     - field.field.node.landing.field_meta_description
+    - field.field.node.landing.field_meta_tags
+    - field.field.node.landing.field_page_options
     - field.field.node.landing.field_title_banner_button
     - field.field.node.landing.field_title_banner_headline
     - field.field.node.landing.field_title_banner_media
@@ -19,7 +21,9 @@ dependencies:
     - layout_discovery
     - link
     - media_library
+    - metatag
     - path
+    - view_mode_selector
 third_party_settings:
   field_layout:
     id: layout_onecol
@@ -76,6 +80,19 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textarea
+    region: content
+  field_meta_tags:
+    weight: 7
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  field_page_options:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: view_mode_selector_select
     region: content
   field_title_banner_button:
     weight: 10

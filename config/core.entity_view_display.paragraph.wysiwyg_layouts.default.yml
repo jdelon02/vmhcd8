@@ -1,12 +1,15 @@
-uuid: 4b4f6980-4ccb-4fea-9bd8-420d7d150b76
+uuid: 4d5ee187-e6d4-438a-9215-55710a5d0265
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.paragraph.wysiwyg_layouts.field_body
+    - field.field.paragraph.wysiwyg_layouts.field_layout
     - field.field.paragraph.wysiwyg_layouts.field_media
+    - field.field.paragraph.wysiwyg_layouts.field_media_view_mode
     - paragraphs.paragraphs_type.wysiwyg_layouts
   module:
+    - entity_class_formatter
     - entity_reference_display
     - text
 _core:
@@ -23,6 +26,16 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
+  field_layout:
+    weight: 0
+    label: hidden
+    settings:
+      prefix: ''
+      suffix: ''
+      attr: ''
+    third_party_settings: {  }
+    type: entity_class_formatter
+    region: content
   field_media:
     type: entity_reference_display_default
     weight: 1
@@ -33,4 +46,5 @@ content:
       link: false
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_media_view_mode: true
