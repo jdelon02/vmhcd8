@@ -1,26 +1,26 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/8\/edit?_format=hal_json"
+            "href": "http:\/\/botdemo.test\/media\/8\/edit?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/media\/image"
+            "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
         },
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/media\/image\/uid": [
+        "http:\/\/botdemo.test\/rest\/relation\/media\/image\/uid": [
             {
-                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json",
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/media\/image\/thumbnail": [
+        "http:\/\/botdemo.test\/rest\/relation\/media\/image\/thumbnail": [
             {
-                "href": "https:\/\/dev-botdemo.pantheonsite.io\/sites\/default\/files\/2020-07\/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg",
+                "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-07\/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg",
                 "lang": "en"
             }
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/media\/image\/field_media_image": [
+        "http:\/\/botdemo.test\/rest\/relation\/media\/image\/field_media_image": [
             {
-                "href": "https:\/\/dev-botdemo.pantheonsite.io\/sites\/default\/files\/2020-07\/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg",
+                "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-07\/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg",
                 "lang": "en"
             }
         ]
@@ -54,14 +54,14 @@
         }
     ],
     "_embedded": {
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/media\/image\/uid": [
+        "http:\/\/botdemo.test\/rest\/relation\/media\/image\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -72,14 +72,14 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/media\/image\/thumbnail": [
+        "http:\/\/botdemo.test\/rest\/relation\/media\/image\/thumbnail": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/sites\/default\/files\/2020-07\/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg"
+                        "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-07\/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg"
                     },
                     "type": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/file\/file"
+                        "href": "http:\/\/botdemo.test\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [
@@ -90,14 +90,14 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/media\/image\/field_media_image": [
+        "http:\/\/botdemo.test\/rest\/relation\/media\/image\/field_media_image": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/sites\/default\/files\/2020-07\/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg"
+                        "href": "http:\/\/botdemo.test\/sites\/default\/files\/2020-07\/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg"
                     },
                     "type": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/file\/file"
+                        "href": "http:\/\/botdemo.test\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [
@@ -145,7 +145,7 @@
         {
             "value": {
                 "title": "Default Content Deploy - Export | BackOffice Theme",
-                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/admin\/config\/development\/dcd\/export"
+                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
             }
         }
     ],

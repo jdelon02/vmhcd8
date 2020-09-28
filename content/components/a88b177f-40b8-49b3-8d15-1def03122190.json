@@ -1,23 +1,23 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/dev-botdemo.pantheonsite.io\/components\/8?_format=hal_json"
+            "href": "http:\/\/botdemo.test\/components\/8?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/components\/link_cards"
+            "href": "http:\/\/botdemo.test\/rest\/type\/components\/link_cards"
         },
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/link_cards\/uid": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/link_cards\/uid": [
             {
-                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json",
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/link_cards\/field_link_card": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/link_cards\/field_link_card": [
             {
-                "href": "https:\/\/dev-botdemo.pantheonsite.io\/elements\/8?_format=hal_json"
+                "href": "http:\/\/botdemo.test\/elements\/8?_format=hal_json"
             },
             {
-                "href": "https:\/\/dev-botdemo.pantheonsite.io\/elements\/9?_format=hal_json"
+                "href": "http:\/\/botdemo.test\/elements\/9?_format=hal_json"
             }
         ]
     },
@@ -44,14 +44,14 @@
         }
     ],
     "_embedded": {
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/link_cards\/uid": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/link_cards\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -62,14 +62,14 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/link_cards\/field_link_card": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/link_cards\/field_link_card": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/elements\/8?_format=hal_json"
+                        "href": "http:\/\/botdemo.test\/elements\/8?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/elements\/link_card_item"
+                        "href": "http:\/\/botdemo.test\/rest\/type\/elements\/link_card_item"
                     }
                 },
                 "uuid": [
@@ -81,10 +81,10 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/elements\/9?_format=hal_json"
+                        "href": "http:\/\/botdemo.test\/elements\/9?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/elements\/link_card_item"
+                        "href": "http:\/\/botdemo.test\/rest\/type\/elements\/link_card_item"
                     }
                 },
                 "uuid": [
@@ -119,7 +119,7 @@
         {
             "value": {
                 "title": "Default Content Deploy - Export | BackOffice Theme",
-                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/admin\/config\/development\/dcd\/export"
+                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
             }
         }
     ]

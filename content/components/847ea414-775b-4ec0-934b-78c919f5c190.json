@@ -1,18 +1,18 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/dev-botdemo.pantheonsite.io\/components\/18?_format=hal_json"
+            "href": "http:\/\/botdemo.test\/components\/18?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/components\/simple_title_and_body"
+            "href": "http:\/\/botdemo.test\/rest\/type\/components\/simple_title_and_body"
         },
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/simple_title_and_body\/uid": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/simple_title_and_body\/uid": [
             {
-                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/90?_format=hal_json",
+                "href": "http:\/\/botdemo.test\/user\/90?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/simple_title_and_body\/field_layout_width_text": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/simple_title_and_body\/field_layout_width_text": [
             null
         ]
     },
@@ -39,14 +39,14 @@
         }
     ],
     "_embedded": {
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/simple_title_and_body\/uid": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/simple_title_and_body\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/90?_format=hal_json"
+                        "href": "http:\/\/botdemo.test\/user\/90?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -57,7 +57,7 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/simple_title_and_body\/field_layout_width_text": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/simple_title_and_body\/field_layout_width_text": [
             null
         ]
     },
@@ -85,7 +85,7 @@
         {
             "value": {
                 "title": "Default Content Deploy - Export | BackOffice Theme",
-                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/admin\/config\/development\/dcd\/export"
+                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
             }
         }
     ],

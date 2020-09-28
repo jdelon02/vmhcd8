@@ -1,25 +1,25 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/dev-botdemo.pantheonsite.io\/components\/2?_format=hal_json"
+            "href": "http:\/\/botdemo.test\/components\/2?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/components\/view_block"
+            "href": "http:\/\/botdemo.test\/rest\/type\/components\/view_block"
         },
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/view_block\/uid": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/view_block\/uid": [
             {
-                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json",
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/view_block\/field_background_colors": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/view_block\/field_background_colors": [
             {
                 "lang": "en"
             }
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/view_block\/field_view_item": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/view_block\/field_view_item": [
             {
-                "href": "https:\/\/dev-botdemo.pantheonsite.io\/elements\/1?_format=hal_json"
+                "href": "http:\/\/botdemo.test\/elements\/1?_format=hal_json"
             }
         ]
     },
@@ -46,14 +46,14 @@
         }
     ],
     "_embedded": {
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/view_block\/uid": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/view_block\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -64,19 +64,19 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/view_block\/field_background_colors": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/view_block\/field_background_colors": [
             {
                 "lang": "en"
             }
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/view_block\/field_view_item": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/view_block\/field_view_item": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/elements\/1?_format=hal_json"
+                        "href": "http:\/\/botdemo.test\/elements\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/elements\/view_item"
+                        "href": "http:\/\/botdemo.test\/rest\/type\/elements\/view_item"
                     }
                 },
                 "uuid": [
@@ -111,7 +111,7 @@
         {
             "value": {
                 "title": "Default Content Deploy - Export | BackOffice Theme",
-                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/admin\/config\/development\/dcd\/export"
+                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
             }
         }
     ]

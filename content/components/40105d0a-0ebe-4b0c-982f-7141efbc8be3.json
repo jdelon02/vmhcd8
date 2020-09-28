@@ -1,26 +1,26 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/dev-botdemo.pantheonsite.io\/components\/5?_format=hal_json"
+            "href": "http:\/\/botdemo.test\/components\/5?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/components\/callout"
+            "href": "http:\/\/botdemo.test\/rest\/type\/components\/callout"
         },
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/callout\/uid": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/callout\/uid": [
             {
-                "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json",
+                "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/callout\/field_layout": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/callout\/field_layout": [
             null
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/callout\/field_layout_width": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/callout\/field_layout_width": [
             null
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/callout\/field_media": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/callout\/field_media": [
             {
-                "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/7\/edit?_format=hal_json"
+                "href": "http:\/\/botdemo.test\/media\/7\/edit?_format=hal_json"
             }
         ]
     },
@@ -47,14 +47,14 @@
         }
     ],
     "_embedded": {
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/callout\/uid": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/callout\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/user\/1?_format=hal_json"
+                        "href": "http:\/\/botdemo.test\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/user\/user"
+                        "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -65,20 +65,20 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/callout\/field_layout": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/callout\/field_layout": [
             null
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/callout\/field_layout_width": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/callout\/field_layout_width": [
             null
         ],
-        "https:\/\/dev-botdemo.pantheonsite.io\/rest\/relation\/components\/callout\/field_media": [
+        "http:\/\/botdemo.test\/rest\/relation\/components\/callout\/field_media": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/media\/7\/edit?_format=hal_json"
+                        "href": "http:\/\/botdemo.test\/media\/7\/edit?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/dev-botdemo.pantheonsite.io\/rest\/type\/media\/image"
+                        "href": "http:\/\/botdemo.test\/rest\/type\/media\/image"
                     }
                 },
                 "uuid": [
@@ -113,7 +113,7 @@
         {
             "value": {
                 "title": "Default Content Deploy - Export | BackOffice Theme",
-                "canonical_url": "https:\/\/dev-botdemo.pantheonsite.io\/admin\/config\/development\/dcd\/export"
+                "canonical_url": "http:\/\/botdemo.test\/admin\/config\/development\/dcd\/export"
             }
         }
     ],
