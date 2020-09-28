@@ -1,10 +1,10 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/botdemo.test\/user\/0?_format=hal_json"
+            "href": "https:\/\/test1-botdemo.pantheonsite.io\/user\/0?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/botdemo.test\/rest\/type\/user\/user"
+            "href": "https:\/\/test1-botdemo.pantheonsite.io\/rest\/type\/user\/user"
         }
     },
     "uuid": [

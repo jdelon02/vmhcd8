@@ -1,12 +1,12 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/botdemo.test\/taxonomy\/term\/44?_format=hal_json"
+            "href": "https:\/\/test1-botdemo.pantheonsite.io\/taxonomy\/term\/44?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/botdemo.test\/rest\/type\/taxonomy_term\/layout_width"
+            "href": "https:\/\/test1-botdemo.pantheonsite.io\/rest\/type\/taxonomy_term\/layout_width"
         },
-        "http:\/\/botdemo.test\/rest\/relation\/taxonomy_term\/layout_width\/parent": [
+        "https:\/\/test1-botdemo.pantheonsite.io\/rest\/relation\/taxonomy_term\/layout_width\/parent": [
             null
         ]
     },
@@ -50,7 +50,7 @@
         }
     ],
     "_embedded": {
-        "http:\/\/botdemo.test\/rest\/relation\/taxonomy_term\/layout_width\/parent": [
+        "https:\/\/test1-botdemo.pantheonsite.io\/rest\/relation\/taxonomy_term\/layout_width\/parent": [
             null
         ]
     },
@@ -77,7 +77,7 @@
         {
             "value": {
                 "title": "Full | BackOffice Theme",
-                "canonical_url": "http:\/\/botdemo.test\/taxonomy\/term\/44"
+                "canonical_url": "https:\/\/test1-botdemo.pantheonsite.io\/taxonomy\/term\/44"
             }
         }
     ],
