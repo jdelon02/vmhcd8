@@ -160,7 +160,6 @@
         ],
         "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
-            "rm -rf ./web/libraries/slick",
             "mv ./web/libraries/slick-carousel ./web/libraries/slick"
         ],
         "post-create-project-cmd": [
@@ -186,6 +185,13 @@
         "patches": {
             "drupal/rabbit_hole" : {
                 "https://www.drupal.org/project/rabbit_hole/issues/2299561" : "https://www.drupal.org/files/issues/2020-09-01/2299561-8-rh-eck.patch"
+            },
+            "drupal/default_content_deploy" : {
+                "https://www.drupal.org/project/default_content_deploy/issues/3130782" : "https://www.drupal.org/files/issues/2020-04-25/entity-uid-3130782-1.patch",
+                "https://www.drupal.org/project/default_content_deploy/issues/3150362" : "https://www.drupal.org/files/issues/2020-06-09/default-content-deploy_exported-null-import-fail.patch",
+                "https://www.drupal.org/project/default_content_deploy/issues/3127786" : "https://www.drupal.org/files/issues/2020-04-16/dcd-site-in-subfolder.patch",
+                "https://www.drupal.org/project/default_content_deploy/issues/3127786" : "https://www.drupal.org/files/issues/2020-05-04/type-does-not-correspond-3127786-19.patch",
+                "https://www.drupal.org/project/default_content_deploy/issues/3127786" : "https://www.drupal.org/files/issues/2020-08-12/entity-does-not-correspond--3127786-20.patch"
             }
         },
         "build-env": {
@@ -203,7 +209,7 @@
             },
             "file-mapping": {
                 "[project-root]/.editorconfig": false
-            }
+            }            
         }
     },
     "config": {

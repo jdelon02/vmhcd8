@@ -9,6 +9,7 @@ use Drupal\Core\Extension\ModuleHandlerInterface;
 use Drupal\Core\Session\AccountSwitcherInterface;
 use Drupal\hal\LinkManager\LinkManagerInterface;
 use Symfony\Component\Serializer\Serializer;
+use Drupal\user\UserInterface;
 
 /**
  * A service for handling import of default content.
@@ -90,6 +91,13 @@ class Importer {
   protected $serializer;
 
   /**
+   * The Root user Object.
+   *
+   * @var object
+   */
+  protected $rootUser;
+
+  /**
    * The entity type manager.
    *
    * @var \Drupal\Core\Entity\EntityTypeManagerInterface
@@ -146,6 +154,7 @@ class Importer {
     $this->moduleHandler = $module_handler;
     $this->entityRepository = $entity_repository;
     $this->cache = $cache;
+    $this->rootUser = $this->entityTypeManager->getStorage('user')->load(1);
   }
 
   /**
@@ -286,6 +295,15 @@ class Importer {
         /** @var \Drupal\Core\Entity\ContentEntityInterface $entity */
         $entity = $this->serializer->denormalize($file['data'], $class, 'hal_json', ['request_method' => 'POST']);
         $entity->enforceIsNew($file['is_new']);
+
+        // Check if uid field exists for an entity.
+        // And refer it to user id 1.
+        if ($entity->hasField('uid')) {
+          if ($this->rootUser instanceof UserInterface) {
+            $entity->uid->target_id = $this->rootUser->id();
+          }
+        }
+
         $entity->save();
       }
     }
@@ -334,6 +352,11 @@ class Importer {
       'data' => $decode,
       'entity_type_id' => $this->getEntityTypeByLink($link),
     ];
+
+    // Eg. taxonomy terms might have null references on parents.
+    if (!isset($data_to_import['data']['uuid'])) {
+      return $this;
+    }
 
     $this->preAddToImport($data_to_import);
     $this->addToImport($data_to_import);
@@ -439,6 +462,9 @@ class Importer {
     if (isset($content['_embedded'])) {
       foreach ($content['_embedded'] as $link) {
         foreach ($link as $reference) {
+          if (!isset($reference['uuid'])) {
+            continue;
+          }
           $uuid = $reference['uuid'][0]['value'];
           $path = $this->getPathToFileByName($uuid);
 
@@ -501,6 +527,9 @@ class Importer {
       foreach ($decode['_embedded'] as $link_key => $link) {
         if (array_column($link, 'target_revision_id')) {
           foreach ($link as $ref_key => $reference) {
+            if (!isset($reference['uuid']) || !isset($reference['_links'])) {
+              continue;
+            }
             $url = $reference['_links']['type']['href'];
             $uuid = $reference['uuid'][0]['value'];
             $entity_type = $this->getEntityTypeByLink($url);

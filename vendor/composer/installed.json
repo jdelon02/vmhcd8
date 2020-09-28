@@ -4464,6 +4464,10 @@
                 "services": {
                     "drush.services.yml": "^9"
                 }
+            },
+            "patches_applied": {
+                "https://www.drupal.org/project/default_content_deploy/issues/3130782": "https://www.drupal.org/files/issues/2020-04-25/entity-uid-3130782-1.patch",
+                "https://www.drupal.org/project/default_content_deploy/issues/3150362": "https://www.drupal.org/files/issues/2020-06-09/default-content-deploy_exported-null-import-fail.patch"
             }
         },
         "installation-source": "dist",
