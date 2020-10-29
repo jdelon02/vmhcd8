@@ -23,8 +23,11 @@ class FileEntityServiceProvider extends ServiceProviderBase {
       // Add a normalizer service for file entities.
       $service_definition = new Definition(FileEntityNormalizer::class, array(
         new Reference('hal.link_manager'),
-        new Reference('entity.manager'),
+        new Reference('entity_type.manager'),
         new Reference('module_handler'),
+        new Reference('entity_type.repository'),
+        new Reference('entity_field.manager'),
+
       ));
       // The priority must be higher than that of
       // serializer.normalizer.file_entity.hal in hal.services.yml
