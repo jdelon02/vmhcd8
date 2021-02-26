@@ -12,11 +12,36 @@ use Drupal\file\FileInterface;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException;
 use Symfony\Component\HttpFoundation\Response;
+use Drupal\Core\File\FileSystemInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Class FileController
  */
 class FileController extends ControllerBase {
+
+  /**
+   * The file system service.
+   *
+   * @var \Drupal\Core\File\FileSystemInterface
+   */
+  protected $fileSystem;
+
+  /**
+   * {@inheritdoc}
+   */
+  public function __construct(FileSystemInterface $file_system) {
+    $this->fileSystem = $file_system;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public static function create(ContainerInterface $container) {
+    return new static(
+      $container->get('file_system')
+    );
+  }
 
   /**
    * Upload
@@ -60,7 +85,7 @@ class FileController extends ControllerBase {
 
     $headers = array(
       'Content-Type' => Unicode::mimeHeaderEncode($file->getMimeType()),
-      'Content-Disposition' => 'attachment; filename="' . Unicode::mimeHeaderEncode(drupal_basename($file->getFileUri())) . '"',
+      'Content-Disposition' => 'attachment; filename="' . Unicode::mimeHeaderEncode($this->fileSystem->basename($file->getFileUri())) . '"',
       'Content-Length' => $file->getSize(),
       'Content-Transfer-Encoding' => 'binary',
       'Pragma' => 'no-cache',
@@ -94,7 +119,7 @@ class FileController extends ControllerBase {
    */
   public function inlineEdit(FileInterface $file) {
     // Build the file edit form.
-    $form_object = $this->entityManager()->getFormObject('file', 'inline_edit');
+    $form_object = $this->entityTypeManager()->getFormObject('file', 'inline_edit');
     $form_object->setEntity($file);
     $form_state = (new FormState())
       ->setFormObject($form_object)
