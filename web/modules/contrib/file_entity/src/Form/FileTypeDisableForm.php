@@ -36,7 +36,7 @@ class FileTypeDisableForm extends EntityConfirmFormBase {
     /** @var FileType $type */
     $type = $this->entity;
     $type->disable()->save();
-    drupal_set_message(t(
+    $this->messenger()->addMessage(t(
       'The file type %label has been disabled.',
       array('%label' => $type->label())
     ));
