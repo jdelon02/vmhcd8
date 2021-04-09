@@ -36,7 +36,7 @@ class FileTypeEnableForm extends EntityConfirmFormBase {
     /** @var FileType $type */
     $type = $this->entity;
     $type->enable()->save();
-    drupal_set_message(t(
+    $this->messenger()->addMessage(t(
       'The file type %label has been enabled.',
       array('%label' => $type->label())
     ));
