@@ -212,7 +212,7 @@
 
   $document.on('state:checked', function (e) {
     if (e.trigger) {
-      $(e.target).change();
+      $(e.target).trigger('change');
     }
   });
 
@@ -300,7 +300,7 @@
         .each(function () {
           var $element = $(this);
           $element.find('input[type="checkbox"]').on('click', statesCheckboxesRequiredEventHandler);
-          checkboxesRequired($element);
+          setTimeout(function () {checkboxesRequired($element);});
         });
     }
   };
@@ -317,7 +317,8 @@
       $('.js-form-type-radios, .js-form-type-webform-radios-other, .js-webform-type-radios, .js-webform-type-webform-radios-other', context)
         .once('webform-radios-required')
         .each(function () {
-          radiosRequired($(this));
+          var $element = $(this);
+          setTimeout(function () {radiosRequired($element);});
         });
     }
   };
@@ -362,7 +363,7 @@
    * @see https://stackoverflow.com/a/37825072/145846
    */
   function statesCheckboxesRequiredEventHandler() {
-    var $element = $(this).closest('.js-webform-type-checkboxes, .js-form-type-webform-checkboxes-other');
+    var $element = $(this).closest('.js-webform-type-checkboxes, .js-webform-type-webform-checkboxes-other');
     checkboxesRequired($element);
   }
 
@@ -385,11 +386,29 @@
         .trigger('blur', extraParameters);
     }
     else if (tag === 'select') {
+      // Do not trigger the onchange event for Address element's country code
+      // when it is initialized.
+      // @see \Drupal\address\Element\Country
+      if ($input.closest('.webform-type-address').length) {
+        if (!$input.data('webform-states-address-initialized')
+          && $input.attr('autocomplete') === 'country'
+          && $input.val() === $input.find("option[selected]").attr('value')) {
+          return;
+        }
+        $input.data('webform-states-address-initialized', true);
+      }
+
       $input
         .trigger('change', extraParameters)
         .trigger('blur', extraParameters);
     }
     else if (type !== 'submit' && type !== 'button' && type !== 'file') {
+      // Make sure input mask is removed and then reset when value is restored.
+      // @see https://www.drupal.org/project/webform/issues/3124155
+      // @see https://www.drupal.org/project/webform/issues/3202795
+      var hasInputMask = ($.fn.inputmask && $input.hasClass('js-webform-input-mask'));
+      hasInputMask && $input.inputmask('remove');
+
       $input
         .trigger('input', extraParameters)
         .trigger('change', extraParameters)
@@ -397,11 +416,7 @@
         .trigger('keyup', extraParameters)
         .trigger('blur', extraParameters);
 
-      // Make sure input mask is reset when value is restored.
-      // @see https://www.drupal.org/project/webform/issues/3124155
-      if ($input.attr('data-inputmask-mask')) {
-        setTimeout(function () {$input.inputmask('remove').inputmask();});
-      }
+      hasInputMask && $input.inputmask();
     }
   }
 
@@ -463,6 +478,10 @@
       }
       else if (tag === 'select') {
         $.each(value, function (i, option_value) {
+          // Prevent "Syntax error, unrecognized expression" error by
+          // escaping single quotes.
+          // @see https://forum.jquery.com/topic/escape-characters-prior-to-using-selector
+          option_value = option_value.replace(/'/g, "\\\'");
           $input.find("option[value='" + option_value + "']").prop('selected', true);
         });
       }
@@ -529,6 +548,7 @@
    * @param {element} $input
    *   An input.
    * @param {boolean} required
+   *   Is input required.
    */
   function toggleRequired($input, required) {
     if (required) {

@@ -44,6 +44,22 @@ interface WebformVariantInterface extends PluginInspectionInterface, Configurabl
   public function description();
 
   /**
+   * Returns the webform variant machine name replacement pattern.
+   *
+   * @return string|NULL
+   *   The webform variant machine name replacement pattern.
+   */
+  public function getMachineNameReplacePattern();
+
+  /**
+   * Returns the webform variant machine name replacement character.
+   *
+   * @return string|NULL
+   *   The webform variant machine name replacement character.
+   */
+  public function getMachineNameReplace();
+
+  /**
    * Returns the unique ID representing the webform variant.
    *
    * @return string
@@ -199,6 +215,19 @@ interface WebformVariantInterface extends PluginInspectionInterface, Configurabl
    *   TRUE if this variant is applicable to the webform.
    */
   public function isApplicable(WebformInterface $webform);
+
+  /**
+   * Get configuration form's off-canvas width.
+   *
+   * @return string
+   *   The off-canvas width.
+   *
+   * @see WebformDialogHelper::DIALOG_NARROW
+   * @see WebformDialogHelper::DIALOG_NORMAL
+   * @see WebformDialogHelper::DIALOG_WIDE
+   * @see WebformDialogHelper::DIALOG_NONE
+   */
+  public function getOffCanvasWidth();
 
   /**
    * Apply variant to the webform.
