@@ -115,9 +115,57 @@ class Select2 extends Select {
     $info['#cardinality'] = 0;
     $info['#pre_render'][] = [$class, 'preRenderAutocomplete'];
     $info['#pre_render'][] = [$class, 'preRenderOverwrites'];
+    $info['#element_validate'][] = [$class, 'validateEntityAutocomplete'];
     $info['#select2'] = [];
 
     return $info;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public static function valueCallback(&$element, $input, FormStateInterface $form_state) {
+    // Potentially the #value is set directly, so it contains the 'target_id'
+    // array structure instead of a string.
+    if ($input !== FALSE && is_array($input)) {
+      $input = array_map(function ($item) {
+        return isset($item['target_id']) ? $item['target_id'] : $item;
+      }, $input);
+      return array_combine($input, $input);
+    }
+
+    return parent::valueCallback($element, $input, $form_state);
+  }
+
+  /**
+   * Form element validation handler for entity_autocomplete elements.
+   *
+   * @param array $element
+   *   The render element.
+   * @param \Drupal\Core\Form\FormStateInterface $form_state
+   *   The form state object.
+   * @param array $complete_form
+   *   The form array.
+   */
+  public static function validateEntityAutocomplete(array &$element, FormStateInterface $form_state, array &$complete_form) {
+    if ($element['#target_type'] && !$element['#autocreate']) {
+      $value_callable = isset($element['#autocomplete_options_callback']) ? $element['#autocomplete_options_callback'] : NULL;
+      if (!$value_callable || !is_callable($value_callable)) {
+        $value_callable = '\Drupal\select2\Element\Select2::getValidSelectedOptions';
+      }
+
+      $value = [];
+      $input_values = call_user_func_array($value_callable, [
+        $element,
+        $form_state,
+      ]);
+      foreach ($input_values as $id => $input) {
+        $value[] = [
+          'target_id' => $id,
+        ];
+      }
+      $form_state->setValueForElement($element, $value);
+    }
   }
 
   /**
@@ -131,7 +179,10 @@ class Select2 extends Select {
       if (!$value_callable || !is_callable($value_callable)) {
         $value_callable = '\Drupal\select2\Element\Select2::getValidSelectedOptions';
       }
-      $element['#options'] = call_user_func_array($value_callable, [$element, $form_state]);
+      $element['#options'] = call_user_func_array($value_callable, [
+        $element,
+        $form_state,
+      ]);
     }
 
     // We need to disable form validation, because with autocreation the options
@@ -222,7 +273,7 @@ class Select2 extends Select {
     $settings = [
       'multiple' => $multiple,
       'placeholder' => $placeholder,
-      // @TODO: Enable allowClear for multiple fields. https://github.com/select2/select2/issues/3335.
+      // @todo Enable allowClear for multiple fields. https://github.com/select2/select2/issues/3335.
       'allowClear' => !$multiple && !$required,
       'dir' => $current_language->getDirection(),
       'language' => $current_language->getId(),
