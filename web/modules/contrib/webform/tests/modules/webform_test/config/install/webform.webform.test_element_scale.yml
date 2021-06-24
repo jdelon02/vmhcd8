@@ -18,6 +18,10 @@ elements: |
   scale:
     '#type': webform_scale
     '#title': scale
+  scale_required:
+    '#type': webform_scale
+    '#title': scale_required
+    '#required': true
   scale_text:
     '#type': webform_scale
     '#title': scale_text
@@ -55,7 +59,6 @@ elements: |
     '#scale_type': flexbox
     '#min_text': '1 = disagree'
     '#max_text': 'agree = 5'
-  
 css: ''
 javascript: ''
 settings:
@@ -185,6 +188,7 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  token_delete: false
   serial_disabled: false
 access:
   create:
@@ -237,9 +241,12 @@ handlers:
   debug:
     id: debug
     label: Debug
+    notes: ''
     handler_id: debug
     status: true
     conditions: {  }
     weight: 1
-    settings: {  }
+    settings:
+      format: yaml
+      submission: false
 variants: {  }
