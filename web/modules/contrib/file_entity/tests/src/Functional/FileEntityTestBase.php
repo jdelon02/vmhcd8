@@ -8,11 +8,14 @@ use Drupal\file\FileInterface;
 use Drupal\file_entity\Entity\FileType;
 use Drupal\file_entity\Entity\FileEntity;
 use Drupal\Tests\BrowserTestBase;
+use Drupal\Tests\TestFileCreationTrait;
 
 /**
  * Base class for file entity tests.
  */
 abstract class FileEntityTestBase extends BrowserTestBase {
+
+  use TestFileCreationTrait;
 
   /**
    * @var array
@@ -34,6 +37,11 @@ abstract class FileEntityTestBase extends BrowserTestBase {
   /**
    * {@inheritdoc}
    */
+  protected $defaultTheme = 'stark';
+
+  /**
+   * {@inheritdoc}
+   */
   protected function setUp() {
     parent::setUp();
     $this->config = $this->config('file_entity.settings');
@@ -51,7 +59,7 @@ abstract class FileEntityTestBase extends BrowserTestBase {
 
     $types = array('text', 'image');
     foreach ($types as $type) {
-      foreach ($this->drupalGetTestFiles($type) as $file) {
+      foreach ($this->getTestFiles($type) as $file) {
         foreach ($defaults as $key => $value) {
           $file->$key = $value;
         }
@@ -135,7 +143,7 @@ abstract class FileEntityTestBase extends BrowserTestBase {
    */
   function getTestFile($type_name, $size = NULL) {
     // Get a file to upload.
-    $file = current($this->drupalGetTestFiles($type_name, $size));
+    $file = current($this->getTestFiles($type_name, $size));
 
     // Add a filesize property to files as would be read by file_load().
     $file->filesize = filesize($file->uri);
@@ -155,7 +163,7 @@ abstract class FileEntityTestBase extends BrowserTestBase {
    *   A file object matching $filename.
    */
   function getFileByFilename($filename, $reset = FALSE) {
-    $files = entity_load_multiple_by_properties('file', array('filename' => $filename), $reset);
+    $files = \Drupal::entityTypeManager()->getStorage('file')->loadByProperties(['filename' => $filename], $reset);
     // Load the first file returned from the database.
     $returned_file = reset($files);
     return $returned_file;
@@ -178,10 +186,9 @@ abstract class FileEntityTestBase extends BrowserTestBase {
       'filename' => 'Файл для тестирования ' . $this->randomMachineName(),
       'filemime' => 'text/plain',
       'uid' => 1,
-      'created' => REQUEST_TIME,
       'status' => FILE_STATUS_PERMANENT,
       'contents' => "file_put_contents() doesn't seem to appreciate empty strings so let's put in some data.",
-      'scheme' => file_default_scheme(),
+      'scheme' => \Drupal::config('system.file')->get('default_scheme'),
     );
 
     $values['uri'] = $values['scheme'] . '://' . $values['filename'];

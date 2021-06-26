@@ -30,7 +30,6 @@ elements: |
     '#title': text_format_description_more
     '#description': 'This is a description'
     '#more': 'This is more'
-  
 css: ''
 javascript: ''
 settings:
@@ -160,6 +159,7 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  token_delete: false
   serial_disabled: false
 access:
   create:

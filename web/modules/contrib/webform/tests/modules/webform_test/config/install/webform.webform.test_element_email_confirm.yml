@@ -37,12 +37,11 @@ elements: |
     '#title': email_confirm_required
     '#required': true
     '#required_error': 'Email address is required'
-    '#default_value': 'example@example.com'
+    '#default_value': example@example.com
   email_confirm_flexbox:
     '#type': webform_email_confirm
     '#title': email_confirm_flexbox
     '#flexbox': 1
-  
 css: ''
 javascript: ''
 settings:
@@ -172,6 +171,7 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  token_delete: false
   serial_disabled: false
 access:
   create:
@@ -224,9 +224,12 @@ handlers:
   debug:
     id: debug
     label: Debug
+    notes: ''
     handler_id: debug
     status: true
     conditions: {  }
     weight: 1
-    settings: {  }
+    settings:
+      format: yaml
+      submission: false
 variants: {  }
