@@ -246,7 +246,7 @@ function _webform_parse_file_uuids($text) {
   $uuids = [];
 
   // Look through all images and hyperlinks for files.
-  if (preg_match_all('/<(img|a)[^>]+>/', $text, $matches)) {
+  if (preg_match_all('/<[^>]+data-entity-type[^>]+>/', $text, $matches)) {
     foreach ($matches[0] as $match) {
       // Cleanup quotes escaped via YAML.
       // Please note, calling stripslashes() twice because elements are
@@ -257,7 +257,7 @@ function _webform_parse_file_uuids($text) {
       $dom = Html::load($match);
       $xpath = new \DOMXPath($dom);
       $nodes = $xpath->query('//*[@data-entity-type="file" and @data-entity-uuid]');
-      if (count($nodes)) {
+      if (count($nodes) && $nodes->item(0)) {
         $uuids[] = $nodes->item(0)->getAttribute('data-entity-uuid');
       }
     }
