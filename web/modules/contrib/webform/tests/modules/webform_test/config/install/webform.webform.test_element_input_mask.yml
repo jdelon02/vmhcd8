@@ -21,6 +21,18 @@ elements: |
     '#input_mask': '''alias'': ''currency'''
     '#default_value': '$ 1.00'
     '#required': true
+  currency_negative:
+    '#type': textfield
+    '#title': currency_negative
+    '#input_mask': '''alias'': ''currency_negative'''
+    '#default_value': '-$ 1.00'
+    '#required': true
+  currency_positive_negative:
+    '#type': textfield
+    '#title': currency_positive_negative
+    '#input_mask': '''alias'': ''currency_positive_negative'''
+    '#default_value': '$ 1.00'
+    '#required': true
   datetime:
     '#type': textfield
     '#title': datetime
@@ -81,7 +93,6 @@ elements: |
     '#type': textfield
     '#title': module
     '#input_mask': '999'
-  
 css: ''
 javascript: ''
 settings:
@@ -211,6 +222,7 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  token_delete: false
   serial_disabled: false
 access:
   create:
@@ -263,9 +275,12 @@ handlers:
   debug:
     id: debug
     label: Debug
+    notes: ''
     handler_id: debug
     status: true
     conditions: {  }
     weight: 1
-    settings: {  }
+    settings:
+      format: yaml
+      submission: false
 variants: {  }

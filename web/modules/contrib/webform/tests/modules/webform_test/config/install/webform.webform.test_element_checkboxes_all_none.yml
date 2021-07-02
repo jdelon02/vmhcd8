@@ -20,26 +20,26 @@ elements: |
     '#title': checkboxes_all
     '#options_all': true
     '#options':
-      one: 'One'
-      two: 'Two'
-      three: 'Three'
+      one: One
+      two: Two
+      three: Three
   checkboxes_none:
     '#type': checkboxes
     '#title': checkboxes_none
     '#options_none': true
     '#options':
-      one: 'One'
-      two: 'Two'
-      three: 'Three'
+      one: One
+      two: Two
+      three: Three
   checkboxes_both:
     '#type': checkboxes
     '#title': checkboxes_both
     '#options_all': true
     '#options_none': true
     '#options':
-      one: 'One'
-      two: 'Two'
-      three: 'Three'
+      one: One
+      two: Two
+      three: Three
   checkboxes_randomize:
     '#type': checkboxes
     '#title': checkboxes_randomize
@@ -47,17 +47,17 @@ elements: |
     '#options_all': true
     '#options_none': true
     '#options':
-      one: 'One'
-      two: 'Two'
-      three: 'Three'
+      one: One
+      two: Two
+      three: Three
   checkboxes_other_none:
     '#type': webform_checkboxes_other
     '#title': checkboxes_other_none
     '#options_none': true
     '#options':
-      one: 'One'
-      two: 'Two'
-      three: 'Three'
+      one: One
+      two: Two
+      three: Three
   webform_entity_checkboxes_all:
     '#type': webform_entity_checkboxes
     '#title': webform_entity_checkboxes_all
@@ -68,7 +68,6 @@ elements: |
       include_anonymous: true
     '#default_value':
       - 1
-  
 css: ''
 javascript: ''
 settings:
@@ -91,7 +90,7 @@ settings:
   form_confidential_message: ''
   form_remote_addr: true
   form_convert_anonymous: false
-  form_prepopulate: false
+  form_prepopulate: true
   form_prepopulate_source_entity: false
   form_prepopulate_source_entity_required: false
   form_prepopulate_source_entity_type: ''
@@ -198,6 +197,7 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  token_delete: false
   serial_disabled: false
 access:
   create:
@@ -250,9 +250,12 @@ handlers:
   debug:
     id: debug
     label: Debug
+    notes: ''
     handler_id: debug
     status: true
     conditions: {  }
     weight: 1
-    settings: {  }
+    settings:
+      format: yaml
+      submission: false
 variants: {  }
