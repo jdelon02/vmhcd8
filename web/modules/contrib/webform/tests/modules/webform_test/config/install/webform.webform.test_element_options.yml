@@ -74,8 +74,7 @@ elements: |
       '#type': webform_element_options
       '#title': webform_element_options_custom_type_multiple
       '#custom__type': webform_multiple
-      '#default_value': { }
-  
+      '#default_value': {  }
 css: ''
 javascript: ''
 settings:
@@ -205,6 +204,7 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  token_delete: false
   serial_disabled: false
 access:
   create:
@@ -257,9 +257,12 @@ handlers:
   debug:
     id: debug
     label: Debug
+    notes: ''
     handler_id: debug
     status: true
     conditions: {  }
     weight: 0
-    settings: {  }
+    settings:
+      format: yaml
+      submission: false
 variants: {  }

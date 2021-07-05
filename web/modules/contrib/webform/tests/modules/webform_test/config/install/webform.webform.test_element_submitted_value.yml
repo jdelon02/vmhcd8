@@ -54,7 +54,6 @@ elements: |
       - one
       - two
       - three
-  
 css: ''
 javascript: ''
 settings:
@@ -184,6 +183,7 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  token_delete: false
   serial_disabled: false
 access:
   create:
@@ -236,9 +236,12 @@ handlers:
   debug:
     id: debug
     label: Debug
+    notes: ''
     handler_id: debug
     status: true
     conditions: {  }
     weight: 0
-    settings: {  }
+    settings:
+      format: yaml
+      submission: false
 variants: {  }
