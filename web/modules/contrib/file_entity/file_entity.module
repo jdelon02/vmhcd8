@@ -234,7 +234,7 @@ function template_preprocess_file(&$variables) {
   );
   $variables['name']      = $username;
 
-  $variables['file_url']  = $file->url('canonical');
+  $variables['file_url']  = $file->toUrl('canonical')->toString();
   $variables['label']     = $file->label();
   $variables['page']      = $view_mode == 'full' && $file->isPage();
 
@@ -294,7 +294,7 @@ function file_entity_type_get_names() {
  * Return the label for a specific file entity view mode.
  */
 function file_entity_view_mode_label($view_mode, $default = FALSE) {
-  $labels = \Drupal::entityManager()->getViewModeOptions('file');
+  $labels = \Drupal::getContainer()->get('entity_display.repository')->getViewModeOptions('file');
   return isset($labels[$view_mode]) ? $labels[$view_mode] : $default;
 }
 
@@ -464,11 +464,15 @@ function file_entity_get_public_and_private_stream_wrapper_names($flag = StreamW
  */
 function file_uri_to_object($uri, $use_existing = TRUE) {
   $file = FALSE;
-  $uri = file_stream_wrapper_uri_normalize($uri);
+  $uri = \Drupal::service('stream_wrapper_manager')->normalizeUri($uri);
 
   if ($use_existing) {
     // We should always attempt to re-use a file if possible.
-    $files = entity_load_multiple_by_properties('file', array('uri' => $uri));
+    $files = \Drupal::entityTypeManager()
+      ->getStorage('file')
+      ->loadByProperties([
+        'uri' => $uri,
+      ]);
     $file = !empty($files) ? reset($files) : FALSE;
   }
 
