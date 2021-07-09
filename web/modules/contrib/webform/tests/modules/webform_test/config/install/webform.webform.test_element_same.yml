@@ -59,7 +59,7 @@ elements: |
       '#title': '''webform_name_destination'' same as ''webform_name_source'''
       '#source': webform_name_source
       '#destination': webform_name_destination
-      '#destination_state': 'visible-slide'
+      '#destination_state': visible-slide
       '#default_value': true
     webform_name_destination:
       '#type': webform_name
@@ -88,7 +88,6 @@ elements: |
       '#title': textfield_multiple_destination
       '#multiple': true
       '#required': true
-  
 css: ''
 javascript: ''
 settings:
@@ -218,6 +217,7 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  token_delete: false
   serial_disabled: false
 access:
   create:
@@ -270,9 +270,12 @@ handlers:
   debug:
     id: debug
     label: Debug
+    notes: ''
     handler_id: debug
     status: true
     conditions: {  }
     weight: 1
-    settings: {  }
+    settings:
+      format: yaml
+      submission: false
 variants: {  }

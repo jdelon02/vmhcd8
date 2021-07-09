@@ -23,7 +23,6 @@ elements: |
   text_format:
     '#type': text_format
     '#title': text_format
-  
 css: ''
 javascript: ''
 settings:
@@ -153,6 +152,7 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  token_delete: false
   serial_disabled: false
 access:
   create:
