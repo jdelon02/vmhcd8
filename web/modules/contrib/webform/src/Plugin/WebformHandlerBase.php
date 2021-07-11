@@ -10,6 +10,7 @@ use Drupal\Core\Logger\LoggerChannelFactoryInterface;
 use Drupal\Core\Plugin\PluginBase;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\Access\AccessResult;
+use Drupal\webform\Utility\WebformDialogHelper;
 use Drupal\webform\Utility\WebformElementHelper;
 use Drupal\webform\WebformInterface;
 use Drupal\webform\WebformSubmissionConditionsValidatorInterface;
@@ -25,6 +26,8 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  * @see plugin_api
  */
 abstract class WebformHandlerBase extends PluginBase implements WebformHandlerInterface {
+
+  use WebformPluginSettingsTrait;
 
   /**
    * The webform.
@@ -53,6 +56,13 @@ abstract class WebformHandlerBase extends PluginBase implements WebformHandlerIn
    * @var string
    */
   protected $label;
+
+  /**
+   * The webform variant notes.
+   *
+   * @var string
+   */
+  protected $notes = '';
 
   /**
    * The webform handler status.
@@ -283,6 +293,21 @@ abstract class WebformHandlerBase extends PluginBase implements WebformHandlerIn
   /**
    * {@inheritdoc}
    */
+  public function setNotes($notes) {
+    $this->notes = $notes;
+    return $this;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function getNotes() {
+    return $this->notes;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
   public function setStatus($status) {
     $this->status = $status;
     return $this;
@@ -436,6 +461,7 @@ abstract class WebformHandlerBase extends PluginBase implements WebformHandlerIn
     return [
       'id' => $this->getPluginId(),
       'label' => $this->getLabel(),
+      'notes' => $this->getNotes(),
       'handler_id' => $this->getHandlerId(),
       'status' => $this->getStatus(),
       'conditions' => $this->getConditions(),
@@ -451,6 +477,7 @@ abstract class WebformHandlerBase extends PluginBase implements WebformHandlerIn
     $configuration += [
       'handler_id' => '',
       'label' => '',
+      'notes' => '',
       'status' => 1,
       'conditions' => [],
       'weight' => '',
@@ -459,6 +486,7 @@ abstract class WebformHandlerBase extends PluginBase implements WebformHandlerIn
     $this->configuration = $configuration['settings'] + $this->defaultConfiguration();
     $this->handler_id = $configuration['handler_id'];
     $this->label = $configuration['label'];
+    $this->notes = $configuration['notes'];
     $this->status = $configuration['status'];
     $this->conditions = $configuration['conditions'];
     $this->weight = $configuration['weight'];
@@ -470,6 +498,13 @@ abstract class WebformHandlerBase extends PluginBase implements WebformHandlerIn
    */
   public function defaultConfiguration() {
     return [];
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function getOffCanvasWidth() {
+    return WebformDialogHelper::DIALOG_NORMAL;
   }
 
   /**
@@ -546,6 +581,11 @@ abstract class WebformHandlerBase extends PluginBase implements WebformHandlerIn
   /**
    * {@inheritdoc}
    */
+  public function prepareForm(WebformSubmissionInterface $webform_submission, $operation, FormStateInterface $form_state) {}
+
+  /**
+   * {@inheritdoc}
+   */
   public function alterForm(array &$form, FormStateInterface $form_state, WebformSubmissionInterface $webform_submission) {}
 
   /**
@@ -581,6 +621,16 @@ abstract class WebformHandlerBase extends PluginBase implements WebformHandlerIn
    * {@inheritdoc}
    */
   public function postLoad(WebformSubmissionInterface $webform_submission) {}
+
+  /**
+   * {@inheritdoc}
+   */
+  public function prePurge(array $webform_submissions) {}
+
+  /**
+   * {@inheritdoc}
+   */
+  public function postPurge(array $webform_submissions) {}
 
   /**
    * {@inheritdoc}

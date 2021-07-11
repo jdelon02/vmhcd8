@@ -2,7 +2,7 @@
 
 namespace Drupal\Tests\file_entity\Functional;
 
-use Drupal\Component\Utility\SafeMarkup;
+use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
 use Drupal\Core\Url;
 use Drupal\field\Entity\FieldConfig;
@@ -101,7 +101,10 @@ class FileEntityCacheTagsTest extends FileEntityTestBase {
     $node3->save();
 
     // Check cache tags.
-    $contexts = ['languages:language_interface', 'user.permissions', 'theme', 'timezone', 'url.query_args:_wrapper_format', 'user.roles:anonymous', 'url.site'];
+    $contexts = ['languages:language_interface', 'user.permissions', 'theme', 'timezone', 'url.query_args:_wrapper_format', 'url.site'];
+    if (\version_compare(\Drupal::VERSION, '9.3', '<')) {
+      $contexts[] = 'user.roles:anonymous';
+    }
     $this->assertPageCacheContextsAndTags($node1->toUrl(), $contexts, [
       'node:' . $node1->id(),
       'node_view',
@@ -151,7 +154,7 @@ class FileEntityCacheTagsTest extends FileEntityTestBase {
    */
   protected function verifyPageCache(Url $url, $hit_or_miss, $tags = FALSE) {
     $this->drupalGet($url);
-    $message = SafeMarkup::format('Page cache @hit_or_miss for %path.', array('@hit_or_miss' => $hit_or_miss, '%path' => $url->toString()));
+    $message = new FormattableMarkup('Page cache @hit_or_miss for %path.', array('@hit_or_miss' => $hit_or_miss, '%path' => $url->toString()));
     $this->assertEqual($this->drupalGetHeader('X-Drupal-Cache'), $hit_or_miss, $message);
     if ($hit_or_miss === 'HIT' && is_array($tags)) {
       $absolute_url = $url->setAbsolute()->toString();
