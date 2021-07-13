@@ -34,7 +34,6 @@ elements: |
       three: Three
     '#required': true
     '#required_error': 'This is a custom required message'
-  
 css: ''
 javascript: ''
 settings:
@@ -164,6 +163,7 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  token_delete: false
   serial_disabled: false
 access:
   create:
