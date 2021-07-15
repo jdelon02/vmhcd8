@@ -22,7 +22,6 @@ elements: |
       authenticated: 'Authenticated (authenticated)'
       administrator: 'Administrator (administrator)'
       other: Other
-  
 css: ''
 javascript: ''
 settings:
@@ -152,6 +151,7 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  token_delete: false
   serial_disabled: false
 access:
   create:
@@ -204,6 +204,7 @@ handlers:
   email:
     id: email
     label: Email
+    notes: ''
     handler_id: email
     status: true
     conditions: {  }

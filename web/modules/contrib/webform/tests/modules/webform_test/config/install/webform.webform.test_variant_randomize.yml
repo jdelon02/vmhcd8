@@ -25,7 +25,6 @@ elements: |
     '#attributes':
       style: 'display: inline-block; margin: 0; padding: 0 20px; font-size: 100px;'
     '#markup': '{X}'
-  
 css: ''
 javascript: ''
 settings:
@@ -155,6 +154,7 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  token_delete: false
   serial_disabled: false
 access:
   create:
@@ -207,11 +207,14 @@ handlers:
   debug:
     id: debug
     label: Debug
+    notes: ''
     handler_id: debug
     status: false
     conditions: {  }
     weight: 0
-    settings: {  }
+    settings:
+      format: yaml
+      submission: false
 variants:
   a:
     id: override

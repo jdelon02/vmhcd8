@@ -47,7 +47,6 @@ elements: |
       '#attributes':
         readonly: readonly
         style: 'background-color: #eee'
-  
 css: ''
 javascript: ''
 settings:
@@ -177,6 +176,7 @@ settings:
   results_customize: false
   token_view: false
   token_update: false
+  token_delete: false
   serial_disabled: false
 access:
   create:
@@ -229,6 +229,7 @@ handlers:
   notes:
     id: action
     label: Notes
+    notes: ''
     handler_id: notes
     status: true
     conditions:
@@ -255,6 +256,7 @@ handlers:
   flag:
     id: action
     label: Flag
+    notes: ''
     handler_id: flag
     status: true
     conditions:
@@ -279,6 +281,7 @@ handlers:
   unflag:
     id: action
     label: Unflag
+    notes: ''
     handler_id: unflag
     status: true
     conditions:
@@ -303,6 +306,7 @@ handlers:
   locked:
     id: action
     label: Locked
+    notes: ''
     handler_id: locked
     status: true
     conditions:
@@ -327,6 +331,7 @@ handlers:
   unlocked:
     id: action
     label: Unlocked
+    notes: ''
     handler_id: unlocked
     status: true
     conditions:
